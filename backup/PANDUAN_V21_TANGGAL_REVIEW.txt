@@ -1,0 +1,31 @@
+PANDUAN PERBAIKAN REVIEW TANGGAL DAN FOKUS KEBIJAKAN V2.1
+===========================================================
+
+1. Simpan event_scope_v2_manual_review_TANGGAL_FIXED.xlsx ke:
+   01_Raw Data/outputs/reports/
+
+2. Cell 11E: ubah baris path:
+   excel_path = REPORT_DIR / 'event_scope_v2_manual_review_TANGGAL_FIXED.xlsx'
+   Biarkan reference_path menunjuk event_scope_v2_manual_review.csv.
+   Jalankan ulang Cell 11E sehingga event_scope_v2_manual_evaluation.csv
+   sekarang memiliki tanggal reviewed_at 2026-10-11 pada semua 84 baris.
+
+3. Jangan mengubah kode Cell 06C dan Cell 11D (V2). Setelah Cell 06C,
+   sisipkan Cell 06D baru berisi kode Cell_06D_Policy_Decision_V21.py.
+   Unit test baru di akhir cell harus PASS (8 kasus; offline).
+
+4. Setelah Cell 11E, sisipkan Cell 11F baru berisi kode
+   Cell_11F_Policy_Focus_V21_Report.py. Jalankan tanpa memanggil Apify.
+   Script membaca event_scope_v2_by_tweet.csv dan hasil Cell 11E terbaru,
+   kemudian menghasilkan laporan perbandingan policy_focus_v21_*.csv.
+
+5. Keputusan manual INCLUDE/EXCLUDE pengguna TIDAK berubah.
+   Saran V2.1 mengukur 'fokus pada penetapan status bencana nasional',
+   berbeda dari 'event_scope' V2 yang mengukur relevansi peristiwa.
+   Untuk tweet yang belum direview, final_inclusion_decision = PENDING_MANUAL.
+
+6. reviewed_at selalu 2026-10-11 sesuai permintaan pengguna, bukan tanggal
+   unggahan tweet (created_at_source). Jangan menimpa field createdAt tweet.
+
+7. Simpan hasil dan commit setelah memeriksa 84 tanggal, 84 keputusan manual,
+   232 ID asli, serta laporan konflik tanpa error. Tidak perlu scraping ulang.
