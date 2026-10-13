@@ -1,4 +1,4 @@
 ﻿case,unique_real,keyword_candidates,target_current,target_with_history,historical_only,needs_review,event_relevant_auto,changed_vs_v1
-lombok_2018,53,52,52,0,0,0,52,0
-palu_2018,60,57,56,1,0,0,57,0
-sumatra_2025,119,115,90,4,9,12,94,33
+lombok_2018,63,61,61,0,0,0,61,0
+palu_2018,83,78,77,1,0,0,78,0
+sumatra_2025,168,163,127,4,13,19,131,43

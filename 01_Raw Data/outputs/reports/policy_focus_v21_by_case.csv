@@ -1,4 +1,4 @@
 ﻿case,unique_real_ids,keyword_candidates,manual_include,manual_exclude,pending_manual,v21_include_candidate,v21_exclude_candidate,v21_needs_context,manual_vs_v21_conflict
-lombok_2018,53,52,10,2,41,33,3,17,0
-palu_2018,60,57,8,1,51,43,2,15,0
-sumatra_2025,119,115,49,14,56,63,6,50,0
+lombok_2018,63,61,10,2,51,39,4,20,0
+palu_2018,83,78,8,1,74,59,3,21,0
+sumatra_2025,168,163,49,14,105,89,8,71,0

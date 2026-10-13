@@ -1,0 +1,260 @@
+{
+  "baseline_commit": "cc808befabe47a79c02ff7064d603906bafdf6b5",
+  "checkpoint_sha256": "b3e8e5d5b97bbe917f1bbfcf13cadc6a715fce842e534b83de70c961f7bcf5b7",
+  "counts": {
+    "tasks": 49,
+    "raw": 1171,
+    "tweet_rows": 799,
+    "mock_rows": 372,
+    "unique_ids": 314
+  },
+  "file_manifest": [
+    {
+      "task_id": "lombok_2018_29364e479b307af59a46",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\lombok_2018\\lombok_2018_29364e479b307af59a46.jsonl",
+      "sha256": "a6a6bcc1119f5b10a1da52fc83e816dcbadfe15ee9b4d91757e3adfa7b946105"
+    },
+    {
+      "task_id": "palu_2018_181e5a1706f249679d3b",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\palu_2018\\palu_2018_181e5a1706f249679d3b.jsonl",
+      "sha256": "3f1ffe3897239edd2729b4587cba81d5cc8a1dde0c2b9380c9db9f8742df32a1"
+    },
+    {
+      "task_id": "sumatra_2025_3b092f58593e7e868bf5",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\sumatra_2025\\sumatra_2025_3b092f58593e7e868bf5.jsonl",
+      "sha256": "d8f734c5fe1090152d805ebb2f81933e1c516fb46341db0bc25e185a2819a95f"
+    },
+    {
+      "task_id": "lombok_2018_cbd8e10c490d28319ddf",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\lombok_2018\\lombok_2018_cbd8e10c490d28319ddf.jsonl",
+      "sha256": "20764c0a43dba180c057b101e960967fe93f1f47fe482ab3cedce2d3be9c342c"
+    },
+    {
+      "task_id": "palu_2018_49fd60bec77d43d4aef1",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\palu_2018\\palu_2018_49fd60bec77d43d4aef1.jsonl",
+      "sha256": "72222339aca3de11ab86021307587bbd4c2708fba477922969cf5660636c1638"
+    },
+    {
+      "task_id": "sumatra_2025_accee1727286e91ac4fb",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\sumatra_2025\\sumatra_2025_accee1727286e91ac4fb.jsonl",
+      "sha256": "eaf394a7470e78c197247ebc4c3754904466c236072cb3a5cd66fdac535ab115"
+    },
+    {
+      "task_id": "lombok_2018_59271ee87c5a1d0cc688",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\lombok_2018\\lombok_2018_59271ee87c5a1d0cc688.jsonl",
+      "sha256": "30983c5422f00d3bf2115ec4bcaa6e8c49eb1257f9be7f075da4f2b1c10c4722"
+    },
+    {
+      "task_id": "palu_2018_28457bd36bcdfda098c1",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\palu_2018\\palu_2018_28457bd36bcdfda098c1.jsonl",
+      "sha256": "675c164464ce732e6b318081047d1537f818148f0ea17676cd1ec623959bb81a"
+    },
+    {
+      "task_id": "sumatra_2025_2ca869d0b25a6da44a74",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\sumatra_2025\\sumatra_2025_2ca869d0b25a6da44a74.jsonl",
+      "sha256": "11d07a289e39cc710a4f6d93f3dd2aa9e33f37038a0999dce85cd25d63819ef5"
+    },
+    {
+      "task_id": "lombok_2018_971bf25151d9f4419d91",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\lombok_2018\\lombok_2018_971bf25151d9f4419d91.jsonl",
+      "sha256": "b8afca1bab3c6b18c364cbd9ca751b868a992cb39d388eda2f77fe2c0a4b9306"
+    },
+    {
+      "task_id": "palu_2018_a0b47c9e5783b6fb0434",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\palu_2018\\palu_2018_a0b47c9e5783b6fb0434.jsonl",
+      "sha256": "ee382b791db609ff1163a9611eb0cca5ab2c45759c3c73db514a3c473fd75000"
+    },
+    {
+      "task_id": "sumatra_2025_04ed36216ec543478f4a",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\sumatra_2025\\sumatra_2025_04ed36216ec543478f4a.jsonl",
+      "sha256": "b8afca1bab3c6b18c364cbd9ca751b868a992cb39d388eda2f77fe2c0a4b9306"
+    },
+    {
+      "task_id": "lombok_2018_043250f7e86ea54cc3d9",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\lombok_2018\\lombok_2018_043250f7e86ea54cc3d9.jsonl",
+      "sha256": "4d98c066b23963e472dbbf3c3287a5bf7ba12e7b0aa12b722605c01314056535"
+    },
+    {
+      "task_id": "palu_2018_05c8e055cd1eb489b6ac",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\palu_2018\\palu_2018_05c8e055cd1eb489b6ac.jsonl",
+      "sha256": "6047e7377ccb246428389c171189e86204de6e5e34bf57e76f7b8603d0d62557"
+    },
+    {
+      "task_id": "sumatra_2025_4f7c9d0f6659448b9b30",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\sumatra_2025\\sumatra_2025_4f7c9d0f6659448b9b30.jsonl",
+      "sha256": "4a0c44233955b752228d99b3203031c57572df65e9913f85722178859dd00f8d"
+    },
+    {
+      "task_id": "lombok_2018_9fbdcbf33a383cc70e3d",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\lombok_2018\\lombok_2018_9fbdcbf33a383cc70e3d.jsonl",
+      "sha256": "d6b71b50abdb5b76088aca3c5d02083007b574647b73354a376d334074548273"
+    },
+    {
+      "task_id": "palu_2018_b3bb08549ab49e37f553",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\palu_2018\\palu_2018_b3bb08549ab49e37f553.jsonl",
+      "sha256": "aec0c7f65942038346a8e161fd777fa87eaef8e5c44b87718fd60fa6b75c8ef6"
+    },
+    {
+      "task_id": "sumatra_2025_1a00984516a018482fcc",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\sumatra_2025\\sumatra_2025_1a00984516a018482fcc.jsonl",
+      "sha256": "8a2a16b091d3fcce5ac6630792003a47b5d8891a0a0c1fe5a2df22805029d14a"
+    },
+    {
+      "task_id": "lombok_2018_7b5dbbd199905d4d3025",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\lombok_2018\\lombok_2018_7b5dbbd199905d4d3025.jsonl",
+      "sha256": "0052f45b73a13317d2fd71726523dbdfadc3744a4615d42a6fdffa1d024d4283"
+    },
+    {
+      "task_id": "palu_2018_c5c88faebf19f5ed82c3",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\palu_2018\\palu_2018_c5c88faebf19f5ed82c3.jsonl",
+      "sha256": "f37890e83c8e6c47e6363c04dec89fe217c6cbbf100bbadaaba279e3c51eedc6"
+    },
+    {
+      "task_id": "sumatra_2025_b1bc6bfdfa431974ff7c",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\sumatra_2025\\sumatra_2025_b1bc6bfdfa431974ff7c.jsonl",
+      "sha256": "df8308f0616a36ba662d6a81154aa7ce2513ac894b1a26dacafd5f61ec0d8b5e"
+    },
+    {
+      "task_id": "sumatra_2025_b190ba0fe1448f386fb4",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\sumatra_2025\\sumatra_2025_b190ba0fe1448f386fb4.jsonl",
+      "sha256": "54ed3bfea5602743c981cb58acb32c5ce2daa9e1e4353733cf6a00dc478eb7f1"
+    },
+    {
+      "task_id": "sumatra_2025_92a73c19df027e14390c",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\sumatra_2025\\sumatra_2025_92a73c19df027e14390c.jsonl",
+      "sha256": "862ff880dff3aa0a1d9b88a9e2d1281164375ba8f0c68531df1e78abb3d752b4"
+    },
+    {
+      "task_id": "sumatra_2025_a6b19de4f3925d3e71b3",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\sumatra_2025\\sumatra_2025_a6b19de4f3925d3e71b3.jsonl",
+      "sha256": "66067f84f0f66a12b31517ade3506eee4b78405950905c0b664f377f5ed29ca9"
+    },
+    {
+      "task_id": "lombok_2018_7085e181db6c8ff0911a",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\lombok_2018\\lombok_2018_7085e181db6c8ff0911a.jsonl",
+      "sha256": "b8afca1bab3c6b18c364cbd9ca751b868a992cb39d388eda2f77fe2c0a4b9306"
+    },
+    {
+      "task_id": "palu_2018_b4187151cd0d81be2864",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\palu_2018\\palu_2018_b4187151cd0d81be2864.jsonl",
+      "sha256": "b8afca1bab3c6b18c364cbd9ca751b868a992cb39d388eda2f77fe2c0a4b9306"
+    },
+    {
+      "task_id": "sumatra_2025_a2a75c0483636c3341eb",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\sumatra_2025\\sumatra_2025_a2a75c0483636c3341eb.jsonl",
+      "sha256": "b8afca1bab3c6b18c364cbd9ca751b868a992cb39d388eda2f77fe2c0a4b9306"
+    },
+    {
+      "task_id": "lombok_2018_49261993810e4e356756",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\lombok_2018\\lombok_2018_49261993810e4e356756.jsonl",
+      "sha256": "5e0059fb01d5e94f7f0138d1e314979686d953a560bdb1175ceebd98dc8cd866"
+    },
+    {
+      "task_id": "palu_2018_3861c7a4157f4860ac78",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\palu_2018\\palu_2018_3861c7a4157f4860ac78.jsonl",
+      "sha256": "978755e1e2e2dd75812b6c501dca7b9b541c6ca8ed18c82815e3ffe920099f88"
+    },
+    {
+      "task_id": "sumatra_2025_cdca78324c560e60edcb",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\sumatra_2025\\sumatra_2025_cdca78324c560e60edcb.jsonl",
+      "sha256": "f2ec6b0e223c1fd8a2d5c0a7ed1dde0794c366d836a61135b5e1ba5f9b66bb0a"
+    },
+    {
+      "task_id": "lombok_2018_4840689d5ab2719525fc",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\lombok_2018\\lombok_2018_4840689d5ab2719525fc.jsonl",
+      "sha256": "ba0d1a00da8c38a190ffda847df4359fc32ddabeed29f64868f01c6d71a06797"
+    },
+    {
+      "task_id": "palu_2018_d8b3bc785dea9a88a134",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\palu_2018\\palu_2018_d8b3bc785dea9a88a134.jsonl",
+      "sha256": "074b1ba294ee5e215b41e98ec4001e0e48498ef172d0fbe0367f954d89aa69b9"
+    },
+    {
+      "task_id": "sumatra_2025_79b5f9055babdb13df46",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\sumatra_2025\\sumatra_2025_79b5f9055babdb13df46.jsonl",
+      "sha256": "4c38a036548cc12d33f2b5d35d34eb418fb31f8fe25100e0271b96e391d6ec62"
+    },
+    {
+      "task_id": "lombok_2018_860a91fcb83bce01b5b2",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\lombok_2018\\lombok_2018_860a91fcb83bce01b5b2.jsonl",
+      "sha256": "6237197a21b0b008beb82c18e92026fc238a1ce631b7d3105f7b4479121d96d4"
+    },
+    {
+      "task_id": "palu_2018_39525de705c1fa4dd30c",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\palu_2018\\palu_2018_39525de705c1fa4dd30c.jsonl",
+      "sha256": "373418c433c80ee749e3f11b2979bfdd5882f1d91601567c1a852cf0635b6533"
+    },
+    {
+      "task_id": "sumatra_2025_1b86cae76aad0a4c6736",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\sumatra_2025\\sumatra_2025_1b86cae76aad0a4c6736.jsonl",
+      "sha256": "1e3f95bf089f3830042c78836318ff730ce33b0f2ed2630797e81feedaa0b9b4"
+    },
+    {
+      "task_id": "lombok_2018_25072c0c5be136879b25",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\lombok_2018\\lombok_2018_25072c0c5be136879b25.jsonl",
+      "sha256": "7b69fafbd1e4da378cf92b4c8c7906efb204424e5756dcbe4c20309b35a6f71c"
+    },
+    {
+      "task_id": "palu_2018_118c55aee15ec7fa40dd",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\palu_2018\\palu_2018_118c55aee15ec7fa40dd.jsonl",
+      "sha256": "ede986fcd036c801e93592d0449d5b1175407ae6ed0493b44658f3b55046c7d6"
+    },
+    {
+      "task_id": "sumatra_2025_bac950882bb07c55c705",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\sumatra_2025\\sumatra_2025_bac950882bb07c55c705.jsonl",
+      "sha256": "e84c3e1d41e4edab0419b8143c07e862c8da71dca65c1b51ab2e48f5cd96ff90"
+    },
+    {
+      "task_id": "lombok_2018_539338a38118f5470d1b",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\lombok_2018\\lombok_2018_539338a38118f5470d1b.jsonl",
+      "sha256": "b8afca1bab3c6b18c364cbd9ca751b868a992cb39d388eda2f77fe2c0a4b9306"
+    },
+    {
+      "task_id": "palu_2018_0ac1c9ee684c47c748ff",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\palu_2018\\palu_2018_0ac1c9ee684c47c748ff.jsonl",
+      "sha256": "b8afca1bab3c6b18c364cbd9ca751b868a992cb39d388eda2f77fe2c0a4b9306"
+    },
+    {
+      "task_id": "sumatra_2025_4f9a9ad2f4ca2fcd88d6",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\sumatra_2025\\sumatra_2025_4f9a9ad2f4ca2fcd88d6.jsonl",
+      "sha256": "b8afca1bab3c6b18c364cbd9ca751b868a992cb39d388eda2f77fe2c0a4b9306"
+    },
+    {
+      "task_id": "sumatra_2025_70a5cb5da2f03ddd0761",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\sumatra_2025\\sumatra_2025_70a5cb5da2f03ddd0761.jsonl",
+      "sha256": "7bb41956f132e62215d7d3f0513b2b84f57d0bf93dd547d18f71ed9b13bd8d8e"
+    },
+    {
+      "task_id": "sumatra_2025_73dd44557a17f14b2006",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\sumatra_2025\\sumatra_2025_73dd44557a17f14b2006.jsonl",
+      "sha256": "ba6a14aa8628b23a312e7bfc9b19435a9997870357da41b0c4c4c78d47da2ad9"
+    },
+    {
+      "task_id": "palu_2018_a1f4852140680b6c40bc",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\palu_2018\\palu_2018_a1f4852140680b6c40bc.jsonl",
+      "sha256": "858b65d39a3da94d86dcc69a08229405ff7325f99a247a29ca01e36b9e27e5da"
+    },
+    {
+      "task_id": "lombok_2018_3017f1a8fabfc0bba073",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\lombok_2018\\lombok_2018_3017f1a8fabfc0bba073.jsonl",
+      "sha256": "8ca0b3e8834c53e62a713bf45b29edcedf3c01f0d5f6821b58f9a524c84277e9"
+    },
+    {
+      "task_id": "sumatra_2025_e3753cf797245df4e775",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\sumatra_2025\\sumatra_2025_e3753cf797245df4e775.jsonl",
+      "sha256": "dfcc680a249a47144448ceb20b992e98f093acd6423f84ba488707902690e62f"
+    },
+    {
+      "task_id": "palu_2018_cc4bb1e2173306b0e359",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\palu_2018\\palu_2018_cc4bb1e2173306b0e359.jsonl",
+      "sha256": "d6cbc4a297a0ff9bb8f71e38b4084fb764ede080d8aa1e171a0396903e67f261"
+    },
+    {
+      "task_id": "lombok_2018_b6c4f4ec1f0af77a8e3c",
+      "raw_path": "01_Raw Data\\outputs\\raw_jsonl\\lombok_2018\\lombok_2018_b6c4f4ec1f0af77a8e3c.jsonl",
+      "sha256": "af9f267512007c1bc51a949adf7d2051edfa0d5c046b8b4acf41b4cc376f4cd4"
+    }
+  ],
+  "manual_decisions_preserved": true,
+  "paid_api_calls": 0
+}
