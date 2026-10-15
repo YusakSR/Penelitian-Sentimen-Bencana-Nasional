@@ -1,6 +1,6 @@
 {
   "report_version": "batch7_dynamic_v1",
-  "generated_at_utc": "2026-10-15T12:36:35.234657+00:00",
+  "generated_at_utc": "2026-10-15T13:18:54.996960+00:00",
   "baseline_commit": "cc808befabe47a79c02ff7064d603906bafdf6b5",
   "checkpoint_sha256": "4df886aceb636561a489bd29a4b9e59f8191c4d6950125e9c441d56e9d988071",
   "raw_manifest_sha256": "be966bc634aa071c26f0f3b6da904ab9e7b949b2a6d06cf89b3ac0d957f65f5c",
@@ -9,6 +9,6 @@
   "tweet_rows": 887,
   "mock_rows": 435,
   "unique_ids": 360,
-  "target_raw": 2000,
-  "target_unique_ids": 500
+  "target_raw": 1500,
+  "target_unique_ids": 400
 }
