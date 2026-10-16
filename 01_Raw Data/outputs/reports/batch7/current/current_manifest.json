@@ -1,14 +1,14 @@
 {
   "report_version": "batch7_dynamic_v1",
-  "generated_at_utc": "2026-10-16T11:54:49.484276+00:00",
+  "generated_at_utc": "2026-10-16T12:00:07.593513+00:00",
   "baseline_commit": "cc808befabe47a79c02ff7064d603906bafdf6b5",
-  "checkpoint_sha256": "f0675954a0c928ee0abd88859115244314b69fb04d50f60686b0cabe93808511",
-  "raw_manifest_sha256": "753f5e658c9acb18bebcdd68e03a61f3460754d3bc254cf94bdb3dcf43b7b059",
-  "saved_tasks": 62,
-  "raw_total": 1437,
-  "tweet_rows": 937,
-  "mock_rows": 500,
-  "unique_ids": 385,
+  "checkpoint_sha256": "8b93e8f8ef0d93ceca4e451ec1468cad6e3c315e93454237323b391d6095594e",
+  "raw_manifest_sha256": "5bdd97b58c720ab656c29824e3e583864db18f4301ea048964e4da5ab160153b",
+  "saved_tasks": 63,
+  "raw_total": 1455,
+  "tweet_rows": 943,
+  "mock_rows": 512,
+  "unique_ids": 388,
   "target_raw": 1500,
   "target_unique_ids": 400
 }
