@@ -1,0 +1,14 @@
+{
+  "report_version": "batch7_dynamic_v1",
+  "generated_at_utc": "2026-10-16T12:44:18.768678+00:00",
+  "baseline_commit": "cc808befabe47a79c02ff7064d603906bafdf6b5",
+  "checkpoint_sha256": "2ef6bb914612a7ef40db4a1e8d3eee6f94c90bc7dcff7a119235546ffef66282",
+  "raw_manifest_sha256": "813acab0294f5c25ca2ed8eed84f788054404ce4d2d8f45fc6d533ced023dd62",
+  "saved_tasks": 65,
+  "raw_total": 1508,
+  "tweet_rows": 989,
+  "mock_rows": 519,
+  "unique_ids": 411,
+  "target_raw": 1500,
+  "target_unique_ids": 400
+}
