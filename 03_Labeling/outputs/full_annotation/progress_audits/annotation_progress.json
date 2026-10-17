@@ -1,17 +1,17 @@
 {
   "total_tweets": 381,
   "pilot_locked": 30,
-  "completed": 30,
-  "pending": 351,
+  "completed": 130,
+  "pending": 251,
   "ambiguous": 0,
   "label_distribution": {
-    "NETRAL": 20,
-    "POSITIF": 8,
-    "NEGATIF": 2
+    "NETRAL": 94,
+    "POSITIF": 32,
+    "NEGATIF": 4
   },
   "batch_a_target": 100,
-  "batch_a_completed": 0,
-  "batch_a_pending": 100,
+  "batch_a_completed": 100,
+  "batch_a_pending": 0,
   "batch_a_ambiguous": 0,
   "source_integrity": "PASS",
   "pilot_integrity": "PASS",
