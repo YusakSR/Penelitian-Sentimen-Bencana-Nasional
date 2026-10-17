@@ -1,0 +1,13 @@
+{
+  "total_pilot": 30,
+  "adjudicated": 4,
+  "changed": 4,
+  "kept": 0,
+  "unresolved": 0,
+  "final_distribution": {
+    "NETRAL": 20,
+    "POSITIF": 8,
+    "NEGATIF": 2
+  },
+  "status": "PILOT_ADJUDICATION_PASS"
+}
