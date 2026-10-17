@@ -1,0 +1,10 @@
+{
+  "source_stage": "02_Cleaning",
+  "target_stage": "03_Labeling",
+  "total_eligible_tweets": 381,
+  "model_candidates": 348,
+  "duplicate_members_not_selected": 33,
+  "long_texts_preserved": 12,
+  "labels_assigned": 0,
+  "status": "READY_FOR_LABELING"
+}
