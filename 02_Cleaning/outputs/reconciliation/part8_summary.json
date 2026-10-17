@@ -1,0 +1,11 @@
+{
+  "total_tweets": 381,
+  "duplicate_groups": 21,
+  "selected_representatives": 21,
+  "duplicate_members_not_selected": 33,
+  "unique_nonduplicate_tweets": 327,
+  "model_candidates": 348,
+  "long_texts_keep_full": 12,
+  "rows_deleted_from_master": 0,
+  "status": "PASS"
+}
