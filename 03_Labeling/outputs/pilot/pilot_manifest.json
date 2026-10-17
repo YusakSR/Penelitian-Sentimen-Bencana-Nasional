@@ -1,0 +1,12 @@
+{
+  "stage": "03_Labeling",
+  "part": "Pilot Annotation Preparation",
+  "codebook_version": "1.0",
+  "codebook_status": "DRAFT_FOR_PILOT",
+  "seed": 42,
+  "sampling_method": "stratified_random_by_case",
+  "sample_size": 30,
+  "sample_per_case": 10,
+  "labels_assigned": 0,
+  "status": "READY_FOR_PILOT_ANNOTATION"
+}
