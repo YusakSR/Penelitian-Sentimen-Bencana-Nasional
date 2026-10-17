@@ -1,0 +1,19 @@
+{
+  "total_tweets": 381,
+  "pilot_locked": 30,
+  "completed": 30,
+  "pending": 351,
+  "ambiguous": 0,
+  "label_distribution": {
+    "NETRAL": 20,
+    "POSITIF": 8,
+    "NEGATIF": 2
+  },
+  "batch_a_target": 100,
+  "batch_a_completed": 0,
+  "batch_a_pending": 100,
+  "batch_a_ambiguous": 0,
+  "source_integrity": "PASS",
+  "pilot_integrity": "PASS",
+  "status": "ANNOTATION_IN_PROGRESS"
+}
