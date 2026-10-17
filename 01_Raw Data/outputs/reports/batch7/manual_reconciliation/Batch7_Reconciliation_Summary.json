@@ -1,0 +1,14 @@
+{
+  "source_file": "Batch7_Manual_Review_FINAL.xlsx",
+  "total_reviewed": 411,
+  "include": 381,
+  "exclude": 30,
+  "manual_inclusion_filled": 327,
+  "pending": 0,
+  "cases": {
+    "sumatra_2025": 168,
+    "lombok_2018": 122,
+    "palu_2018": 121
+  },
+  "status": "PASS"
+}

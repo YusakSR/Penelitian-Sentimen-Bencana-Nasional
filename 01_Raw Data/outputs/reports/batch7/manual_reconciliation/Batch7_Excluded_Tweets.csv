@@ -1,0 +1,97 @@
+﻿audit_version,case,id,text,keyword_candidate,v1_scope,v1_reason,task_id,run_id,v2_version,v2_scope,v2_reason,v1_to_v2_changed,created_at_source,manual_inclusion,manual_scope,manual_notes,manual_event_scope,reviewer,reviewed_at,final_inclusion_decision,manual_review_status,original_manual_inclusion
+event_scope_v1,sumatra_2025,1996074461297344839,"1. gempa &amp; tsunami di Flores, NTT - 1992
+2. gempa &amp; tsunami di Aceh &amp; Sumut - 2004
+3. covid19 - 2020
+4. banjir bandang &amp; longsor di Aceh, Sumut, Sumbar - 2025
+
+dari 4 itu, mana yg ga diakui bencana nasional?
+dari 4 itu, mana bencana yg kalo diaudit pemerintah akan ketar-ketir? 🏃‍♂️",True,TARGET_WITH_HISTORY,current_disaster_and_history,sumatra_2025_4f7c9d0f6659448b9b30,uynfu0vRuGcfFAsTl,event_scope_v2,TARGET_WITH_HISTORY,2025_context_plus_history,False,Wed Dec 03 04:30:11 +0000 2025,EXCLUDE,tidak masuk sebagai raw data,hanya sarkasme terkait pemerintah ,,Yusak,2026-10-17,EXCLUDE,REVIEWED,
+event_scope_v1,lombok_2018,1026495472922284033,@Metro_TV Korupsi itu baru bencana nasional kl yg di Lombok itu bencana alam @Fahrihamzah,True,TARGET_CURRENT,case_and_policy,lombok_2018_29364e479b307af59a46,WKEehIa11ega6QAns,event_scope_v2,TARGET_CURRENT,case_and_policy,False,Mon Aug 06 15:49:26 +0000 2018,EXCLUDE,tidak masuk sebagai raw data,,,Yusak,2026-10-11,EXCLUDE,REVIEWED,EXCLUDE
+event_scope_v1,lombok_2018,1026436887169327104,"#Bencana Nasional #Gempa #Lombok: Kisah Nyata Mengharukan dari Seorang Korban
+
+#WargaSERUJI : Rory Anas | Artikel Warga #NTB #Tsunami
+https://t.co/Oi82KYCka8",True,TARGET_CURRENT,case_and_policy,lombok_2018_29364e479b307af59a46,WKEehIa11ega6QAns,event_scope_v2,TARGET_CURRENT,case_and_policy,False,Mon Aug 06 11:56:38 +0000 2018,EXCLUDE,tidak masuk sebagai raw data,hanya menjelaskan kesaksian korban dan bukan pentepan bencana,,Yusak,2026-10-17,EXCLUDE,REVIEWED,
+event_scope_v1,palu_2018,1045974232415363072,"Seharusnya Presiden @jokowi yg langsung memimpin penangulangan Bencana Nasional di Donggala dan Palu , jgn diwakilkan kepada pejabat lain , tolong puasa dulu berpolitik beberapa hari ini  , segera Fokuskan ke #SaveSulteng https://t.co/L51yJLAQyV",True,TARGET_CURRENT,case_and_policy,palu_2018_181e5a1706f249679d3b,g2TzJZ81z6RXD3BDe,event_scope_v2,TARGET_CURRENT,case_and_policy,False,Sat Sep 29 09:51:04 +0000 2018,EXCLUDE,tidak masuk sebagai raw data,,,Yusak,2026-10-11,EXCLUDE,REVIEWED,EXCLUDE
+event_scope_v1,lombok_2018,1026305589930995712,"Gempa kembali mengguncang Lombok, Nusa Tenggara Barat pada 5 Agustus 2018 kemarin. Badan Penanggulangan Bencana Daerah (BPBD) Nusa Tenggara Barat (NTB) mendapatkan laporan sementara jumlah korban meninggal dunia... https://t.co/3qfRa7UiNI",True,TARGET_CURRENT,case_and_policy,lombok_2018_cbd8e10c490d28319ddf,T9gFSdbhCNBC4Nuhi,event_scope_v2,TARGET_CURRENT,case_and_policy,False,Mon Aug 06 03:14:55 +0000 2018,EXCLUDE,tidak masuk sebagai raw data,,,Yusak,2026-10-11,EXCLUDE,REVIEWED,EXCLUDE
+event_scope_v1,palu_2018,1046758345456025600,"Melihat arus media utama di palu, sigi,donggala Keseragaman tema liputan di hari ke-4, sangat mbantu korban bencana nasional versi media asing. Kita tau disana :
+• Terjadi Penjarahan
+• Kerusuhan Penjara
+• Eksodus yg tak terkendali 
+• Bantuan yg dijarah
+• Kepanikan &amp; mencekam",True,TARGET_CURRENT,case_and_policy,palu_2018_d89e4b7de6aab92d1fc4,TwyH9ZnwgUgRWAZ88,event_scope_v2,TARGET_CURRENT,case_and_policy,False,Mon Oct 01 13:46:52 +0000 2018,EXCLUDE,tidak masuk sebagai raw data,tidak relevan dengan penetapan status bencana,,Yusak,2026-10-17,EXCLUDE,REVIEWED,
+event_scope_v1,sumatra_2025,1994751798134149209,"Menurut TribunNews pemerintah Indonesia menetapkan suatu kejadian sebagai bencana nasional  itu cuma 3 kali, yakni:
+1) Gempa &amp; tsunami di Flores, NTT (1992)
+2) Gempa &amp; tsunami di Aceh &amp; Sumut (2004)
+3) COVID-19 (2020)
+
+Sumber: https://t.co/75sCghO323 https://t.co/Y7PbJkjONf",True,HISTORICAL_ONLY,historical_without_2025_evidence,sumatra_2025_3b092f58593e7e868bf5,wFTtrejqJQjETXizC,event_scope_v2,NEEDS_REVIEW,historical_comparison_ambiguous,True,Sat Nov 29 12:54:24 +0000 2025,EXCLUDE,tidak masuk sebagai raw data,,,Yusak,2026-10-11,EXCLUDE,REVIEWED,EXCLUDE
+event_scope_v1,sumatra_2025,1994530360299065738,"Kalau untuk kejadian bencana nasional seperti ini memang militer sih yg punya kemampuan logistik &amp; readiness paling cepat.
+
+Tsunami Aceh 2004 juga salah satu penyuplai bantuan pertamanya dari USS Abraham Lincoln (Nimitz class carrier).",True,HISTORICAL_ONLY,historical_without_2025_evidence,sumatra_2025_3b092f58593e7e868bf5,wFTtrejqJQjETXizC,event_scope_v2,HISTORICAL_ONLY,historical_no_current_disaster_evidence,False,Fri Nov 28 22:14:29 +0000 2025,EXCLUDE,tidak masuk sebagai raw data,,,Yusak,2026-10-11,EXCLUDE,REVIEWED,EXCLUDE
+event_scope_v1,sumatra_2025,1996246699279626457,"@ecommurz Fyi bencana yang terjadi di indonesia yang dijadikan “Bencana nasional” hanya ada 3 bencana selama sejarah negara ini berdiri 
+1. Gempa tsunami glores 92 
+2. Gempa taunami aceh 2004
+3. Covid19",True,HISTORICAL_ONLY,historical_without_2025_evidence,sumatra_2025_2ca869d0b25a6da44a74,0r1K4NF8keySrowap,event_scope_v2,HISTORICAL_ONLY,historical_no_current_disaster_evidence,False,Wed Dec 03 15:54:36 +0000 2025,EXCLUDE,tidak masuk sebagai raw data,,,Yusak,2026-10-11,EXCLUDE,REVIEWED,EXCLUDE
+event_scope_v1,sumatra_2025,1996192996350656595,"Gw lagi mikir, apa jangan-jangan situasi 2004 jadi bencana nasional, dikomandoin kebutuhan politis  karna gema Aceh untuk melepas diri tengah kuat-kuatnya. Sedangkan kini gema itu telah meredup, jadi itu yang menyebabkan perlakuan dan perhatiaan Indonesia jadi sangat berbeda 😢",True,HISTORICAL_ONLY,historical_without_2025_evidence,sumatra_2025_2ca869d0b25a6da44a74,0r1K4NF8keySrowap,event_scope_v2,NEEDS_REVIEW,historical_comparison_ambiguous,True,Wed Dec 03 12:21:12 +0000 2025,EXCLUDE,tidak masuk sebagai raw data,,,Yusak,2026-10-11,EXCLUDE,REVIEWED,EXCLUDE
+event_scope_v1,sumatra_2025,1996073601624408152,@FDonghun di indonesia baru 2x bencana nasional. tsunami aceh+covid. btw itu korban jiwa tsunami lebih dari 200.000 orang,True,HISTORICAL_ONLY,historical_without_2025_evidence,sumatra_2025_4f7c9d0f6659448b9b30,uynfu0vRuGcfFAsTl,event_scope_v2,HISTORICAL_ONLY,historical_no_current_disaster_evidence,False,Wed Dec 03 04:26:46 +0000 2025,EXCLUDE,tidak masuk sebagai raw data,,,Yusak,2026-10-11,EXCLUDE,REVIEWED,EXCLUDE
+event_scope_v1,sumatra_2025,1996114972451983851,"Pemerintah pernah 3 kali menetapkan status bencana nasional.
+1: Gempa dan tsunami tahun 1992 di Flores.
+2: Gempa dan tsunami tahun 2004 di Aceh.
+3: Pandemi COVID -19 tahun 2020.
+
+Penetapan status bencana nasional diatur sangat ketat karena akan berpotensi ada intervensi pihak asing.
+Berikut penjelasannya:
+https://t.co/vRp4dLRntP…
+
+https://t.co/9LzENl4pOl…",True,HISTORICAL_ONLY,historical_without_2025_evidence,sumatra_2025_1a00984516a018482fcc,AyKCW024UabZfwg7i,event_scope_v2,NEEDS_REVIEW,historical_comparison_ambiguous,True,Wed Dec 03 07:11:10 +0000 2025,EXCLUDE,tidak masuk sebagai raw data,,,Yusak,2026-10-11,EXCLUDE,REVIEWED,EXCLUDE
+event_scope_v1,sumatra_2025,1996086441194258636,"@rexlupusidiom @FDonghun Asal tau aja, gempa yogya 2006 itu 6,4 SR, gempa sumbar 2006 6.9 SR , gempa sumbar 2009 7.6 SR. tsunami palu itu krn gempa 7.5 SR,  cak kau bandingkan dgn tsunami aceh yg bencana nasional dgn 9.1-9.3 sr yg kenak satu provinsi.",True,HISTORICAL_ONLY,historical_without_2025_evidence,sumatra_2025_b190ba0fe1448f386fb4,xC2IMRwP3fja0Gg4R,event_scope_v2,HISTORICAL_ONLY,historical_no_current_disaster_evidence,False,Wed Dec 03 05:17:47 +0000 2025,EXCLUDE,tidak masuk sebagai raw data,,,Yusak,2026-10-11,EXCLUDE,REVIEWED,EXCLUDE
+event_scope_v1,sumatra_2025,1996408332400422963,"@MarruCLP @iqbalmohammed10 GOBLOG. Selama ini yang cuman bencana nasional hanya Tsunami Aceh 2004 dan Covid 19. Kau daripada ngoceh mending bantuin cari walikota Langsa dan para oknum di tengah bencana.
+
+Salahin Tuhan kenapa di ring of fire. Filiphina nggak seberisik kau. SDM masih mencuri alat bencana. https://t.co/aWxYAZZHNA",True,HISTORICAL_ONLY,historical_without_2025_evidence,sumatra_2025_cdca78324c560e60edcb,6LZ4SZyBbIrTmWE2e,event_scope_v2,NEEDS_REVIEW,historical_comparison_ambiguous,True,Thu Dec 04 02:36:52 +0000 2025,EXCLUDE,tidak masuk sebagai raw data,,,Yusak,2026-10-11,EXCLUDE,REVIEWED,EXCLUDE
+event_scope_v1,sumatra_2025,1996503386594968051,"@lexxxsong @Belok_dong kontol bapak kau aja  kau makan bodat 😅
+kau tak paham status bencana nasional saat tsunami aceh dan nias bagaimana LSM bermain dgn cuan gede
+potomu aja tak ada, berani di sosmed? dtg kau kemari biar kau liat kondisinya bodat 😅",True,HISTORICAL_ONLY,historical_without_2025_evidence,sumatra_2025_79b5f9055babdb13df46,NDvhwJ5JfHneLdwlB,event_scope_v2,HISTORICAL_ONLY,historical_no_current_disaster_evidence,False,Thu Dec 04 08:54:35 +0000 2025,EXCLUDE,tidak masuk sebagai raw data,,,Yusak,2026-10-11,EXCLUDE,REVIEWED,EXCLUDE
+event_scope_v1,sumatra_2025,1996498495206043716,"Sempet baca di IG, kalo bencana nasional ditetapkan ktnya mempengaruhi turisme &amp; investasi di prov lain yang g terdampak karena skalanya nasional. 2x penetapan bencana nasional: aceh 2024, covid 2020. Tapi kok janggal, pas tsunami aceh apakah ada travel ban ke prov lain? -cont-",True,HISTORICAL_ONLY,historical_without_2025_evidence,sumatra_2025_79b5f9055babdb13df46,NDvhwJ5JfHneLdwlB,event_scope_v2,NEEDS_REVIEW,historical_comparison_ambiguous,True,Thu Dec 04 08:35:09 +0000 2025,EXCLUDE,tidak masuk sebagai raw data,menjelaskan efek jika status bencana naik terhadap daerah lain,,Yusak,2026-10-11,EXCLUDE,REVIEWED,EXCLUDE
+event_scope_v1,sumatra_2025,1996594403432112336,"@tikaalmira Kalo zaman @SBYudhoyono , hari ke 3 setelah bencana tsunami Aceh langsung tetapkan status bencana nasional n ambil langkah terukur tuk penanggulangan bencana
+
+Pemerintah pusat saat ini hanya sekumpulan pengangguran yg mencari uang melalui kekuasaan
+
+Betul kan tuan @prabowo ?",True,HISTORICAL_ONLY,historical_without_2025_evidence,sumatra_2025_1b86cae76aad0a4c6736,JFiAvf6xaooMSMkPD,event_scope_v2,TARGET_WITH_HISTORY,2025_context_plus_history,True,Thu Dec 04 14:56:15 +0000 2025,EXCLUDE,tidak masuk sebagai raw data,,,Yusak,2026-10-11,EXCLUDE,REVIEWED,EXCLUDE
+event_scope_v1,sumatra_2025,1996352009776304267,"@rgantas Bukan. 
+
+Gempa tsunami Sumatra-Andaman 2004 meletup pagi hari. Dalam tempo 12 jam dinyatakan sbg bencana nasional. Meski jalur telekomunikasi ke Aceh terputus.
+
+Salah salah satu pertimbangannya,  dampak di Sri Lanka &amp; India timur saja sebegitu parahnya. Sumatra tentu lebih parah.",True,HISTORICAL_ONLY,historical_without_2025_evidence,sumatra_2025_bac950882bb07c55c705,MvQ6MLUZMsTYDoJtA,event_scope_v2,HISTORICAL_ONLY,historical_no_current_disaster_evidence,False,Wed Dec 03 22:53:04 +0000 2025,EXCLUDE,tidak masuk sebagai raw data,,,Yusak,2026-10-11,EXCLUDE,REVIEWED,EXCLUDE
+event_scope_v1,sumatra_2025,1996310446610215107,"@rgantas Beda kondisi waktu 2004 kita baru keluar dari krisis moneter, militer kita lagi di embargo, kesiapan tentara dan alutsista juga minim belum korban tsunami aceh sampe ratusan ribu makanya dijadikan bencana nasional, biar bantuan international bisa masuk",True,HISTORICAL_ONLY,historical_without_2025_evidence,sumatra_2025_bac950882bb07c55c705,MvQ6MLUZMsTYDoJtA,event_scope_v2,NEEDS_REVIEW,historical_comparison_ambiguous,True,Wed Dec 03 20:07:54 +0000 2025,EXCLUDE,tidak masuk sebagai raw data,,,Yusak,2026-10-11,EXCLUDE,REVIEWED,EXCLUDE
+event_scope_v1,sumatra_2025,1996265317547520148,"@rgantas Sure, selain tsunami Aceh itu sdh ditetapkan bencana nasional, itu juga jadi momentum penyelesaian konflik di Aceh.
+
+8 bulan setelah itu juga lahir perjanjian Perjanjian Helsinki.",True,HISTORICAL_ONLY,historical_without_2025_evidence,sumatra_2025_bac950882bb07c55c705,MvQ6MLUZMsTYDoJtA,event_scope_v2,HISTORICAL_ONLY,historical_no_current_disaster_evidence,False,Wed Dec 03 17:08:35 +0000 2025,EXCLUDE,tidak masuk sebagai raw data,,,Yusak,2026-10-11,EXCLUDE,REVIEWED,EXCLUDE
+event_scope_v1,sumatra_2025,1995878065499681241,"@MamatAlkatiri ""Kalau di pulau jawa, 1 orang jatuh dari pohon tomat pun sudah dibahas untuk masuk dalam status bencana nasional""
+
+Meanwhile daftar bencana nasional:
+1. Gempa &amp; Tsunami Flores 1992
+2. Gempa &amp; Tsunami Aceh 2004
+3. Pandemi Covid-19
+
+Wah banyak juga ternyata Jawa di daftarnya.",True,HISTORICAL_ONLY,historical_without_2025_evidence,sumatra_2025_73dd44557a17f14b2006,kBdmacqrLgXi9LufJ,event_scope_v2,HISTORICAL_ONLY,historical_no_current_disaster_evidence,False,Tue Dec 02 15:29:47 +0000 2025,EXCLUDE,tidak masuk sebagai raw data,,,Yusak,2026-10-17,EXCLUDE,REVIEWED,
+event_scope_v1,sumatra_2025,1994577174217855441,"Menurut Prabowo, pemerintah masih terus memonitor situasi di lokasi terdampak bencana di Sumatera Utara (Sumut), Sumatera Barat (Sumbar), dan Aceh.
+
+👉🏻Baca selengkapnya https://t.co/bzqZjOi2JI
+
+~AM #Prabowo #Banjir #Sumatera https://t.co/Our5Dupv6e",False,NEEDS_REVIEW,insufficient_2025_event_evidence,sumatra_2025_3b092f58593e7e868bf5,wFTtrejqJQjETXizC,event_scope_v2,NEEDS_REVIEW,no_explicit_policy_term,False,Sat Nov 29 01:20:30 +0000 2025,EXCLUDE,tidak masuk sebagai raw data,,,Yusak,2026-10-17,EXCLUDE,REVIEWED,
+event_scope_v1,palu_2018,1046988564167372800,"Presiden @jokowi menegaskan, dalam penanganan dampak terhadap gempa bumi dan tsunami di sejumlah wilayah di Sulawesi Tengah, khususnya Kota Palu dan Kabupaten Donggala, yang paling penting adalah cepat dan segera menyelesaikan masalah-masalah yang ada. https://t.co/4fgXAUOHX9",False,NEEDS_REVIEW,insufficient_case_context,palu_2018_28457bd36bcdfda098c1,ekeFKMJe6Egd5jYtn,event_scope_v2,NEEDS_REVIEW,insufficient_case_context,False,Tue Oct 02 05:01:40 +0000 2018,EXCLUDE,tidak masuk sebagai raw data,,,Yusak,2026-10-17,EXCLUDE,REVIEWED,
+event_scope_v1,sumatra_2025,1996042997130256825,"@PDI_Perjuangan sdh bergerak dr awal tapi tdk pamer dan posting2 bawa kameramen seperti begundal-begundal parTAI yg lain.
+
+https://t.co/JKB7449PnJ
+
+https://t.co/NAacpptXQL
+
+https://t.co/QHY5ZFymNT",False,NEEDS_REVIEW,insufficient_2025_event_evidence,sumatra_2025_4f7c9d0f6659448b9b30,uynfu0vRuGcfFAsTl,event_scope_v2,NEEDS_REVIEW,no_explicit_policy_term,False,Wed Dec 03 02:25:09 +0000 2025,EXCLUDE,tidak masuk sebagai raw data,,,Yusak,2026-10-17,EXCLUDE,REVIEWED,
+event_scope_v1,sumatra_2025,1996440576883888362,"Hingga lebih dari sepekan sejak bencana terjadi, puluhan ribu korban banjir yang selamat masih belum tertangani maksimal. https://t.co/Ho5HfXMPee",False,NEEDS_REVIEW,insufficient_2025_event_evidence,sumatra_2025_cdca78324c560e60edcb,6LZ4SZyBbIrTmWE2e,event_scope_v2,NEEDS_REVIEW,no_explicit_policy_term,False,Thu Dec 04 04:45:00 +0000 2025,EXCLUDE,tidak masuk sebagai raw data,,,Yusak,2026-10-17,EXCLUDE,REVIEWED,
+event_scope_v1,lombok_2018,1028559324694503424,"Maafkan kami masyarakat Lombok 😭
+
+https://t.co/wuukCTCseI",False,NEEDS_REVIEW,insufficient_case_context,lombok_2018_b6c4f4ec1f0af77a8e3c,zTbgvnJwd9WgpfbkH,event_scope_v2,NEEDS_REVIEW,insufficient_case_context,False,Sun Aug 12 08:30:27 +0000 2018,EXCLUDE,tidak masuk sebagai raw data,,,Yusak,2026-10-17,EXCLUDE,REVIEWED,
+event_scope_v1,lombok_2018,1028143976199729152,"Sepanjang sejarah Indonesia, status Bencana Nasional baru sekali ditetapkan, yakni Tsunami Aceh pada 2004 https://t.co/tUAkSXC4Ku",False,NEEDS_REVIEW,insufficient_case_context,lombok_2018_259456e255c90766b223,nmZO6fuqNKenu4Whr,event_scope_v2,NEEDS_REVIEW,insufficient_case_context,False,Sat Aug 11 05:00:00 +0000 2018,EXCLUDE,tidak masuk sebagai raw data,,,Yusak,2026-10-17,EXCLUDE,REVIEWED,
+event_scope_v1,lombok_2018,1027890791665020930,"Berdasarkan catatan BNPB, jumlah korban tewas akibat gempa Lombok telah mencapai 321 orang.  https://t.co/QQmkmRXoCo",False,NEEDS_REVIEW,insufficient_case_context,lombok_2018_6318ffe9178ff0baf0bb,fJERceMgbIM047VAl,event_scope_v2,NEEDS_REVIEW,insufficient_case_context,False,Fri Aug 10 12:13:56 +0000 2018,EXCLUDE,tidak masuk sebagai raw data,,,Yusak,2026-10-17,EXCLUDE,REVIEWED,
+event_scope_v1,lombok_2018,1027890767921119232,"Berdasarkan catatan BNPB, jumlah korban tewas akibat gempa Lombok telah mencapai 321 orang.  https://t.co/V8ncJmNDsa",False,NEEDS_REVIEW,insufficient_case_context,lombok_2018_6318ffe9178ff0baf0bb,fJERceMgbIM047VAl,event_scope_v2,NEEDS_REVIEW,insufficient_case_context,False,Fri Aug 10 12:13:51 +0000 2018,EXCLUDE,tidak masuk sebagai raw data,,,Yusak,2026-10-17,EXCLUDE,REVIEWED,
+event_scope_v1,lombok_2018,1027890077526097921,"Berdasarkan catatan BNPB, jumlah korban tewas akibat gempa Lombok telah mencapai 321 orang.  https://t.co/kr19Hq5u6u",False,NEEDS_REVIEW,insufficient_case_context,lombok_2018_6318ffe9178ff0baf0bb,fJERceMgbIM047VAl,event_scope_v2,NEEDS_REVIEW,insufficient_case_context,False,Fri Aug 10 12:11:06 +0000 2018,EXCLUDE,tidak masuk sebagai raw data,,,Yusak,2026-10-17,EXCLUDE,REVIEWED,
