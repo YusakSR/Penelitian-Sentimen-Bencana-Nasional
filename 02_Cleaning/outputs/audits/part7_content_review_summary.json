@@ -1,0 +1,9 @@
+{
+  "total_tweets": 381,
+  "duplicate_rows": 54,
+  "duplicate_groups": 21,
+  "long_text_rows": 12,
+  "cross_case_duplicate_rows": 0,
+  "rows_deleted": 0,
+  "status": "REVIEW_PENDING"
+}
