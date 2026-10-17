@@ -1,0 +1,10 @@
+{
+  "total_pilot_tweets": 30,
+  "labeled": 30,
+  "positive": 11,
+  "negative": 3,
+  "neutral": 16,
+  "source_integrity": "PASS",
+  "manual_adjudication_candidates": 4,
+  "status": "ADJUDICATION_PENDING"
+}
