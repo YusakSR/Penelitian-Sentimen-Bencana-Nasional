@@ -1,0 +1,4 @@
+﻿fold,cv_seed,model_seed,train_rows,validation_rows,train_groups,validation_groups,train_NETRAL,train_POSITIF,train_NEGATIF,val_NETRAL,val_POSITIF,val_NEGATIF,weight_NETRAL,weight_POSITIF,weight_NEGATIF,epochs,batch_size,vocabulary_limit,sequence_length,expected_model_parameters,tokenizer_adapt_scope,validation_used_during_fit,early_stopping,group_leakage,training_started
+1,123,124,232,116,225,112,150,72,10,75,36,5,0.5155555555555555,1.0740740740740742,7.733333333333333,15,16,5000,128,168419,train_only,False,False,0,False
+2,123,125,232,116,225,112,150,72,10,75,36,5,0.5155555555555555,1.0740740740740742,7.733333333333333,15,16,5000,128,168419,train_only,False,False,0,False
+3,123,126,232,116,224,113,150,72,10,75,36,5,0.5155555555555555,1.0740740740740742,7.733333333333333,15,16,5000,128,168419,train_only,False,False,0,False

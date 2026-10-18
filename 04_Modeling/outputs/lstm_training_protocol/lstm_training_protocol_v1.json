@@ -1,0 +1,201 @@
+{
+  "stage": "04_Modeling",
+  "part": "17 LSTM Training Protocol Finalization",
+  "generated_at_utc": "2026-10-18T12:58:51.010912+00:00",
+  "source_commit": "0545bd42cac1d257853d3d111f1ded720a8f8928",
+  "architecture_id": "LSTM_SMALL_V1",
+  "architecture_source_sha256": "a73fefb599f9eb7cdf08dbbdc7a1b0e2e3a0c97062e4eeb19c0bf1c3e7d61521",
+  "final_split_sha256": "f385531e2e6adaf7c8da6f0ce3d4c37838a2206634838039c65fb3c1fa01ad14",
+  "dataset_sha256": "cfa7df27079ef47bdb1b0cb526bc017aa1c8fe18dc4d91fef870a3441e2e9fb7",
+  "cv_configuration": "SGKF_3fold_seed123",
+  "dataset_rows": 348,
+  "unique_groups": 337,
+  "folds": [
+    1,
+    2,
+    3
+  ],
+  "labels": [
+    "NETRAL",
+    "POSITIF",
+    "NEGATIF"
+  ],
+  "label_to_id": {
+    "NETRAL": 0,
+    "POSITIF": 1,
+    "NEGATIF": 2
+  },
+  "framework": {
+    "python": "3.12.15",
+    "tensorflow": "2.21.0",
+    "keras": "3.15.1",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6"
+  },
+  "locked_hyperparameters": {
+    "model_family": "LSTM",
+    "architecture_id": "LSTM_SMALL_V1",
+    "framework": "tensorflow.keras",
+    "text_vectorization": {
+      "layer": "TextVectorization",
+      "max_tokens": 5000,
+      "standardize": null,
+      "split": "whitespace",
+      "output_mode": "int",
+      "output_sequence_length": 128,
+      "adapt_scope": "training_fold_only",
+      "fresh_layer_per_fold": true,
+      "oov_handling": "reserved_oov_index",
+      "padding": "post",
+      "truncation": "post"
+    },
+    "embedding": {
+      "input_dim": 5000,
+      "output_dim": 32,
+      "mask_zero": true,
+      "trainable": true
+    },
+    "recurrent": {
+      "layer": "LSTM",
+      "units": 32,
+      "return_sequences": false
+    },
+    "dropout": {
+      "rate": 0.3
+    },
+    "output": {
+      "layer": "Dense",
+      "units": 3,
+      "activation": "softmax"
+    },
+    "compilation": {
+      "optimizer": "Adam",
+      "learning_rate": 0.001,
+      "loss": "sparse_categorical_crossentropy"
+    },
+    "training": {
+      "epochs": 15,
+      "batch_size": 16,
+      "seed": 123,
+      "shuffle_training": true,
+      "class_weight": "balanced",
+      "early_stopping": false,
+      "checkpoint_selection_by_validation": false
+    },
+    "label_encoding": {
+      "NETRAL": 0,
+      "POSITIF": 1,
+      "NEGATIF": 2
+    }
+  },
+  "fold_execution": [
+    {
+      "fold": 1,
+      "model_seed": 124,
+      "train_rows": 232,
+      "validation_rows": 116
+    },
+    {
+      "fold": 2,
+      "model_seed": 125,
+      "train_rows": 232,
+      "validation_rows": 116
+    },
+    {
+      "fold": 3,
+      "model_seed": 126,
+      "train_rows": 232,
+      "validation_rows": 116
+    }
+  ],
+  "execution_sequence": [
+    "Verify Part17 source SHA-256 values.",
+    "Select train and validation by locked fold.",
+    "Clear Keras session and set fold model seed.",
+    "Create fresh TextVectorization layer.",
+    "Adapt vectorizer on training text only.",
+    "Transform training text with the adapted vectorizer.",
+    "Transform validation text without adapting.",
+    "Construct a new LSTM_SMALL_V1 model.",
+    "Verify model parameter count is 168419.",
+    "Compute class weights using training labels only.",
+    "Train for exactly 15 epochs using training inputs only.",
+    "Do not pass validation_data or validation_split to fit.",
+    "Do not use early stopping or validation checkpoints.",
+    "Record training loss and accuracy each epoch.",
+    "After training, predict the locked validation set.",
+    "Export validation probabilities and labels.",
+    "Record confusion matrix and per-class metrics.",
+    "Release fold model and repeat for the next fold.",
+    "Reconcile exactly 348 unique OOF predictions."
+  ],
+  "anti_leakage": {
+    "train_only_tokenizer_adapt": true,
+    "fresh_tokenizer_per_fold": true,
+    "fresh_model_per_fold": true,
+    "class_weights_train_only": true,
+    "validation_used_during_fit": false,
+    "validation_based_early_stopping": false,
+    "validation_based_checkpoint_selection": false,
+    "validation_based_hyperparameter_tuning": false,
+    "fold_assignment_changes_allowed": false,
+    "label_changes_allowed": false
+  },
+  "training_contract": {
+    "epochs": 15,
+    "batch_size": 16,
+    "shuffle_training": true,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "loss": "sparse_categorical_crossentropy",
+    "use_class_weights": true,
+    "no_validation_data_passed_to_fit": true,
+    "training_history_metrics": [
+      "loss",
+      "accuracy"
+    ],
+    "model_seed_by_fold": {
+      "1": 124,
+      "2": 125,
+      "3": 126
+    }
+  },
+  "evaluation_contract": {
+    "primary_metric": "oof_macro_f1",
+    "additional_metrics": [
+      "accuracy",
+      "weighted_f1",
+      "macro_precision",
+      "macro_recall",
+      "per_class_precision",
+      "per_class_recall",
+      "per_class_f1",
+      "confusion_matrix",
+      "fold_macro_f1_mean",
+      "fold_macro_f1_std"
+    ],
+    "label_order": [
+      "NETRAL",
+      "POSITIF",
+      "NEGATIF"
+    ],
+    "oof_expected_rows": 348,
+    "oof_unique_ids_required": true,
+    "one_validation_prediction_per_id": true,
+    "compare_with_part12_same_folds": true,
+    "independent_holdout_test": false
+  },
+  "part18_required_outputs": [
+    "lstm_oof_predictions_348.csv",
+    "lstm_fold_metrics.csv",
+    "lstm_class_metrics.csv",
+    "lstm_confusion_matrix.csv",
+    "lstm_training_history_45.csv",
+    "lstm_evaluation_summary.json",
+    "lstm_training_execution_audit.json"
+  ],
+  "model_trained": false,
+  "tokenizer_adapted_during_part17": false,
+  "training_authorized_during_part17": false,
+  "status": "LSTM_TRAINING_PROTOCOL_LOCKED"
+}
