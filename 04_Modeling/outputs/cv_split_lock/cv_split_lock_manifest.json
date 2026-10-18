@@ -1,0 +1,59 @@
+{
+  "stage": "04_Modeling",
+  "part": "08 Group-Aware CV Split Design & Lock",
+  "generated_at_utc": "2026-10-18T10:32:56.487271+00:00",
+  "source_commit": "60a95982b646988e34e470d9d9e9f07037bcecd8",
+  "source_dataset": "C:\\Penelitian Sentimen Bencana Nasional\\04_Modeling\\outputs\\leakage_grouping\\modeling_labeled_348_grouped.csv",
+  "source_rows": 348,
+  "unique_leakage_groups": 337,
+  "cv_method": "StratifiedGroupKFold",
+  "n_splits": 3,
+  "shuffle": true,
+  "random_state": 42,
+  "selected_configuration": "SGKF_3fold_seed42",
+  "scikit_learn_version": "1.9.1",
+  "validation_fold_assignment_rule": "Each tweet has exactly one validation fold. For fold k, training uses all rows whose validation_fold != k.",
+  "label_distribution": {
+    "NETRAL": 225,
+    "POSITIF": 108,
+    "NEGATIF": 15
+  },
+  "case_distribution": {
+    "lombok_2018": 101,
+    "palu_2018": 105,
+    "sumatra_2025": 142
+  },
+  "expected_validation_class_counts_per_fold": {
+    "NETRAL": 75,
+    "POSITIF": 36,
+    "NEGATIF": 5
+  },
+  "case_total_variation_by_fold": {
+    "1": 0.05172414,
+    "2": 0.10344827,
+    "3": 0.05172414
+  },
+  "maximum_case_total_variation": 0.10344827,
+  "case_balance_warning_threshold": 0.1,
+  "case_balance_warning": true,
+  "all_classes_in_every_fold": true,
+  "all_cases_in_every_fold": true,
+  "group_leakage_count": 0,
+  "source_sha256": {
+    "modeling_labeled_348_grouped.csv": "cfa7df27079ef47bdb1b0cb526bc017aa1c8fe18dc4d91fef870a3441e2e9fb7",
+    "leakage_group_audit.json": "484798ca3768c5dc3ffd026a8a0e99715bf659c92780aa8f1b5f300940e6ecea",
+    "cv_feasibility_audit.json": "172cbc88a169234ce580c9406334cf99ffe5ea839de2803a782181e1e02806a8",
+    "cv_feasibility_folds.csv": "e2531a28cb99ab8bdf13e8f502032be88e708117a2e88ebdc5cb61a9ff8caa3b",
+    "cv_feasibility_candidates.csv": "59cc90675d03853309b80b5a1eea01cf39bf760ce6cb2cc4d45436508abb5791"
+  },
+  "modeling_source_modified": false,
+  "tokenizer_fitted": false,
+  "model_trained": false,
+  "training_allowed": false,
+  "status": "HOLD_CASE_BALANCE_REVIEW",
+  "output_sha256": {
+    "fold_assignments": "a4db37d663dbeb20cbe2ef5f3b7b2fd51fa6ef070316f60fc68551a54ebefb9d",
+    "case_distribution": "c10cfa033d01c72f1e19db83ad72fb91123c8285894d68835f56beb0bcbfc028",
+    "class_distribution": "ce00b10956dfcb68697d433ea2673a601afbfe1c2d9e9fa7d5783b5272795678"
+  }
+}
