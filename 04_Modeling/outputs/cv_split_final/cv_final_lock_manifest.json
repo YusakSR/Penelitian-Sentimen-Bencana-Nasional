@@ -1,0 +1,88 @@
+{
+  "stage": "04_Modeling",
+  "part": "10 Final CV Re-Lock and Readiness",
+  "generated_at_utc": "2026-10-18T10:53:03.893232+00:00",
+  "source_commit": "e24f272213fd8f7ccd3e128355e2771155a17338",
+  "source_dataset": "C:\\Penelitian Sentimen Bencana Nasional\\04_Modeling\\outputs\\leakage_grouping\\modeling_labeled_348_grouped.csv",
+  "source_rows": 348,
+  "unique_leakage_groups": 337,
+  "method": "StratifiedGroupKFold",
+  "n_splits": 3,
+  "shuffle": true,
+  "random_state": 123,
+  "configuration": "SGKF_3fold_seed123",
+  "sklearn_version": "1.9.1",
+  "validation_assignment_rule": "For validation fold k, train on rows where validation_fold != k and validate where validation_fold == k.",
+  "class_distribution": {
+    "NETRAL": 225,
+    "POSITIF": 108,
+    "NEGATIF": 15
+  },
+  "case_distribution": {
+    "lombok_2018": 101,
+    "palu_2018": 105,
+    "sumatra_2025": 142
+  },
+  "validation_class_counts_per_fold": {
+    "NETRAL": 75,
+    "POSITIF": 36,
+    "NEGATIF": 5
+  },
+  "validation_case_counts_by_fold": {
+    "1": {
+      "lombok_2018": 31,
+      "palu_2018": 36,
+      "sumatra_2025": 49
+    },
+    "2": {
+      "lombok_2018": 34,
+      "palu_2018": 34,
+      "sumatra_2025": 48
+    },
+    "3": {
+      "lombok_2018": 36,
+      "palu_2018": 35,
+      "sumatra_2025": 45
+    }
+  },
+  "case_total_variation_by_fold": {
+    "1": 0.02298851,
+    "2": 0.00862069,
+    "3": 0.02011494
+  },
+  "maximum_case_total_variation": 0.02298851,
+  "case_balance_threshold": 0.1,
+  "source_sha256": {
+    "modeling_labeled_348_grouped.csv": "cfa7df27079ef47bdb1b0cb526bc017aa1c8fe18dc4d91fef870a3441e2e9fb7",
+    "leakage_group_audit.json": "484798ca3768c5dc3ffd026a8a0e99715bf659c92780aa8f1b5f300940e6ecea",
+    "cv_split_lock_manifest.json": "41c55cec4ca66fe62bb4c4e9ba764302ded6093d4ee3603a6aa080fb028bb584",
+    "cv_fold_assignments_348.csv": "a4db37d663dbeb20cbe2ef5f3b7b2fd51fa6ef070316f60fc68551a54ebefb9d",
+    "cross_case_approval_report.json": "82c5fe0491cd9c4497abb2ff7283a9482b36e248be6c37a85ca493b519b7829e",
+    "cross_case_candidate_comparison.csv": "261a3cc7c2edac8ada2a821f7706ba75a8c622b2fc3c8bf970764d5286826053",
+    "cross_case_fold_comparison.csv": "42d778778a6a83ca5faa564ea33695afd1b6f0d8727b7dfa5f589d77a6881bf8"
+  },
+  "readiness_checks": {
+    "all_348_ids_assigned_once": true,
+    "all_337_groups_preserved": true,
+    "train_validation_group_leakage_zero": true,
+    "all_labels_present_per_fold": true,
+    "all_cases_present_per_fold": true,
+    "negative_per_validation_fold": 5,
+    "case_tv_within_0_10": true,
+    "source_text_hashes_preserved": true,
+    "final_split_produced": true,
+    "tokenizer_train_only_policy_required": true,
+    "model_training_started": false
+  },
+  "part8_manifest_overwritten": false,
+  "source_dataset_modified": false,
+  "tokenizer_fitted": false,
+  "model_trained": false,
+  "training_allowed": false,
+  "status": "FINAL_SPLIT_LOCK_PASS",
+  "output_sha256": {
+    "final_assignments": "f385531e2e6adaf7c8da6f0ce3d4c37838a2206634838039c65fb3c1fa01ad14",
+    "class_distribution": "8990ced66a29a847c23f55f6aaedd5158c82858bce0bc7702d7b6006b7d86431",
+    "case_distribution": "9658a6738d2fddce1a8d5142e44649eaa97e4f5b7dfc435626dacf50aea22d2c"
+  }
+}
