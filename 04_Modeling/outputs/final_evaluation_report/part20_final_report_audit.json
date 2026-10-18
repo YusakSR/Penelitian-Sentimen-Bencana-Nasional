@@ -1,0 +1,40 @@
+{
+  "stage": "04_Modeling",
+  "part": "20 Final Report and Limitations",
+  "generated_at_utc": "2026-10-18T14:22:09.002773+00:00",
+  "source_commit": "8e0aa1b74394c78038baee1e36f323f9f0045184",
+  "source_sha256": {
+    "04_Modeling/outputs/comparative_evaluation/part19_comparative_summary.json": "009ab4bcb5acfec0db3d4791837d339ab70b7cd6bf241ee1df35d92d10360b7e",
+    "04_Modeling/outputs/comparative_evaluation/part19_comparative_audit.json": "231e75ffb2725fdd0b2c88a1e6f02a36f038bc40a653c3dd6e15306b90da6f4e",
+    "04_Modeling/outputs/comparative_evaluation/model_comparison_metrics.csv": "712aa656e0e5cee36db6f11ac4c94b4e1295cb93f87faac71e57f521091e3c57",
+    "04_Modeling/outputs/comparative_evaluation/comparative_case_metrics.csv": "07d1947bae9390a550cf305bbc9f7929299e7d39a267497fe96d389491f8708d",
+    "04_Modeling/outputs/comparative_evaluation/comparative_class_metrics.csv": "781f1341fbcf049cd863c3683e9ce5990d4738aff7db7586c136fd7d1df38422",
+    "04_Modeling/outputs/comparative_evaluation/paired_error_categories.csv": "18bd2a154da14e967971cffbe0a18125e593a6da1834ad40f015ddea9bde1fbd",
+    "04_Modeling/outputs/comparative_evaluation/paired_oof_comparison_348.csv": "670a444614a124c1b80106aa9c733c0d6b1cb690fd0ab0f20c9841d431323b1a",
+    "04_Modeling/outputs/lstm_training_execution/lstm_training_history_45.csv": "2a5be32e9a47f838c882a2d7b68012d8e4d9afd8ca3f5c1439ef3ed551aa1278",
+    "04_Modeling/outputs/leakage_grouping/modeling_labeled_348_grouped.csv": "cfa7df27079ef47bdb1b0cb526bc017aa1c8fe18dc4d91fef870a3441e2e9fb7",
+    "04_Modeling/outputs/lstm_visualizations/01_training_loss_per_fold.png": "86be0b66b4a073456ead321599a0b1ff17725856c7cdd6ceb65a6be0ec34d243",
+    "04_Modeling/outputs/lstm_visualizations/02_training_accuracy_per_fold.png": "7d7b6d37e840ac98b66734f4e4d6df45fa0b2739a2b916d3cd2d5898203420cb",
+    "04_Modeling/outputs/lstm_visualizations/03_macro_f1_per_fold.png": "eafacf660bb867b60286039a38d0a3760b631ff92b0d4fb0483834b60684b1d3",
+    "04_Modeling/outputs/lstm_visualizations/04_confusion_matrix_lstm.png": "2a0d5adae3136e31282f8eebf2ffceb61920071e841bdf1942dfa7b54496027b",
+    "04_Modeling/outputs/lstm_visualizations/05_baseline_vs_lstm_overall_metrics.png": "1df86bf5fef49e5bd93c4d8ebfafec1cb89e0d9d8ca0efb5dadd264c108dc5fb",
+    "04_Modeling/outputs/lstm_visualizations/06_per_class_f1_baseline_vs_lstm.png": "afc8b7977f86191c5af60cbc242ffead0495fa00f009e2549a153e560aedca5b",
+    "04_Modeling/outputs/lstm_visualizations/07_vocabulary_size_per_fold.png": "65205a907e0c17da5eef8555a9381470642d6abd961fd38071f31285acf6234f",
+    "04_Modeling/outputs/lstm_visualizations/08_token_count_distribution.png": "3fe1f78ed826595c65f00456dba2e8e77b8ba1d81212bbdc7d2b6e7fd3c08daa",
+    "04_Modeling/outputs/lstm_visualizations/09_token_count_by_label_boxplot.png": "2580f8a75cde5ca9c12773927fc141693f52c12c94cac3fd30918a0566b53a08"
+  },
+  "output_sha256": {
+    "final_evaluation_report.md": "76426de2ebb98e6218cc0ac58bd8eab22eb5853fc2c22442c5c155f3b0debf8a",
+    "final_research_findings.json": "e3d5a7aff4c47872dbf95a1eb46f44a397266356329a3428d805bdf0526daeed",
+    "final_figure_registry.csv": "0bad46e957de1ff8d0b3b77db3bf2c748e2555daedf21ea6133e7bca98fb180e"
+  },
+  "dataset_rows": 348,
+  "model_count": 2,
+  "figures_verified": 9,
+  "figures_reused_without_modification": true,
+  "training_performed": false,
+  "source_modified": false,
+  "cv_split_modified": false,
+  "report_includes_research_limitations": true,
+  "status": "PART20_FINAL_REPORT_AUDIT_PASS"
+}

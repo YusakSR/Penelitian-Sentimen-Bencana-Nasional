@@ -1,0 +1,66 @@
+{
+  "stage": "04_Modeling",
+  "part": "20 Final Evaluation",
+  "generated_at_utc": "2026-10-18T14:22:08.942785+00:00",
+  "source_commit": "8e0aa1b74394c78038baee1e36f323f9f0045184",
+  "visualization_commit": "a613f00992acf1bc6e4a4f34240bc0a4d13a8139",
+  "dataset_rows": 348,
+  "unique_leakage_groups": 337,
+  "cv_configuration": "SGKF_3fold_seed123",
+  "primary_metric": "OOF Macro-F1",
+  "baseline": {
+    "accuracy": 0.7040229885057471,
+    "macro_f1": 0.5235550389755573,
+    "macro_recall": 0.4943209876543209
+  },
+  "lstm": {
+    "accuracy": 0.5862068965517241,
+    "macro_f1": 0.47512961484120647,
+    "macro_recall": 0.5596296296296296
+  },
+  "best_model_by_primary_metric": "baseline",
+  "paired_correctness": {
+    "both_correct": 165,
+    "baseline_only_correct": 80,
+    "lstm_only_correct": 39,
+    "both_wrong": 64
+  },
+  "negative_class": {
+    "baseline": {
+      "true_positive": 2,
+      "false_positive": 0,
+      "false_negative": 13,
+      "negative_predictions": 2,
+      "precision": 1.0,
+      "recall": 0.13333333333333333,
+      "f1": 0.23529411764705882
+    },
+    "lstm": {
+      "true_positive": 8,
+      "false_positive": 50,
+      "false_negative": 7,
+      "negative_predictions": 58,
+      "precision": 0.13793103448275862,
+      "recall": 0.5333333333333333,
+      "f1": 0.2191780821917808
+    }
+  },
+  "lstm_training_final_accuracy": [
+    0.9956896305084229,
+    0.9956896305084229,
+    1.0
+  ],
+  "token_count_statistics": {
+    "min": 5,
+    "median": 26.0,
+    "mean": 37.724137931034484,
+    "max": 804,
+    "over_128": 14,
+    "equal_or_under_128": 334
+  },
+  "figures_reused": 9,
+  "independent_holdout_available": false,
+  "comparison_descriptive_only": true,
+  "new_model_training": false,
+  "status": "PART20_FINAL_FINDINGS_PREPARED"
+}
