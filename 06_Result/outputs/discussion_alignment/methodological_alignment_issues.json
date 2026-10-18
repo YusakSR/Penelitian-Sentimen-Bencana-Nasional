@@ -1,0 +1,45 @@
+{
+  "stage": "06_Result",
+  "part": "4 Discussion & Research Question Alignment",
+  "proposal_reference": "G1F020005_Mariana ClaudyaNEW.pdf",
+  "proposal_text_source": "Transcription of sections 1.2, 1.3, 1.4; original PDF not hash-locked in this cell",
+  "issues": [
+    {
+      "id": "METHOD_01",
+      "severity": "HIGH",
+      "topic": "Baseline comparison outside proposal boundary",
+      "proposal_position": "Section 1.3 states LSTM without comparison to another method.",
+      "implementation": "TF-IDF + Logistic Regression benchmark is evaluated alongside LSTM.",
+      "required_action": "Seek supervisor approval to revise the methodological boundary or explicitly document the benchmark as an added evaluation.",
+      "resolved": false
+    },
+    {
+      "id": "METHOD_02",
+      "severity": "HIGH",
+      "topic": "Temporal labels versus LSTM predictions",
+      "proposal_position": "Research objectives emphasize LSTM sentiment classification and temporal analysis.",
+      "implementation": "Temporal timeline currently aggregates locked human sentiment labels.",
+      "required_action": "Explicitly distinguish annotation-based temporal analysis from model-based classification; confirm intended scope with supervisor.",
+      "resolved": false
+    },
+    {
+      "id": "METHOD_03",
+      "severity": "MEDIUM",
+      "topic": "Policy terminology and causal interpretation",
+      "proposal_position": "Proposal alternates between national disaster designation and disaster management policy.",
+      "implementation": "Observed tweet labels do not establish effects of a particular policy decision.",
+      "required_action": "Standardize operational definitions and avoid causal/policy-impact claims.",
+      "resolved": false
+    },
+    {
+      "id": "METHOD_04",
+      "severity": "MEDIUM",
+      "topic": "Sample coverage and test design",
+      "proposal_position": "Objectives concern public sentiment over time.",
+      "implementation": "348 collected tweets, 15 NEGATIF, 3-fold OOF without independent holdout.",
+      "required_action": "Report class imbalance, sampling limits and OOF generalization uncertainty.",
+      "resolved": false
+    }
+  ],
+  "status": "SUPERVISOR_ALIGNMENT_REQUIRED"
+}

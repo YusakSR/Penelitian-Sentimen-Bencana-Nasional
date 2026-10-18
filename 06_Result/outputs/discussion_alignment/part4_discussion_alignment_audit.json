@@ -1,0 +1,33 @@
+{
+  "stage": "06_Result",
+  "part": "4 Discussion & Research Question Alignment",
+  "generated_at_utc": "2026-10-18T16:59:11.536062+00:00",
+  "source_sha256": {
+    "06_Result/outputs/consolidated_results/consolidated_model_evaluation.csv": "494fc1b114c1a01ad16d5e2f361878ad7a0cd777e1c1da41b0af4d53c5d8d539",
+    "06_Result/outputs/consolidated_results/model_error_analysis_by_class.csv": "b48c2e4718ab37a7f2d6583a90afd190b28b183f40480c77575053d06f0786ac",
+    "06_Result/outputs/consolidated_results/dataset_characteristics.csv": "468dd6d3bb312ca896f9b6cc9e10a6435cf410de4d61d83205ee79fa8b98ed36",
+    "06_Result/outputs/consolidated_results/consolidated_temporal_findings.csv": "bababb1ffe0c7f8c316307f276b4beeccc2e995f8672b6d666fef5a8c3bff1bb",
+    "06_Result/outputs/consolidated_results/part2_consolidated_results_audit.json": "9015ddf1a47cf374438ab666f375ca6796c48b6525d205950fccc476a24f2946",
+    "06_Result/outputs/figure_selection/result_figure_selection_17.csv": "faa96adeda8eac089196f37ac83d57ac95bdfa3d19cc6311869ddf1e058104c1",
+    "06_Result/outputs/figure_selection/part3_figure_selection_audit.json": "daf05e00cf37eea0f9b3f65479167333b363ca8a26989aa88b27bc5e7124998b"
+  },
+  "proposal_file": "G1F020005_Mariana ClaudyaNEW.pdf",
+  "proposal_pdf_sha256_verified": false,
+  "research_questions_mapped": 3,
+  "dataset_rows": 348,
+  "model_count": 2,
+  "temporal_cases": 3,
+  "figure_registry_rows": 17,
+  "methodological_issues": 4,
+  "unresolved_methodological_issues": 4,
+  "discussion_draft_prepared": true,
+  "supervisor_review_required": true,
+  "source_modified": false,
+  "model_training_performed": false,
+  "output_sha256": {
+    "research_question_alignment.csv": "87647224315fdb1df1c351fcfa5ba66e5387e100e5411c34de6e9b607270a2c6",
+    "research_discussion_draft.md": "e802c902e7aff890d04044e7a504c37126a9afb217128acb2a19830620e12d1d",
+    "methodological_alignment_issues.json": "480da2ed204389987a5927f02d9a5484733df4a3495e31afe372ed7df9702516"
+  },
+  "status": "RESULT_PART4_DRAFT_ALIGNMENT_PASS"
+}
