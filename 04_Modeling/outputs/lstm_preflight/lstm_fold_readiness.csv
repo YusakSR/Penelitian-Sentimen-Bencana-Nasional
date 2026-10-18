@@ -1,0 +1,4 @@
+﻿fold,train_rows,validation_rows,train_groups,validation_groups,train_NETRAL,train_POSITIF,train_NEGATIF,val_NETRAL,val_POSITIF,val_NEGATIF,weight_NETRAL,weight_POSITIF,weight_NEGATIF,train_median_tokens,train_max_tokens,train_texts_over_128_tokens,group_leakage_count,tokenizer_adapted,model_trained
+1,232,116,225,112,150,72,10,75,36,5,0.5155555555555555,1.0740740740740742,7.733333333333333,25.0,804,8,0,False,False
+2,232,116,225,112,150,72,10,75,36,5,0.5155555555555555,1.0740740740740742,7.733333333333333,25.5,804,11,0,False,False
+3,232,116,224,113,150,72,10,75,36,5,0.5155555555555555,1.0740740740740742,7.733333333333333,26.0,776,9,0,False,False

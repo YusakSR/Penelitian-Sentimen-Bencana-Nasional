@@ -1,0 +1,121 @@
+{
+  "stage": "04_Modeling",
+  "part": "14 LSTM Architecture and Tokenizer Preflight",
+  "created_at_utc": "2026-10-18T11:42:26.126643+00:00",
+  "source_commit": "8cfabf306baa49ef5a050f083730ed60395513f8",
+  "dataset_rows": 348,
+  "unique_groups": 337,
+  "cv_configuration": "SGKF_3fold_seed123",
+  "architecture": {
+    "model_family": "LSTM",
+    "architecture_id": "LSTM_SMALL_V1",
+    "framework": "tensorflow.keras",
+    "text_vectorization": {
+      "layer": "TextVectorization",
+      "max_tokens": 5000,
+      "standardize": null,
+      "split": "whitespace",
+      "output_mode": "int",
+      "output_sequence_length": 128,
+      "adapt_scope": "training_fold_only",
+      "fresh_layer_per_fold": true,
+      "oov_handling": "reserved_oov_index",
+      "padding": "post",
+      "truncation": "post"
+    },
+    "embedding": {
+      "input_dim": 5000,
+      "output_dim": 32,
+      "mask_zero": true,
+      "trainable": true
+    },
+    "recurrent": {
+      "layer": "LSTM",
+      "units": 32,
+      "return_sequences": false
+    },
+    "dropout": {
+      "rate": 0.3
+    },
+    "output": {
+      "layer": "Dense",
+      "units": 3,
+      "activation": "softmax"
+    },
+    "compilation": {
+      "optimizer": "Adam",
+      "learning_rate": 0.001,
+      "loss": "sparse_categorical_crossentropy"
+    },
+    "training": {
+      "epochs": 15,
+      "batch_size": 16,
+      "seed": 123,
+      "shuffle_training": true,
+      "class_weight": "balanced",
+      "early_stopping": false,
+      "checkpoint_selection_by_validation": false
+    },
+    "label_encoding": {
+      "NETRAL": 0,
+      "POSITIF": 1,
+      "NEGATIF": 2
+    }
+  },
+  "estimated_parameter_count": 168419,
+  "execution_policy": {
+    "fresh_TextVectorization_layer_per_fold": true,
+    "adapt_input": "training_text_only",
+    "adapt_on_validation_text": false,
+    "adapt_on_full_348_texts": false,
+    "reused_vocabulary_across_folds": false,
+    "fixed_max_tokens": 5000,
+    "fixed_sequence_length": 128,
+    "text_preprocessing": {
+      "use_existing_text_linguistic": true,
+      "additional_global_preprocessing_fit": false,
+      "standardize": null,
+      "split": "whitespace"
+    },
+    "fresh_LSTM_model_per_fold": true,
+    "training_class_weights_only": true,
+    "validation_class_weights_forbidden": true,
+    "epochs_fixed": 15,
+    "validation_based_early_stopping": false,
+    "validation_based_checkpoint_selection": false,
+    "validation_used_only_for_final_evaluation": true,
+    "per_fold_predictions_required": true,
+    "out_of_fold_predictions_required": 348,
+    "compare_against_locked_baseline": true,
+    "label_order": [
+      "NETRAL",
+      "POSITIF",
+      "NEGATIF"
+    ],
+    "no_independent_test_set": true,
+    "do_not_change_cv_seed": true,
+    "do_not_change_labels_based_on_errors": true,
+    "no_training_during_part14": true
+  },
+  "framework": {
+    "python_version": "3.14.8",
+    "tensorflow_installed_version": null,
+    "tensorflow_intel_installed_version": null,
+    "keras_installed_version": null,
+    "numpy_version": "2.5.3",
+    "pandas_version": "3.0.6",
+    "scikit_learn_version": "1.9.1",
+    "tensorflow_import_verified": false,
+    "keras_text_vectorization_verified": false,
+    "keras_lstm_verified": false,
+    "runtime_execution_verified": false
+  },
+  "framework_status": "TENSORFLOW_NOT_INSTALLED",
+  "architecture_locked": true,
+  "tokenizer_adapted": false,
+  "model_instantiated": false,
+  "model_compiled": false,
+  "model_trained": false,
+  "training_allowed": false,
+  "status": "LSTM_ARCHITECTURE_DESIGN_LOCKED"
+}
