@@ -1,0 +1,77 @@
+{
+  "stage": "04_Modeling",
+  "part": "13 LSTM Preparation Design",
+  "created_at_utc": "2026-10-18T11:30:17.751101+00:00",
+  "model_family": "LSTM",
+  "model_trained": false,
+  "tokenizer_fitted": false,
+  "cv_configuration": "SGKF_3fold_seed123",
+  "n_splits": 3,
+  "seed": 123,
+  "text_column": "text_linguistic",
+  "label_column": "sentiment_label",
+  "labels": [
+    "NETRAL",
+    "POSITIF",
+    "NEGATIF"
+  ],
+  "source_rows": 348,
+  "source_groups": 337,
+  "split_membership_policy": "Use exact Part10 validation_fold assignment for all LSTM folds.",
+  "tokenization_policy": {
+    "fit_scope": "training_fold_only",
+    "fresh_tokenizer_per_fold": true,
+    "validation_fit_forbidden": true,
+    "global_vocabulary_fit_forbidden": true,
+    "unknown_token_policy": "OOV",
+    "padding_policy": "post",
+    "truncating_policy": "post",
+    "pad_value": 0,
+    "sequence_length_policy": "Use a predeclared fixed length or a training-only length selection rule. Never determine it from validation texts.",
+    "tokenizer_backend": "To be locked during LSTM preflight.",
+    "max_vocabulary_size": "To be locked before training.",
+    "max_sequence_length": "To be locked before training."
+  },
+  "class_imbalance_policy": {
+    "approach": "training_fold_class_weights",
+    "weight_computation_scope": "training_fold_only",
+    "validation_labels_used_for_weights": false,
+    "validation_oversampling_allowed": false,
+    "training_oversampling_default": false
+  },
+  "training_policy": {
+    "fresh_model_per_fold": true,
+    "train_only_vocabulary": true,
+    "train_only_class_weights": true,
+    "same_final_cv_split_as_baseline": true,
+    "model_architecture_locked": false,
+    "hyperparameters_locked": false,
+    "tensorflow_version_locked": false,
+    "model_training_allowed": false
+  },
+  "evaluation_policy": {
+    "primary_metric": "macro_f1",
+    "secondary_metrics": [
+      "accuracy",
+      "weighted_f1",
+      "macro_precision",
+      "macro_recall",
+      "per_class_precision",
+      "per_class_recall",
+      "per_class_f1",
+      "confusion_matrix"
+    ],
+    "out_of_fold_predictions_required": true,
+    "independent_holdout_test_available": false,
+    "baseline_comparison_policy": "Compare LSTM against Part12 baseline using identical final CV folds.",
+    "minority_class_caution": "Only five NEGATIF examples occur in each validation fold."
+  },
+  "error_analysis_usage": {
+    "purpose": "Descriptive interpretation and reporting.",
+    "automatic_label_changes": false,
+    "cv_seed_changes": false,
+    "hyperparameter_selection_from_oof_errors": false,
+    "oof_error_cases_used_to_fit_tokenizer": false
+  },
+  "status": "LSTM_PREPARATION_DESIGN_ONLY"
+}
