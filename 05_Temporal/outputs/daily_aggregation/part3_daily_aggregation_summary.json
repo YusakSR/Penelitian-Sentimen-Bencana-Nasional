@@ -1,0 +1,70 @@
+{
+  "stage": "05_Temporal",
+  "part": "3 Daily Sentiment Aggregation",
+  "generated_at_utc": "2026-10-18T15:34:43.795977+00:00",
+  "source_commit": "b48d7164dcf59f6f6d13d1488e593228409669cf",
+  "dataset_id": "TEMPORAL_LABELED_348_V1",
+  "timezone": "Asia/Jakarta",
+  "aggregation_unit": "calendar_day",
+  "label_source": "locked_human_annotation",
+  "calendar_scope": "observed_min_to_max_per_case",
+  "source_rows": 348,
+  "daily_calendar_rows": 20,
+  "daily_long_rows": 60,
+  "total_aggregated_tweets": 348,
+  "zero_tweet_day_policy": "count=0; sentiment_pct=null; no observations",
+  "dominant_sentiment_tie_policy": "TIE",
+  "source_case_counts": {
+    "lombok_2018": 101,
+    "palu_2018": 105,
+    "sumatra_2025": 142
+  },
+  "source_label_counts": {
+    "NETRAL": 225,
+    "POSITIF": 108,
+    "NEGATIF": 15
+  },
+  "coverage_by_case": [
+    {
+      "case": "lombok_2018",
+      "start_date_wib": "2018-08-06",
+      "end_date_wib": "2018-08-14",
+      "calendar_days": 9,
+      "observed_days": 6,
+      "zero_tweet_days": 3,
+      "total_tweets": 101,
+      "unique_tweet_ids": 101,
+      "count_NETRAL": 65,
+      "count_POSITIF": 33,
+      "count_NEGATIF": 3
+    },
+    {
+      "case": "palu_2018",
+      "start_date_wib": "2018-09-29",
+      "end_date_wib": "2018-10-03",
+      "calendar_days": 5,
+      "observed_days": 5,
+      "zero_tweet_days": 0,
+      "total_tweets": 105,
+      "unique_tweet_ids": 105,
+      "count_NETRAL": 71,
+      "count_POSITIF": 29,
+      "count_NEGATIF": 5
+    },
+    {
+      "case": "sumatra_2025",
+      "start_date_wib": "2025-11-29",
+      "end_date_wib": "2025-12-04",
+      "calendar_days": 6,
+      "observed_days": 4,
+      "zero_tweet_days": 2,
+      "total_tweets": 142,
+      "unique_tweet_ids": 142,
+      "count_NETRAL": 89,
+      "count_POSITIF": 46,
+      "count_NEGATIF": 7
+    }
+  ],
+  "model_training_performed": false,
+  "status": "TEMPORAL_PART3_AGGREGATION_COMPLETE"
+}

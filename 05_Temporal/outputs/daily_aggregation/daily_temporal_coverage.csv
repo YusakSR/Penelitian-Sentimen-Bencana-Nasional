@@ -1,0 +1,4 @@
+﻿case,start_date_wib,end_date_wib,calendar_days,observed_days,zero_tweet_days,total_tweets,unique_tweet_ids,count_NETRAL,count_POSITIF,count_NEGATIF
+lombok_2018,2018-08-06,2018-08-14,9,6,3,101,101,65,33,3
+palu_2018,2018-09-29,2018-10-03,5,5,0,105,105,71,29,5
+sumatra_2025,2025-11-29,2025-12-04,6,4,2,142,142,89,46,7

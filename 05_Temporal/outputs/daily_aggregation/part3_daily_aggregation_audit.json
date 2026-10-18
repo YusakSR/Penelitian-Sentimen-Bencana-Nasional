@@ -1,0 +1,29 @@
+{
+  "stage": "05_Temporal",
+  "part": "3 Daily Aggregation Integrity Audit",
+  "generated_at_utc": "2026-10-18T15:34:43.795977+00:00",
+  "source_commit": "b48d7164dcf59f6f6d13d1488e593228409669cf",
+  "source_sha256": {
+    "temporal_labeled_348_locked.csv": "4ade3c2d0832f929e0a70ec0ae921653abdcb2aecf715a76fe0c274e674b5267",
+    "temporal_timestamp_lock_manifest.json": "288fa49f1e96ae9d8d25633a338b56c53dff0107adbc1710e69de06eaea65189",
+    "part2_timestamp_lock_audit.json": "0cdf02cb219e26987db26c61feb29c9609ba9b869f698b763324ed63050c28c9"
+  },
+  "source_rows": 348,
+  "daily_rows": 20,
+  "long_rows": 60,
+  "aggregated_count": 348,
+  "case_count_conservation": true,
+  "class_count_conservation": true,
+  "date_wib_reverified_from_utc": true,
+  "zero_tweet_dates_preserved": true,
+  "undefined_percentages_are_null": true,
+  "source_modified": false,
+  "training_performed": false,
+  "output_sha256": {
+    "daily_sentiment_counts_20_days.csv": "4e4e1fd9e8b4e25b1aef729905b81306dd55a0d8053a2b509cee5d8acf89df21",
+    "daily_sentiment_long_60_rows.csv": "2458f2a2fbfc3dcf2c8481233fa480685f130153d3dddd721b99fb5aa46e54c9",
+    "daily_temporal_coverage.csv": "aae38c63e7c155067f5773f370efdb315566a8ac0d4450999b8f74eeefa423f1",
+    "part3_daily_aggregation_summary.json": "53ce375c9e22416cc3cd62495164d533d298070b6806aae77a6ce66adf92377d"
+  },
+  "status": "TEMPORAL_PART3_DAILY_AGGREGATION_PASS"
+}
