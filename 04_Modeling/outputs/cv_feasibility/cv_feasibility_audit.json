@@ -1,0 +1,44 @@
+{
+  "stage": "04_Modeling",
+  "part": "07 Stratified Group-Aware CV Feasibility",
+  "generated_at_utc": "2026-10-18T10:26:12.441489+00:00",
+  "source_commit": "a3481bd63f8e465d84b6b0de6f2d149c836a5150",
+  "source_rows": 348,
+  "unique_groups": 337,
+  "mixed_label_groups": 1,
+  "class_distribution": {
+    "NETRAL": 225,
+    "POSITIF": 108,
+    "NEGATIF": 15
+  },
+  "method": "StratifiedGroupKFold",
+  "tested_n_splits": [
+    3,
+    4,
+    5
+  ],
+  "tested_seeds": [
+    42,
+    123,
+    2026
+  ],
+  "candidate_count": 9,
+  "folds_evaluated": 36,
+  "feasible_candidate_count": 9,
+  "provisional_candidate": "SGKF_3fold_seed42",
+  "feasibility_rule": "Every fold must contain all three classes in both training and validation, with zero group overlap.",
+  "source_sha256": {
+    "grouped_dataset": "cfa7df27079ef47bdb1b0cb526bc017aa1c8fe18dc4d91fef870a3441e2e9fb7",
+    "grouping_audit": "484798ca3768c5dc3ffd026a8a0e99715bf659c92780aa8f1b5f300940e6ecea"
+  },
+  "source_rows_modified": false,
+  "final_split_selected": false,
+  "tokenizer_fitted": false,
+  "model_trained": false,
+  "training_allowed": false,
+  "status": "FEASIBLE_CANDIDATES_FOUND",
+  "output_sha256": {
+    "fold_metrics": "e2531a28cb99ab8bdf13e8f502032be88e708117a2e88ebdc5cb61a9ff8caa3b",
+    "candidate_metrics": "59cc90675d03853309b80b5a1eea01cf39bf760ce6cb2cc4d45436508abb5791"
+  }
+}

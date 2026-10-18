@@ -1,0 +1,10 @@
+﻿configuration,n_splits,seed,folds_evaluated,technically_feasible,min_validation_NEGATIF,max_validation_NEGATIF,negative_range,all_classes_every_fold,min_validation_rows,max_validation_rows,validation_size_range,mean_class_proportion_deviation,max_class_proportion_deviation,group_leakage_count
+SGKF_3fold_seed42,3,42,3,True,5,5,0,True,116,116,0,0.0,0.0,0
+SGKF_3fold_seed123,3,123,3,True,5,5,0,True,116,116,0,0.0,0.0,0
+SGKF_3fold_seed2026,3,2026,3,True,5,5,0,True,116,116,0,0.0,0.0,0
+SGKF_4fold_seed42,4,42,4,True,3,4,1,True,87,87,0,0.00862069,0.01724138,0
+SGKF_4fold_seed123,4,123,4,True,3,4,1,True,87,87,0,0.00862069,0.01724138,0
+SGKF_4fold_seed2026,4,2026,4,True,3,4,1,True,87,87,0,0.00862069,0.01724138,0
+SGKF_5fold_seed42,5,42,5,True,3,3,0,True,69,70,1,0.00952666,0.011994,0
+SGKF_5fold_seed123,5,123,5,True,3,3,0,True,69,70,1,0.00952666,0.011994,0
+SGKF_5fold_seed2026,5,2026,5,True,3,3,0,True,69,70,1,0.00952666,0.011994,0
