@@ -1,0 +1,40 @@
+{
+  "stage": "04_Modeling",
+  "part": "06 Leakage Group Construction",
+  "generated_at_utc": "2026-10-18T10:20:01.926665+00:00",
+  "source_commit": "a9435ad",
+  "original_rows": 348,
+  "grouped_rows": 348,
+  "same_content_pairs": 11,
+  "distinct_content_pairs": 1,
+  "unresolved_pairs": 0,
+  "total_leakage_groups": 337,
+  "multi_member_groups": 11,
+  "rows_in_multi_member_groups": 22,
+  "singleton_groups": 326,
+  "mixed_label_group_count": 1,
+  "mixed_label_group_ids": [
+    "LG_975984a2f4e5359a"
+  ],
+  "label_distribution": {
+    "NEGATIF": 15,
+    "POSITIF": 108,
+    "NETRAL": 225
+  },
+  "input_sha256": {
+    "C:\\Penelitian Sentimen Bencana Nasional\\04_Modeling\\outputs\\label_adjudication\\modeling_labeled_348_adjudicated.csv": "edd4d99458c1e1b23d0a1cb132ec5f18583f56f115c98d49e75a8be54325c0b3",
+    "C:\\Penelitian Sentimen Bencana Nasional\\04_Modeling\\outputs\\label_adjudication\\label_adjudication_reconciliation.json": "a43a04bd5ff5ace0f82bd22b760b2deee67babfd484abd83bcfcab38fccef7ea",
+    "C:\\Penelitian Sentimen Bencana Nasional\\04_Modeling\\outputs\\near_duplicate_review\\near_duplicate_review_decisions.csv": "f265312f12118ece0082eaf91dc674fe08d4b05632f52ce6d29a012abdceb6b6",
+    "C:\\Penelitian Sentimen Bencana Nasional\\04_Modeling\\outputs\\near_duplicate_review\\review_validation_report.json": "630ff69dd0612f5915a42bd70b423759970ec40f2757616b3613ead71f582c77"
+  },
+  "source_rows_modified": false,
+  "label_changes_applied": 0,
+  "split_created": false,
+  "training_started": false,
+  "training_allowed": false,
+  "status": "LEAKAGE_GROUPING_PASS",
+  "output_sha256": {
+    "grouped_dataset": "cfa7df27079ef47bdb1b0cb526bc017aa1c8fe18dc4d91fef870a3441e2e9fb7",
+    "group_members": "47ff6b57ef6e38ce80c1e298ae6b7b7a9b29688a72edd81c8faa2c400f31eb98"
+  }
+}
