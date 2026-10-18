@@ -1,0 +1,50 @@
+{
+  "stage": "07_Documentation",
+  "part": "1 Repository Inventory",
+  "generated_at_utc": "2026-10-18T17:55:06.221505+00:00",
+  "repository": "YusakSR/Penelitian-Sentimen-Bencana-Nasional",
+  "head_commit": "ae5107c317eaee11a909251470be4b7503a6f9db",
+  "head_branch": "main",
+  "tracked_file_count": 455,
+  "tracked_total_size_bytes": 35426053,
+  "phase_file_counts": {
+    "01_Collection": 251,
+    "02_Preprocessing": 11,
+    "03_Labeling": 33,
+    "04_Modeling": 89,
+    "05_Temporal": 26,
+    "06_Result": 29,
+    "07_Documentation": 1,
+    "ROOT_OR_OTHER": 15
+  },
+  "artifact_type_counts": {
+    "dataset_or_table": 253,
+    "figure_png": 18,
+    "json_manifest_or_audit": 63,
+    "markdown_document": 14,
+    "notebook": 9,
+    "other": 84,
+    "pdf_report": 3,
+    "python_script": 7,
+    "text_or_config": 4
+  },
+  "extension_counts": {
+    "": 2,
+    ".csv": 253,
+    ".ipynb": 9,
+    ".json": 63,
+    ".jsonl": 66,
+    ".md": 14,
+    ".pdf": 3,
+    ".png": 18,
+    ".py": 7,
+    ".txt": 4,
+    ".xlsx": 16
+  },
+  "critical_artifacts_verified": 8,
+  "result_part6_audit_sha256": "81d842966c6b419e2941203bd6f0485c84993650e005b65c7fd9bebe3c6a145b",
+  "academic_status": "PROVISIONAL",
+  "methodological_issues_open": 4,
+  "full_git_tree_inventory": true,
+  "model_training_performed": false
+}
