@@ -1,0 +1,132 @@
+{
+  "stage": "05_Temporal",
+  "part": "5 Comparative Temporal Findings",
+  "generated_at_utc": "2026-10-18T15:55:30.451390+00:00",
+  "source_commit": "cc6c0ba94d1592aaaae392671fce114e15ceb130",
+  "input_dataset": "TEMPORAL_LABELED_348_V1",
+  "timezone": "Asia/Jakarta",
+  "comparison_type": "descriptive",
+  "sample_size": 348,
+  "cases_count": 3,
+  "total_calendar_days": 20,
+  "total_observed_days": 15,
+  "total_zero_tweet_days": 5,
+  "overall_sentiment_counts": {
+    "NETRAL": 225,
+    "POSITIF": 108,
+    "NEGATIF": 15
+  },
+  "overall_sentiment_percentages": {
+    "NETRAL": 64.6552,
+    "POSITIF": 31.0345,
+    "NEGATIF": 4.3103
+  },
+  "case_findings": [
+    {
+      "case": "lombok_2018",
+      "case_name": "Lombok 2018",
+      "total_tweets": 101,
+      "calendar_days": 9,
+      "observed_days": 6,
+      "zero_tweet_days": 3,
+      "zero_tweet_dates": [
+        "2018-08-07",
+        "2018-08-08",
+        "2018-08-09"
+      ],
+      "first_observed_date_wib": "2018-08-06",
+      "last_observed_date_wib": "2018-08-14",
+      "sentiment_counts": {
+        "NETRAL": 65,
+        "POSITIF": 33,
+        "NEGATIF": 3
+      },
+      "sentiment_percentages": {
+        "NETRAL": 64.3564,
+        "POSITIF": 32.6733,
+        "NEGATIF": 2.9703
+      },
+      "peak_daily_tweet_count": 24,
+      "peak_dates_wib": [
+        "2018-08-10"
+      ],
+      "peak_share_of_case_pct": 23.7624,
+      "relative_day_zero_definition": "first date in case observation window"
+    },
+    {
+      "case": "palu_2018",
+      "case_name": "Palu 2018",
+      "total_tweets": 105,
+      "calendar_days": 5,
+      "observed_days": 5,
+      "zero_tweet_days": 0,
+      "zero_tweet_dates": [],
+      "first_observed_date_wib": "2018-09-29",
+      "last_observed_date_wib": "2018-10-03",
+      "sentiment_counts": {
+        "NETRAL": 71,
+        "POSITIF": 29,
+        "NEGATIF": 5
+      },
+      "sentiment_percentages": {
+        "NETRAL": 67.619,
+        "POSITIF": 27.619,
+        "NEGATIF": 4.7619
+      },
+      "peak_daily_tweet_count": 36,
+      "peak_dates_wib": [
+        "2018-10-01"
+      ],
+      "peak_share_of_case_pct": 34.2857,
+      "relative_day_zero_definition": "first date in case observation window"
+    },
+    {
+      "case": "sumatra_2025",
+      "case_name": "Sumatera 2025",
+      "total_tweets": 142,
+      "calendar_days": 6,
+      "observed_days": 4,
+      "zero_tweet_days": 2,
+      "zero_tweet_dates": [
+        "2025-11-30",
+        "2025-12-01"
+      ],
+      "first_observed_date_wib": "2025-11-29",
+      "last_observed_date_wib": "2025-12-04",
+      "sentiment_counts": {
+        "NETRAL": 89,
+        "POSITIF": 46,
+        "NEGATIF": 7
+      },
+      "sentiment_percentages": {
+        "NETRAL": 62.6761,
+        "POSITIF": 32.3944,
+        "NEGATIF": 4.9296
+      },
+      "peak_daily_tweet_count": 54,
+      "peak_dates_wib": [
+        "2025-12-03"
+      ],
+      "peak_share_of_case_pct": 38.0282,
+      "relative_day_zero_definition": "first date in case observation window"
+    }
+  ],
+  "reused_original_figures": 8,
+  "methodological_boundaries": [
+    "Results describe collected and human-labeled tweets only",
+    "Observation windows differ between cases",
+    "Raw collection volume is not platform-wide activity",
+    "Zero-observation days do not indicate zero public discussion",
+    "Relative day zero means first observed date, not disaster onset",
+    "Minority NEGATIF class has only 15 tweets overall",
+    "No causal or population-level inference is supported",
+    "No new model training or prediction performed"
+  ],
+  "readiness_for_06_Result": {
+    "temporal_sources_validated": true,
+    "temporal_figures_validated": true,
+    "modeling_temporal_integration_not_yet_audited": true,
+    "next_step": "06_Result Part1 cross-phase integrity and results design"
+  },
+  "status": "TEMPORAL_PART5_FINDINGS_PREPARED"
+}
