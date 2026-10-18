@@ -1,0 +1,119 @@
+{
+  "stage": "04_Modeling",
+  "part": "19 Baseline vs LSTM Comparative Evaluation",
+  "generated_at_utc": "2026-10-18T14:09:52.284760+00:00",
+  "source_commit": "3e64a629182c3ebaa5261ac4ab10d26bd19e52dc",
+  "cv_configuration": "SGKF_3fold_seed123",
+  "total_rows": 348,
+  "labels": [
+    "NETRAL",
+    "POSITIF",
+    "NEGATIF"
+  ],
+  "cases": [
+    "lombok_2018",
+    "palu_2018",
+    "sumatra_2025"
+  ],
+  "model_metrics": {
+    "baseline": {
+      "accuracy": 0.7040229885057471,
+      "macro_precision": 0.7761078678977077,
+      "macro_recall": 0.4943209876543209,
+      "macro_f1": 0.5235550389755573,
+      "weighted_f1": 0.6898446419054788,
+      "per_class": {
+        "NETRAL": {
+          "precision": 0.751004016064257,
+          "recall": 0.8311111111111111,
+          "f1": 0.7890295358649789,
+          "support": 225
+        },
+        "POSITIF": {
+          "precision": 0.5773195876288659,
+          "recall": 0.5185185185185185,
+          "f1": 0.5463414634146342,
+          "support": 108
+        },
+        "NEGATIF": {
+          "precision": 1.0,
+          "recall": 0.13333333333333333,
+          "f1": 0.23529411764705882,
+          "support": 15
+        }
+      }
+    },
+    "lstm": {
+      "accuracy": 0.5862068965517241,
+      "macro_precision": 0.4759563075605055,
+      "macro_recall": 0.5596296296296296,
+      "macro_f1": 0.47512961484120647,
+      "weighted_f1": 0.6174523953009059,
+      "per_class": {
+        "NETRAL": {
+          "precision": 0.7942857142857143,
+          "recall": 0.6177777777777778,
+          "f1": 0.695,
+          "support": 225
+        },
+        "POSITIF": {
+          "precision": 0.4956521739130435,
+          "recall": 0.5277777777777778,
+          "f1": 0.5112107623318386,
+          "support": 108
+        },
+        "NEGATIF": {
+          "precision": 0.13793103448275862,
+          "recall": 0.5333333333333333,
+          "f1": 0.2191780821917808,
+          "support": 15
+        }
+      }
+    }
+  },
+  "accuracy_delta_lstm_minus_baseline": -0.11781609195402298,
+  "macro_f1_delta_lstm_minus_baseline": -0.04842542413435086,
+  "correct_predictions": {
+    "baseline": 245,
+    "lstm": 204
+  },
+  "error_predictions": {
+    "baseline": 103,
+    "lstm": 144
+  },
+  "paired_correctness_categories": {
+    "both_correct": 165,
+    "baseline_only_correct": 80,
+    "lstm_only_correct": 39,
+    "both_wrong": 64
+  },
+  "discordant_counts": {
+    "baseline_only_correct": 80,
+    "lstm_only_correct": 39
+  },
+  "prediction_agreement_count": 211,
+  "negative_class_findings": {
+    "baseline": {
+      "true_positive": 2,
+      "false_positive": 0,
+      "false_negative": 13,
+      "negative_predictions": 2,
+      "precision": 1.0,
+      "recall": 0.13333333333333333,
+      "f1": 0.23529411764705882
+    },
+    "lstm": {
+      "true_positive": 8,
+      "false_positive": 50,
+      "false_negative": 7,
+      "negative_predictions": 58,
+      "precision": 0.13793103448275862,
+      "recall": 0.5333333333333333,
+      "f1": 0.2191780821917808
+    }
+  },
+  "comparison_is_descriptive": true,
+  "independent_holdout_available": false,
+  "model_retrained_during_part19": false,
+  "status": "PART19_COMPARATIVE_ANALYSIS_COMPLETE"
+}

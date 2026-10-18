@@ -1,0 +1,40 @@
+{
+  "stage": "04_Modeling",
+  "part": "19 Paired OOF Comparison Audit",
+  "generated_at_utc": "2026-10-18T14:09:52.289750+00:00",
+  "source_commit": "3e64a629182c3ebaa5261ac4ab10d26bd19e52dc",
+  "source_sha256": {
+    "baseline_oof_predictions_348.csv": "916133d8a3b8698df6d1c9879cba1bbfbe38843fdb96453c3bff2392e74b4d67",
+    "baseline_evaluation_summary.json": "2a0e8b44ecd9555efa1d0a9bf043826b9d822bfd802dd33a7d60072074c8e3bb",
+    "lstm_oof_predictions_348.csv": "37e69ba1d914ba2ead64ee3cb71c99536e3bb145a548864c57ee567336ef57b8",
+    "lstm_evaluation_summary.json": "c1eb464d9526baa442eb9aeccb1e6f4650abb33cea73ddd2ad4a8bae40895f8d",
+    "lstm_training_execution_audit.json": "0391ef6235e7779d0da50002871859873f68745c515e043e0ccfb3c6188862f3",
+    "cv_final_assignments_348.csv": "f385531e2e6adaf7c8da6f0ce3d4c37838a2206634838039c65fb3c1fa01ad14",
+    "modeling_labeled_348_grouped.csv": "cfa7df27079ef47bdb1b0cb526bc017aa1c8fe18dc4d91fef870a3441e2e9fb7"
+  },
+  "paired_oof_rows": 348,
+  "unique_ids": 348,
+  "case_count": 3,
+  "labels_count": 3,
+  "models_compared": 2,
+  "source_fold_match": true,
+  "source_label_match": true,
+  "source_group_match": true,
+  "baseline_correct": 245,
+  "lstm_correct": 204,
+  "baseline_errors": 103,
+  "lstm_errors": 144,
+  "new_training_performed": false,
+  "source_modified": false,
+  "final_split_modified": false,
+  "status": "PART19_COMPARATIVE_AUDIT_PASS",
+  "output_sha256": {
+    "paired_oof_comparison_348.csv": "670a444614a124c1b80106aa9c733c0d6b1cb690fd0ab0f20c9841d431323b1a",
+    "model_comparison_metrics.csv": "712aa656e0e5cee36db6f11ac4c94b4e1295cb93f87faac71e57f521091e3c57",
+    "comparative_case_metrics.csv": "07d1947bae9390a550cf305bbc9f7929299e7d39a267497fe96d389491f8708d",
+    "comparative_class_metrics.csv": "781f1341fbcf049cd863c3683e9ce5990d4738aff7db7586c136fd7d1df38422",
+    "paired_error_categories.csv": "18bd2a154da14e967971cffbe0a18125e593a6da1834ad40f015ddea9bde1fbd",
+    "comparative_confusion_matrix.csv": "97b19d5ef84f845f5757d597c5f3f034b1e1e55723f5a554961a9ae9ffa59a4f",
+    "part19_comparative_summary.json": "009ab4bcb5acfec0db3d4791837d339ab70b7cd6bf241ee1df35d92d10360b7e"
+  }
+}
