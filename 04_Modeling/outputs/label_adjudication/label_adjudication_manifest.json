@@ -1,0 +1,27 @@
+{
+  "stage": "04_Modeling",
+  "part": "04 Label Adjudication Preparation",
+  "created_at_utc": "2026-10-18T10:00:21.325575+00:00",
+  "source_commit": "6b5c15f2ff09d865c6ae2854986627cc227ffc69",
+  "modeling_rows": 348,
+  "flagged_pairs": 2,
+  "unique_tweets_to_review": 4,
+  "flagged_pair_numbers": [
+    5,
+    9
+  ],
+  "source_hashes": {
+    "C:\\Penelitian Sentimen Bencana Nasional\\03_Labeling\\outputs\\final_labeling\\modeling_labeled_348.csv": "f3ba0bbffe98140e38270b666e2d4fbe21342f57d40c0b2d4ad70335caf88bfd",
+    "C:\\Penelitian Sentimen Bencana Nasional\\04_Modeling\\outputs\\near_duplicate_review\\label_review_flags.csv": "398965c3672010d941450077504ddc2d6a11fbbaf85ed52afd1b99a6f8c689b5",
+    "C:\\Penelitian Sentimen Bencana Nasional\\04_Modeling\\outputs\\near_duplicate_review\\near_duplicate_review_decisions.csv": "f265312f12118ece0082eaf91dc674fe08d4b05632f52ce6d29a012abdceb6b6",
+    "C:\\Penelitian Sentimen Bencana Nasional\\04_Modeling\\outputs\\near_duplicate_review\\review_validation_report.json": "630ff69dd0612f5915a42bd70b423759970ec40f2757616b3613ead71f582c77"
+  },
+  "snapshot_sha256": "1dcf6e86f7144a722395d7b0f9bac03f5490c80a71e0223c86ec19e8af29e677",
+  "workbook_sha256_at_creation": "a10f9cd90f0fbe639df8c393ee268052d8453b51a7db9583d4cd8a4b602bffa0",
+  "labels_modified": false,
+  "manual_review_completed": false,
+  "leakage_groups_created": false,
+  "split_created": false,
+  "training_started": false,
+  "status": "AWAITING_MANUAL_LABEL_ADJUDICATION"
+}
