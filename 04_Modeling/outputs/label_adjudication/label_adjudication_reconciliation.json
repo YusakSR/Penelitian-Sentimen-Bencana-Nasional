@@ -1,0 +1,48 @@
+{
+  "stage": "04_Modeling",
+  "part": "05 Label Adjudication Reconciliation",
+  "generated_at_utc": "2026-10-18T10:07:24.831223+00:00",
+  "source_commit": "daacbf4b109dc936440c8f5564cc2da2873a83fb",
+  "original_modeling_rows": 348,
+  "output_rows": 348,
+  "flagged_pairs": 2,
+  "reviewed_tweets": 4,
+  "kept_labels": 2,
+  "changed_labels": 2,
+  "reviewed_ids": [
+    "1027727426883805184",
+    "1027914286184550402",
+    "1046691986596495360",
+    "1046787140594618373"
+  ],
+  "changed_ids": [
+    "1027914286184550402",
+    "1046787140594618373"
+  ],
+  "label_distribution_before": {
+    "NETRAL": 223,
+    "POSITIF": 110,
+    "NEGATIF": 15
+  },
+  "label_distribution_after": {
+    "NETRAL": 225,
+    "POSITIF": 108,
+    "NEGATIF": 15
+  },
+  "source_input_sha256": {
+    "C:\\Penelitian Sentimen Bencana Nasional\\03_Labeling\\outputs\\final_labeling\\modeling_labeled_348.csv": "f3ba0bbffe98140e38270b666e2d4fbe21342f57d40c0b2d4ad70335caf88bfd",
+    "C:\\Penelitian Sentimen Bencana Nasional\\04_Modeling\\outputs\\label_adjudication\\label_adjudication_4.xlsx": "97f06380282182227eb30c47f9ba315c4aad5a878d791c7eec3e7f5fc0cd6ff6",
+    "C:\\Penelitian Sentimen Bencana Nasional\\04_Modeling\\outputs\\label_adjudication\\label_adjudication_snapshot.csv": "1dcf6e86f7144a722395d7b0f9bac03f5490c80a71e0223c86ec19e8af29e677",
+    "C:\\Penelitian Sentimen Bencana Nasional\\04_Modeling\\outputs\\label_adjudication\\label_adjudication_manifest.json": "755744f4a976722aedab0fdfd1fa0b8c3d2d51d03524171401c6566ef4cd375f",
+    "C:\\Penelitian Sentimen Bencana Nasional\\04_Modeling\\outputs\\near_duplicate_review\\label_review_flags.csv": "398965c3672010d941450077504ddc2d6a11fbbaf85ed52afd1b99a6f8c689b5"
+  },
+  "master_modeling_dataset_modified": false,
+  "leakage_grouping_created": false,
+  "split_created": false,
+  "training_started": false,
+  "status": "LABEL_ADJUDICATION_RECONCILIATION_PASS",
+  "output_sha256": {
+    "adjudicated_dataset": "edd4d99458c1e1b23d0a1cb132ec5f18583f56f115c98d49e75a8be54325c0b3",
+    "changelog": "4569ea8e2666f5053c01d3332f5ab2c89c41eac5b5b1806119453f6ebb796995"
+  }
+}
