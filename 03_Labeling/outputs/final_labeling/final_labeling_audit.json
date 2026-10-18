@@ -1,0 +1,50 @@
+{
+  "stage": "03_Labeling",
+  "part": "Final Labeling Audit and Modeling Handoff",
+  "generated_at_utc": "2026-10-18T09:01:58.702662+00:00",
+  "master_rows": 381,
+  "final_labeled_rows": 381,
+  "model_candidates": 348,
+  "nonselected_rows": 33,
+  "unique_text_groups": 348,
+  "duplicate_groups": 21,
+  "duplicate_rows": 54,
+  "duplicate_conflicts_remaining": 0,
+  "reviewed_adjudication_rows": 4,
+  "changed_labels": 2,
+  "missing_final_labels": 0,
+  "missing_annotation_notes": 0,
+  "original_master_modified": false,
+  "final_distribution_381": {
+    "NETRAL": 253,
+    "POSITIF": 113,
+    "NEGATIF": 15
+  },
+  "model_distribution_348": {
+    "NETRAL": 223,
+    "POSITIF": 110,
+    "NEGATIF": 15
+  },
+  "case_distribution_381": {
+    "sumatra_2025": 149,
+    "palu_2018": 118,
+    "lombok_2018": 114
+  },
+  "case_distribution_348": {
+    "sumatra_2025": 142,
+    "palu_2018": 105,
+    "lombok_2018": 101
+  },
+  "negative_class_share_pct": 4.3103,
+  "modeling_split_created": false,
+  "modeling_training_started": false,
+  "status": "READY_FOR_MODELING_PREPARATION",
+  "input_sha256": {
+    "C:\\Penelitian Sentimen Bencana Nasional\\03_Labeling\\outputs\\full_annotation\\full_annotation_381.xlsx": "661c0e340a51bd25ae1bc6901d7432dd2138d506a9081013dcb20e62c16a87e4",
+    "C:\\Penelitian Sentimen Bencana Nasional\\03_Labeling\\outputs\\final_labeling\\labeled_final_381.csv": "b3db3ed43664a876477354201f40e1f42bd23095766af3e9f5c6d2a901e06dc2",
+    "C:\\Penelitian Sentimen Bencana Nasional\\03_Labeling\\outputs\\final_labeling\\duplicate_label_changelog.csv": "f63924bc293c0ee2f0654d0aa8687c5fa8f3cde8849d7ebe11fa2a50ef1fcc11",
+    "C:\\Penelitian Sentimen Bencana Nasional\\03_Labeling\\outputs\\final_labeling\\duplicate_reconciliation.json": "9226cfdb70e749b565cd8c5f8b07da7f1fbcf5663b623c8873930dec52e79f87",
+    "C:\\Penelitian Sentimen Bencana Nasional\\03_Labeling\\inputs\\labeling_candidates_348.csv": "cce2022ec46cc911f7c697e14e04341f77f5606757ee96cfbf3427e07b18d04d"
+  },
+  "modeling_file_sha256": "f3ba0bbffe98140e38270b666e2d4fbe21342f57d40c0b2d4ad70335caf88bfd"
+}

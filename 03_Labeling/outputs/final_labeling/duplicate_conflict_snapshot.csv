@@ -1,0 +1,9 @@
+﻿case,id,duplicate_group_id,text_original,text_semantic_verified,final_text_hash,model_selection_status,sentiment_label,label_notes,annotation_status,annotator,labeled_at
+palu_2018,1046695376504291328,c47204a7bfba4814,"Apa ini alasan Bencana Nasional tak ditetapkan untuk Lombok dan Palu?
+
+Padahal Uang Pertemuan IMF ini bsa buat tanggap darurat",Apa ini alasan Bencana Nasional tak ditetapkan untuk Lombok dan Palu? Padahal Uang Pertemuan IMF ini bsa buat tanggap darurat,d22e39bce855585a7d7c0224fc66972c45b57032ae9e720dbe49ce96b9635214,SELECTED_REPRESENTATIVE,POSITIF,menunjukkan dukungan untuk penetapan bencana nasional,LABELED,Mariana,2026-10-18 00:00:00
+palu_2018,1046727803301838848,c47204a7bfba4814,"Apa ini alasan Bencana Nasional tak ditetapkan untuk Lombok dan Palu?
+
+Padahal Uang Pertemuan IMF ini bsa buat tanggap darurat https://t.co/bgFiQAiQDk",Apa ini alasan Bencana Nasional tak ditetapkan untuk Lombok dan Palu? Padahal Uang Pertemuan IMF ini bsa buat tanggap darurat,d22e39bce855585a7d7c0224fc66972c45b57032ae9e720dbe49ce96b9635214,GROUP_MEMBER_NOT_SELECTED,NETRAL,hanya menyampaikan informasi saja,LABELED,Mariana,2026-10-18 00:00:00
+palu_2018,1046688954014031872,dda331d2c37d509d,DPD Desak Pemerintah Tetapkan Tsunami dan Gempa Palu sebagai Bencana Nasional https://t.co/rBPkLFRPd9 ..,DPD Desak Pemerintah Tetapkan Tsunami dan Gempa Palu sebagai Bencana Nasional ..,d691b5606b243de8706914e1f6fb2391da56242b77b4909bdda94ddc5d5e66c5,SELECTED_REPRESENTATIVE,NETRAL,hanya menyampaikan informasi saja,LABELED,Mariana,2026-10-18 00:00:00
+palu_2018,1046689466507620352,dda331d2c37d509d,DPD Desak Pemerintah Tetapkan Tsunami dan Gempa Palu sebagai Bencana Nasional https://t.co/K1MVpwKoHO ..,DPD Desak Pemerintah Tetapkan Tsunami dan Gempa Palu sebagai Bencana Nasional ..,d691b5606b243de8706914e1f6fb2391da56242b77b4909bdda94ddc5d5e66c5,GROUP_MEMBER_NOT_SELECTED,POSITIF,menunjukkan dukungan untuk penetapan bencana nasional,LABELED,Mariana,2026-10-18 00:00:00

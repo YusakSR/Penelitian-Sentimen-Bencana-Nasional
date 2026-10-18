@@ -1,0 +1,14 @@
+{
+  "stage": "03_Labeling",
+  "part": "Duplicate Adjudication Reconciliation",
+  "total_tweets": 381,
+  "reviewed_rows": 4,
+  "reviewed_groups": 2,
+  "changed_labels": 2,
+  "kept_labels": 2,
+  "total_duplicate_groups": 21,
+  "total_duplicate_rows": 54,
+  "conflicting_groups_remaining": 0,
+  "master_modified": false,
+  "status": "DUPLICATE_RECONCILIATION_PASS"
+}

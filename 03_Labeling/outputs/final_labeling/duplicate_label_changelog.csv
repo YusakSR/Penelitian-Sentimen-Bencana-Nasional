@@ -1,0 +1,5 @@
+﻿case,id,duplicate_group_id,previous_label,final_label,adjudication_decision,adjudication_notes,reviewer,reviewed_at
+palu_2018,1046695376504291328,c47204a7bfba4814,POSITIF,POSITIF,KEEP,menunjukkan dukungan untuk penetapan bencana,Yusak,2026-10-18
+palu_2018,1046727803301838848,c47204a7bfba4814,NETRAL,POSITIF,CHANGE,menunjukkan dukungan untuk penetapan bencana,Yusak,2026-10-18
+palu_2018,1046688954014031872,dda331d2c37d509d,NETRAL,NETRAL,KEEP,hanya menyampaikan informasi,Yusak,2026-10-18
+palu_2018,1046689466507620352,dda331d2c37d509d,POSITIF,NETRAL,CHANGE,hanya menyampaikan informasi,Yusak,2026-10-18

@@ -1,0 +1,10 @@
+{
+  "stage": "03_Labeling",
+  "part": "Duplicate Label Adjudication",
+  "master_sha256": "661c0e340a51bd25ae1bc6901d7432dd2138d506a9081013dcb20e62c16a87e4",
+  "snapshot_sha256": "988c1c6492e0609ad197ba83e4d46414426f357df210eba59f851f9a04ded35f",
+  "duplicate_groups": 21,
+  "conflict_groups": 2,
+  "conflict_rows": 4,
+  "status": "AWAITING_MANUAL_ADJUDICATION"
+}
