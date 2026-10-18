@@ -1,0 +1,4 @@
+﻿configuration,seed,n_splits,minimum_validation_negative,maximum_case_tv,mean_case_tv,all_folds_within_threshold,all_classes_present,all_cases_present,group_leakage_count,matches_part8_current_lock,balance_rank
+SGKF_3fold_seed123,123,3,5,0.02298851,0.01724138,True,True,True,0,False,1
+SGKF_3fold_seed2026,2026,3,5,0.0316092,0.02586207,True,True,True,0,False,2
+SGKF_3fold_seed42,42,3,5,0.10344828,0.06896552,False,True,True,0,True,3

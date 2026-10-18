@@ -1,0 +1,44 @@
+{
+  "stage": "04_Modeling",
+  "part": "09 Cross-Case Balance Review",
+  "generated_at_utc": "2026-10-18T10:42:58.806366+00:00",
+  "source_commit": "512407250910322d7649ea3549657032f498b5b3",
+  "dataset_rows": 348,
+  "unique_leakage_groups": 337,
+  "cv_method": "StratifiedGroupKFold",
+  "n_splits": 3,
+  "seeds_compared": [
+    42,
+    123,
+    2026
+  ],
+  "current_locked_configuration": "SGKF_3fold_seed42",
+  "recommended_configuration": "SGKF_3fold_seed123",
+  "recommended_seed": 123,
+  "maximum_case_tv_recommended": 0.02298851,
+  "case_balance_threshold": 0.1,
+  "eligible_seed_count": 2,
+  "ranking_rule": "Qualify on maximum case total variation <= 0.10; rank by minimum worst-fold case TV, then mean case TV, then seed. All configurations must have complete class/case coverage and zero group leakage.",
+  "part8_assignment_reproduced": true,
+  "source_hashes": {
+    "modeling_labeled_348_grouped.csv": "cfa7df27079ef47bdb1b0cb526bc017aa1c8fe18dc4d91fef870a3441e2e9fb7",
+    "leakage_group_audit.json": "484798ca3768c5dc3ffd026a8a0e99715bf659c92780aa8f1b5f300940e6ecea",
+    "cv_feasibility_audit.json": "172cbc88a169234ce580c9406334cf99ffe5ea839de2803a782181e1e02806a8",
+    "cv_feasibility_candidates.csv": "59cc90675d03853309b80b5a1eea01cf39bf760ce6cb2cc4d45436508abb5791",
+    "cv_split_lock_manifest.json": "41c55cec4ca66fe62bb4c4e9ba764302ded6093d4ee3603a6aa080fb028bb584",
+    "cv_fold_assignments_348.csv": "a4db37d663dbeb20cbe2ef5f3b7b2fd51fa6ef070316f60fc68551a54ebefb9d"
+  },
+  "source_modified": false,
+  "part8_lock_overwritten": false,
+  "new_split_manifest_created": false,
+  "model_performance_used_for_selection": false,
+  "tokenizer_fitted": false,
+  "model_trained": false,
+  "training_allowed": false,
+  "approval_status": "RELOCK_REQUIRED",
+  "next_action": "A better balanced alternative was found. Explicitly generate and audit a NEW split manifest in the next stage before modeling.",
+  "output_sha256": {
+    "fold_comparison": "42d778778a6a83ca5faa564ea33695afd1b6f0d8727b7dfa5f589d77a6881bf8",
+    "candidate_comparison": "261a3cc7c2edac8ada2a821f7706ba75a8c622b2fc3c8bf970764d5286826053"
+  }
+}

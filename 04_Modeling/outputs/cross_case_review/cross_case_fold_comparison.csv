@@ -1,0 +1,10 @@
+﻿configuration,seed,fold,train_rows,validation_rows,train_groups,validation_groups,val_NETRAL,val_POSITIF,val_NEGATIF,val_lombok_2018,val_palu_2018,val_sumatra_2025,case_total_variation,case_balance_within_threshold,group_leakage_count
+SGKF_3fold_seed42,42,1,232,116,225,112,75,36,5,37,29,50,0.05172414,True,0
+SGKF_3fold_seed42,42,2,232,116,225,112,75,36,5,28,47,41,0.10344828,False,0
+SGKF_3fold_seed42,42,3,232,116,224,113,75,36,5,36,29,51,0.05172414,True,0
+SGKF_3fold_seed123,123,1,232,116,225,112,75,36,5,31,36,49,0.02298851,True,0
+SGKF_3fold_seed123,123,2,232,116,225,112,75,36,5,34,34,48,0.00862069,True,0
+SGKF_3fold_seed123,123,3,232,116,224,113,75,36,5,36,35,45,0.02011494,True,0
+SGKF_3fold_seed2026,2026,1,232,116,226,111,75,36,5,36,35,45,0.02011494,True,0
+SGKF_3fold_seed2026,2026,2,232,116,224,113,75,36,5,30,38,48,0.0316092,True,0
+SGKF_3fold_seed2026,2026,3,232,116,224,113,75,36,5,35,32,49,0.02586207,True,0
