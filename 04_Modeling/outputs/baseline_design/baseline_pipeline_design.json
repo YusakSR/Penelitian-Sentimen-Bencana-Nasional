@@ -1,0 +1,107 @@
+{
+  "stage": "04_Modeling",
+  "part": "11 Leakage-Safe Baseline Design",
+  "created_at_utc": "2026-10-18T11:00:11.109620+00:00",
+  "source_commit": "e009454",
+  "baseline_name": "TFIDF_LogisticRegression",
+  "cv_configuration": "SGKF_3fold_seed123",
+  "n_splits": 3,
+  "random_state": 123,
+  "text_column": "text_linguistic",
+  "label_column": "sentiment_label",
+  "label_order": [
+    "NETRAL",
+    "POSITIF",
+    "NEGATIF"
+  ],
+  "parameters": {
+    "vectorizer": {
+      "class": "TfidfVectorizer",
+      "analyzer": "word",
+      "ngram_range": [
+        1,
+        2
+      ],
+      "min_df": 2,
+      "max_df": 1.0,
+      "max_features": 20000,
+      "lowercase": false,
+      "strip_accents": null,
+      "sublinear_tf": true,
+      "norm": "l2",
+      "use_idf": true,
+      "smooth_idf": true
+    },
+    "classifier": {
+      "class": "LogisticRegression",
+      "C": 1.0,
+      "class_weight": "balanced",
+      "max_iter": 2000,
+      "solver": "lbfgs",
+      "random_state": 123
+    }
+  },
+  "training_policy": {
+    "per_fold_sequence": [
+      "Load locked fold assignments",
+      "Select train IDs (validation_fold != k)",
+      "Select validation IDs (validation_fold == k)",
+      "Instantiate fresh sklearn Pipeline for fold k",
+      "Fit TF-IDF vocabulary and IDF on training text only",
+      "Fit Logistic Regression on training labels only",
+      "Transform validation text using fitted train TF-IDF",
+      "Predict validation labels",
+      "Save per-tweet predictions and metrics",
+      "Discard/reinitialize the fitted pipeline before next fold"
+    ],
+    "fit_scope": "training_fold_only",
+    "validation_fit_allowed": false,
+    "full_dataset_fit_allowed": false,
+    "cross_fold_model_reuse_allowed": false,
+    "validation_labels_for_tuning_allowed": false,
+    "data_learned_stopwords_allowed": false,
+    "global_vocabulary_allowed": false,
+    "validation_evaluation_only": true,
+    "train_only_class_weights": true,
+    "text_input_column": "text_linguistic",
+    "model_selection_note": "Baseline settings are predeclared, not selected after viewing CV performance."
+  },
+  "evaluation_design": {
+    "primary_metric": "macro_f1",
+    "secondary_metrics": [
+      "accuracy",
+      "weighted_f1",
+      "macro_precision",
+      "macro_recall",
+      "per_class_precision",
+      "per_class_recall",
+      "per_class_f1",
+      "per_class_support",
+      "confusion_matrix"
+    ],
+    "fixed_label_order": [
+      "NETRAL",
+      "POSITIF",
+      "NEGATIF"
+    ],
+    "zero_division": 0,
+    "per_fold_reporting": true,
+    "out_of_fold_predictions_required": true,
+    "overall_oof_macro_f1_required": true,
+    "report_mean_and_std_across_folds": true,
+    "minority_class_warning": "Only 5 NEGATIF samples per validation fold. Per-class scores may be unstable.",
+    "no_final_holdout_test_claim": true
+  },
+  "sklearn_version": "1.9.1",
+  "source_sha256": {
+    "modeling_labeled_348_grouped.csv": "cfa7df27079ef47bdb1b0cb526bc017aa1c8fe18dc4d91fef870a3441e2e9fb7",
+    "leakage_group_audit.json": "484798ca3768c5dc3ffd026a8a0e99715bf659c92780aa8f1b5f300940e6ecea",
+    "cv_final_assignments_348.csv": "f385531e2e6adaf7c8da6f0ce3d4c37838a2206634838039c65fb3c1fa01ad14",
+    "cv_final_lock_manifest.json": "956b6498b94d61c6b683cb07403b84a975667f05ea5cbeea70ece25a383cb7e2"
+  },
+  "pipeline_constructed": true,
+  "pipeline_fitted": false,
+  "baseline_training_started": false,
+  "lstm_training_started": false,
+  "status": "BASELINE_DESIGN_READY"
+}

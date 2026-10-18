@@ -1,0 +1,78 @@
+{
+  "stage": "04_Modeling",
+  "part": "11 Baseline Preprocessing Preflight",
+  "generated_at_utc": "2026-10-18T11:00:11.109848+00:00",
+  "source_commit": "e009454",
+  "source_rows": 348,
+  "unique_groups": 337,
+  "cv_configuration": "SGKF_3fold_seed123",
+  "folds_checked": 3,
+  "execution_plan_rows": 1044,
+  "train_rows_per_fold": 232,
+  "validation_rows_per_fold": 116,
+  "validation_NEGATIF_per_fold": 5,
+  "all_ids_reconciled": true,
+  "group_leakage_count": 0,
+  "text_diagnostics": {
+    "rows": 348,
+    "empty_text_rows": 0,
+    "min_words": 5,
+    "median_words": 26.0,
+    "max_words": 804,
+    "min_characters": 37,
+    "median_characters": 178.0,
+    "max_characters": 5975
+  },
+  "fold_summary": [
+    {
+      "fold": 1,
+      "train_rows": 232,
+      "validation_rows": 116,
+      "train_groups": 225,
+      "validation_groups": 112,
+      "train_NEGATIF": 10,
+      "validation_NEGATIF": 5,
+      "group_leakage_count": 0
+    },
+    {
+      "fold": 2,
+      "train_rows": 232,
+      "validation_rows": 116,
+      "train_groups": 225,
+      "validation_groups": 112,
+      "train_NEGATIF": 10,
+      "validation_NEGATIF": 5,
+      "group_leakage_count": 0
+    },
+    {
+      "fold": 3,
+      "train_rows": 232,
+      "validation_rows": 116,
+      "train_groups": 224,
+      "validation_groups": 113,
+      "train_NEGATIF": 10,
+      "validation_NEGATIF": 5,
+      "group_leakage_count": 0
+    }
+  ],
+  "source_hashes": {
+    "modeling_labeled_348_grouped.csv": "cfa7df27079ef47bdb1b0cb526bc017aa1c8fe18dc4d91fef870a3441e2e9fb7",
+    "leakage_group_audit.json": "484798ca3768c5dc3ffd026a8a0e99715bf659c92780aa8f1b5f300940e6ecea",
+    "cv_final_assignments_348.csv": "f385531e2e6adaf7c8da6f0ce3d4c37838a2206634838039c65fb3c1fa01ad14",
+    "cv_final_lock_manifest.json": "956b6498b94d61c6b683cb07403b84a975667f05ea5cbeea70ece25a383cb7e2"
+  },
+  "original_dataset_modified": false,
+  "final_split_modified": false,
+  "tfidf_fitted": false,
+  "classifier_fitted": false,
+  "tokenizer_fitted": false,
+  "predictions_created": false,
+  "baseline_training_started": false,
+  "lstm_training_started": false,
+  "training_allowed": false,
+  "status": "BASELINE_PREFLIGHT_PASS",
+  "output_sha256": {
+    "baseline_design": "fabece1545e1260038cc82a20e4ff06db940cc1fec835cd8b94f6b0928eae88e",
+    "fold_execution_plan": "aec8533da99e9696266ddf89b8789fa41be212146de103070ce9b4a09d00e973"
+  }
+}
