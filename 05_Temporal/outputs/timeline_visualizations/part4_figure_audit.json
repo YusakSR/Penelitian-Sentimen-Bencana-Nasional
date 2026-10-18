@@ -1,0 +1,32 @@
+{
+  "stage": "05_Temporal",
+  "part": "4 Timeline Figure Audit",
+  "generated_at_utc": "2026-10-18T15:44:51.432775+00:00",
+  "source_commit": "664de8ba4ebca944a4a5f529848f18122f6691d4",
+  "source_sha256": {
+    "daily_sentiment_counts_20_days.csv": "4e4e1fd9e8b4e25b1aef729905b81306dd55a0d8053a2b509cee5d8acf89df21",
+    "daily_sentiment_long_60_rows.csv": "2458f2a2fbfc3dcf2c8481233fa480685f130153d3dddd721b99fb5aa46e54c9",
+    "daily_temporal_coverage.csv": "aae38c63e7c155067f5773f370efdb315566a8ac0d4450999b8f74eeefa423f1",
+    "part3_daily_aggregation_summary.json": "53ce375c9e22416cc3cd62495164d533d298070b6806aae77a6ce66adf92377d",
+    "part3_daily_aggregation_audit.json": "5df5e887f1e491568285801948755774eed889815ed865fc59f16c4490e6faea"
+  },
+  "figure_count": 8,
+  "valid_png_count": 8,
+  "zero_observation_days_retained": true,
+  "undefined_daily_percentages_not_interpolated": true,
+  "source_dataset_modified": false,
+  "model_training_performed": false,
+  "output_sha256": {
+    "01_lombok_daily_counts.png": "b57c6e2ab57e506a39eaaceb476325b92a2f699ab39260feee169da328c69eba",
+    "02_palu_daily_counts.png": "36f8f1a3ea9b7572ea56a85bfffbcf5d547decd2722d60ae464305eba54766d8",
+    "03_sumatra_daily_counts.png": "70c7c7377bf05929c5e95d05c3d20b1910ec4aef7d379389dd3e85d24a2c77f6",
+    "04_lombok_daily_percentage.png": "968233f3d672eac4f93cf46215fb021cc65aa8253215cf1a047101b2d1c1322f",
+    "05_palu_daily_percentage.png": "5de7458ac2ff99816969687737dd7d21a18581f005d038c46a75e47d6fd00ef4",
+    "06_sumatra_daily_percentage.png": "cdc95e819b2e79de64ccfecff3206bcaf0e995e959d118d8d2fc684cd15b8d3f",
+    "07_relative_day_tweet_volume.png": "f372e20f3c19becfdb8cef652a1adc44ed48713e7f4e0373b2274373372a14af",
+    "08_sentiment_composition_by_case.png": "2870e85c9791ee31b4c8cbba90f582602c052cc4e556769c3225d73bdb77f5c7",
+    "temporal_figure_registry.csv": "b969092b3d29b64c48c37113438437867d050d2ae0120b350e5dc1918268cee6",
+    "part4_visualization_summary.json": "d275754823765cf399ff9092fea858370a417cac8afd369b1d5d3eac9d6b5952"
+  },
+  "status": "TEMPORAL_PART4_FIGURE_AUDIT_PASS"
+}

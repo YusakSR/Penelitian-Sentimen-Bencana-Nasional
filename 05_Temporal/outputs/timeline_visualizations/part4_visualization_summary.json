@@ -1,0 +1,47 @@
+{
+  "stage": "05_Temporal",
+  "part": "4 Sentiment Timeline Visualization",
+  "generated_at_utc": "2026-10-18T15:44:51.431781+00:00",
+  "source_commit": "664de8ba4ebca944a4a5f529848f18122f6691d4",
+  "source_part3_status": "TEMPORAL_PART3_DAILY_AGGREGATION_PASS",
+  "figure_count": 8,
+  "daily_rows": 20,
+  "long_rows": 60,
+  "total_tweets": 348,
+  "daily_zero_tweet_days": 5,
+  "timezone": "Asia/Jakarta",
+  "relative_day_definition": "Days since first observed date per case",
+  "source_labels": "locked_human_annotation",
+  "percentage_gap_policy": "Undefined on zero-observation dates; no interpolation",
+  "case_coverage": [
+    {
+      "case": "lombok_2018",
+      "calendar_days": 9,
+      "observed_days": 6,
+      "zero_tweet_days": 3,
+      "total_tweets": 101,
+      "peak_observed_date": "2018-08-10",
+      "peak_daily_tweet_count": 24
+    },
+    {
+      "case": "palu_2018",
+      "calendar_days": 5,
+      "observed_days": 5,
+      "zero_tweet_days": 0,
+      "total_tweets": 105,
+      "peak_observed_date": "2018-10-01",
+      "peak_daily_tweet_count": 36
+    },
+    {
+      "case": "sumatra_2025",
+      "calendar_days": 6,
+      "observed_days": 4,
+      "zero_tweet_days": 2,
+      "total_tweets": 142,
+      "peak_observed_date": "2025-12-03",
+      "peak_daily_tweet_count": 54
+    }
+  ],
+  "model_training_performed": false,
+  "status": "TEMPORAL_PART4_FIGURES_COMPLETE"
+}
