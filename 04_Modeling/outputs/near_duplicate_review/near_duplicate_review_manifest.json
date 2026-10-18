@@ -1,0 +1,24 @@
+{
+  "stage": "04_Modeling",
+  "part": "02 Near-Duplicate Review Preparation",
+  "created_at_utc": "2026-10-18T09:36:35.524197+00:00",
+  "source_commit": "4bfe3d3780026a2be95938c40fe31193324fb7cc",
+  "total_modeling_rows": 348,
+  "review_pairs": 12,
+  "different_label_pairs": 3,
+  "near_duplicate_threshold": 0.8,
+  "source_hashes": {
+    "modeling_dataset": "f3ba0bbffe98140e38270b666e2d4fbe21342f57d40c0b2d4ad70335caf88bfd",
+    "near_duplicate_source": "83e7b6312547b666bb85ea8500f766be224e134ea8023863dbe3a895cfb9ac38",
+    "preflight_report": "9717a168400aa02496d65c0f82c1205cb278eab3993134d5dfa68dfbc21dcdb3"
+  },
+  "snapshot_sha256": "4608a95d0fcd5a57e1a27371fbe2cebadc7c105a1e9162375398a30972b6efda",
+  "review_workbook_sha256_at_creation": "c16130e1e65da7a5badd149f3493af8859347dd304775f44cc245dda1a589c2b",
+  "reviewed_pairs": 0,
+  "labels_modified": false,
+  "source_data_modified": false,
+  "leakage_groups_created": false,
+  "split_created": false,
+  "training_started": false,
+  "status": "AWAITING_MANUAL_NEAR_DUPLICATE_REVIEW"
+}
