@@ -1,0 +1,42 @@
+{
+  "stage": "04_Modeling",
+  "part": "16 LSTM Build, Masking and Forward Pass",
+  "generated_at_utc": "2026-10-18T12:45:18.779043+00:00",
+  "source_commit": "776b3f916ca2d674085c68f351cbc445d6921b14",
+  "dataset_rows": 348,
+  "unique_groups": 337,
+  "cv_configuration": "SGKF_3fold_seed123",
+  "architecture_id": "LSTM_SMALL_V1",
+  "expected_parameters": 168419,
+  "actual_parameters": 168419,
+  "model_build_pass": true,
+  "model_compile_pass": true,
+  "forward_pass_shape_pass": true,
+  "softmax_pass": true,
+  "masking_cases_checked": 3,
+  "masking_pass": true,
+  "weights_unchanged": true,
+  "model_fit_calls": 0,
+  "train_on_batch_calls": 0,
+  "optimizer_update_calls": 0,
+  "source_sha256": {
+    "modeling_labeled_348_grouped.csv": "cfa7df27079ef47bdb1b0cb526bc017aa1c8fe18dc4d91fef870a3441e2e9fb7",
+    "cv_final_assignments_348.csv": "f385531e2e6adaf7c8da6f0ce3d4c37838a2206634838039c65fb3c1fa01ad14",
+    "cv_final_lock_manifest.json": "956b6498b94d61c6b683cb07403b84a975667f05ea5cbeea70ece25a383cb7e2",
+    "lstm_architecture_v1.json": "a73fefb599f9eb7cdf08dbbdc7a1b0e2e3a0c97062e4eeb19c0bf1c3e7d61521",
+    "lstm_preflight_audit.json": "76c6ce81b7c33079eaec21106374677e98218f8337b538c669a5576f0a7be43a",
+    "tensorflow_runtime_report.json": "89b0a991b0acef6ecec1b89d4e94f5d26a6f3c79c7aff1d8be19f99bcff7ba0e",
+    "tokenizer_fold_isolation.csv": "3e2e5068e273eaaffcde230e82e3bc89dc38534c4c19da0edffc3406c24aa6ef",
+    "part15_runtime_audit.json": "1906cbf6e75bb5f1f9fb78d014f456168f10c060a29b8b0bb4722b6d39d0214f"
+  },
+  "source_modified": false,
+  "final_cv_split_modified": false,
+  "tokenizer_adapted": false,
+  "lstm_trained": false,
+  "training_allowed": false,
+  "status": "PART16_MODEL_FORWARD_PREFLIGHT_PASS",
+  "output_sha256": {
+    "model_report": "c762b95f336211e0172ec197fde102807fafcc6b9436b3c5152404cfa64a4c92",
+    "masking_tests": "5188f9b874f3e979c106e6ed16828c3dcdd24fb727584938070322e361340316"
+  }
+}

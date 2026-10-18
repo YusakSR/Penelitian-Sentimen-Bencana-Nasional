@@ -1,0 +1,4 @@
+﻿test_name,sequence_length,non_padding_tokens,padding_tokens,max_abs_probability_difference,masking_equivalence_pass
+right_padding,128,4,124,0.0,True
+leading_padding,128,4,124,0.0,True
+interleaved_padding,128,4,124,0.0,True

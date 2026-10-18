@@ -1,0 +1,43 @@
+{
+  "stage": "04_Modeling",
+  "part": "16 LSTM Architecture Forward Preflight",
+  "generated_at_utc": "2026-10-18T12:45:18.779043+00:00",
+  "source_commit": "776b3f916ca2d674085c68f351cbc445d6921b14",
+  "cv_configuration": "SGKF_3fold_seed123",
+  "architecture_id": "LSTM_SMALL_V1",
+  "python_version": "3.12.15",
+  "tensorflow_version": "2.21.0",
+  "keras_version": "3.15.1",
+  "model_name": "LSTM_SMALL_V1",
+  "input_shape": [
+    null,
+    128
+  ],
+  "output_shape": [
+    null,
+    3
+  ],
+  "layers": [
+    "InputLayer",
+    "Embedding",
+    "LSTM",
+    "Dropout",
+    "Dense"
+  ],
+  "actual_parameter_count": 168419,
+  "expected_parameter_count": 168419,
+  "embedding_mask_zero": true,
+  "loss": "sparse_categorical_crossentropy",
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "synthetic_forward_pass": true,
+  "softmax_normalization_verified": true,
+  "padding_mask_equivalence_verified": true,
+  "weights_unchanged_after_inference": true,
+  "tokenizer_adapted_during_part16": false,
+  "actual_tweets_used_for_forward_pass": 0,
+  "model_compiled": true,
+  "model_trained": false,
+  "training_allowed": false,
+  "status": "LSTM_FORWARD_PREFLIGHT_PASS"
+}
