@@ -1,0 +1,26 @@
+{
+  "stage": "05_Temporal",
+  "part": "2 Timestamp Integrity Audit",
+  "generated_at_utc": "2026-10-18T15:27:18.994971+00:00",
+  "modeling_rows_preserved": true,
+  "modeling_ids_preserved": true,
+  "modeling_cases_preserved": true,
+  "modeling_labels_preserved": true,
+  "leakage_groups_preserved": true,
+  "raw_timestamp_parse_errors": 0,
+  "raw_file_read_errors": 0,
+  "missing_timestamp_ids": 0,
+  "conflicting_timestamp_ids": 0,
+  "canonical_rows": 348,
+  "canonical_unique_ids": 348,
+  "source_dataset_modified": false,
+  "raw_files_modified": false,
+  "model_training_performed": false,
+  "status": "TEMPORAL_PART2_TIMESTAMP_LOCK_PASS",
+  "output_sha256": {
+    "temporal_labeled_348_locked.csv": "4ade3c2d0832f929e0a70ec0ae921653abdcb2aecf715a76fe0c274e674b5267",
+    "timestamp_source_provenance.csv": "8126377c8c0baff43e9034304a43cf0f3b801d752279c561723a9c23df84bae4",
+    "timestamp_coverage_by_case.csv": "533c0781358276ace3b2cf36e201c3a7321b7e5ceb4dc52ef3f33730405d69e8",
+    "temporal_timestamp_lock_manifest.json": "288fa49f1e96ae9d8d25633a338b56c53dff0107adbc1710e69de06eaea65189"
+  }
+}
