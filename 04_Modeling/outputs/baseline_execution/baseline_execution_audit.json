@@ -1,0 +1,50 @@
+{
+  "stage": "04_Modeling",
+  "part": "12 Leakage-Safe Baseline Execution",
+  "generated_at_utc": "2026-10-18T11:17:31.856237+00:00",
+  "source_commit": "d3f8ba75c9867be101b95c252da71ce36ea8d19c",
+  "dataset_rows": 348,
+  "unique_leakage_groups": 337,
+  "cv_configuration": "SGKF_3fold_seed123",
+  "n_folds": 3,
+  "training_rows_per_fold": 232,
+  "validation_rows_per_fold": 116,
+  "oof_rows": 348,
+  "unique_oof_ids": 348,
+  "vectorizer_fit_scope": "training_fold_only",
+  "classifier_fit_scope": "training_fold_only",
+  "fresh_pipeline_per_fold": true,
+  "global_vocabulary_fit": false,
+  "validation_fit": false,
+  "group_leakage_count": 0,
+  "vocabulary_sizes_by_fold": {
+    "1": 1380,
+    "2": 1580,
+    "3": 1492
+  },
+  "convergence_warnings_by_fold": {
+    "1": [],
+    "2": [],
+    "3": []
+  },
+  "source_sha256": {
+    "modeling_labeled_348_grouped.csv": "cfa7df27079ef47bdb1b0cb526bc017aa1c8fe18dc4d91fef870a3441e2e9fb7",
+    "leakage_group_audit.json": "484798ca3768c5dc3ffd026a8a0e99715bf659c92780aa8f1b5f300940e6ecea",
+    "cv_final_assignments_348.csv": "f385531e2e6adaf7c8da6f0ce3d4c37838a2206634838039c65fb3c1fa01ad14",
+    "cv_final_lock_manifest.json": "956b6498b94d61c6b683cb07403b84a975667f05ea5cbeea70ece25a383cb7e2",
+    "baseline_pipeline_design.json": "fabece1545e1260038cc82a20e4ff06db940cc1fec835cd8b94f6b0928eae88e",
+    "baseline_fold_execution_plan.csv": "aec8533da99e9696266ddf89b8789fa41be212146de103070ce9b4a09d00e973",
+    "baseline_preflight_audit.json": "8946f989bc3354ba4605c48441e1d8c29e4e8d6895a97c49f8f4f1954a00dfed"
+  },
+  "source_files_modified": false,
+  "split_files_modified": false,
+  "lstm_training_started": false,
+  "status": "BASELINE_EXECUTION_PASS",
+  "output_sha256": {
+    "oof_predictions": "916133d8a3b8698df6d1c9879cba1bbfbe38843fdb96453c3bff2392e74b4d67",
+    "fold_metrics": "7a845b4c8fe834998a1ca46d5cafc96284fb34955b57bb411c306d3e3d7cbcb8",
+    "class_metrics": "8fc2b9fb0300980fb2c49ae0bc458157e7ee05da8b6801e6ef6032bc3598734a",
+    "confusion_matrix": "1a84fe50df38b0d30b61baf4ad5f67f5bf8ab3bec719184f11beae02b6dbc727",
+    "evaluation_summary": "2a0e8b44ecd9555efa1d0a9bf043826b9d822bfd802dd33a7d60072074c8e3bb"
+  }
+}
