@@ -1,0 +1,48 @@
+{
+  "stage": "06_Result",
+  "part": "3 Results Visualization and Figure Selection",
+  "generated_at_utc": "2026-10-18T16:38:49.117635+00:00",
+  "source_commit": "e4b8124a413f01763497ca8d098d1af3412f71db",
+  "source_sha256": {
+    "06_Result/outputs/cross_phase_integrity/integrated_figure_registry_17.csv": "2b5cbfc8778d994d4665df0a8a5ec443ce3ff9404c16c4399caaec7bc46ff4c7",
+    "06_Result/outputs/cross_phase_integrity/part1_cross_phase_integrity_audit.json": "ce107cb16423c47753aa5b28e06ab76c309ec449aa9130a50fe2d4ee005ead80",
+    "06_Result/outputs/consolidated_results/part2_consolidated_results_audit.json": "9015ddf1a47cf374438ab666f375ca6796c48b6525d205950fccc476a24f2946",
+    "06_Result/outputs/consolidated_results/consolidated_model_evaluation.csv": "494fc1b114c1a01ad16d5e2f361878ad7a0cd777e1c1da41b0af4d53c5d8d539",
+    "06_Result/outputs/consolidated_results/consolidated_temporal_findings.csv": "bababb1ffe0c7f8c316307f276b4beeccc2e995f8672b6d666fef5a8c3bff1bb",
+    "06_Result/outputs/consolidated_results/model_error_analysis_by_class.csv": "b48c2e4718ab37a7f2d6583a90afd190b28b183f40480c77575053d06f0786ac"
+  },
+  "original_figure_sha256": {
+    "04_Modeling/outputs/lstm_visualizations/05_baseline_vs_lstm_overall_metrics.png": "1df86bf5fef49e5bd93c4d8ebfafec1cb89e0d9d8ca0efb5dadd264c108dc5fb",
+    "04_Modeling/outputs/lstm_visualizations/04_confusion_matrix_lstm.png": "2a0d5adae3136e31282f8eebf2ffceb61920071e841bdf1942dfa7b54496027b",
+    "04_Modeling/outputs/lstm_visualizations/06_per_class_f1_baseline_vs_lstm.png": "afc8b7977f86191c5af60cbc242ffead0495fa00f009e2549a153e560aedca5b",
+    "05_Temporal/outputs/timeline_visualizations/08_sentiment_composition_by_case.png": "2870e85c9791ee31b4c8cbba90f582602c052cc4e556769c3225d73bdb77f5c7",
+    "05_Temporal/outputs/timeline_visualizations/01_lombok_daily_counts.png": "b57c6e2ab57e506a39eaaceb476325b92a2f699ab39260feee169da328c69eba",
+    "05_Temporal/outputs/timeline_visualizations/02_palu_daily_counts.png": "36f8f1a3ea9b7572ea56a85bfffbcf5d547decd2722d60ae464305eba54766d8",
+    "05_Temporal/outputs/timeline_visualizations/03_sumatra_daily_counts.png": "70c7c7377bf05929c5e95d05c3d20b1910ec4aef7d379389dd3e85d24a2c77f6",
+    "05_Temporal/outputs/timeline_visualizations/04_lombok_daily_percentage.png": "968233f3d672eac4f93cf46215fb021cc65aa8253215cf1a047101b2d1c1322f",
+    "05_Temporal/outputs/timeline_visualizations/05_palu_daily_percentage.png": "5de7458ac2ff99816969687737dd7d21a18581f005d038c46a75e47d6fd00ef4",
+    "05_Temporal/outputs/timeline_visualizations/06_sumatra_daily_percentage.png": "cdc95e819b2e79de64ccfecff3206bcaf0e995e959d118d8d2fc684cd15b8d3f",
+    "04_Modeling/outputs/lstm_visualizations/01_training_loss_per_fold.png": "86be0b66b4a073456ead321599a0b1ff17725856c7cdd6ceb65a6be0ec34d243",
+    "04_Modeling/outputs/lstm_visualizations/02_training_accuracy_per_fold.png": "7d7b6d37e840ac98b66734f4e4d6df45fa0b2739a2b916d3cd2d5898203420cb",
+    "04_Modeling/outputs/lstm_visualizations/03_macro_f1_per_fold.png": "eafacf660bb867b60286039a38d0a3760b631ff92b0d4fb0483834b60684b1d3",
+    "04_Modeling/outputs/lstm_visualizations/07_vocabulary_size_per_fold.png": "65205a907e0c17da5eef8555a9381470642d6abd961fd38071f31285acf6234f",
+    "04_Modeling/outputs/lstm_visualizations/08_token_count_distribution.png": "3fe1f78ed826595c65f00456dba2e8e77b8ba1d81212bbdc7d2b6e7fd3c08daa",
+    "04_Modeling/outputs/lstm_visualizations/09_token_count_by_label_boxplot.png": "2580f8a75cde5ca9c12773927fc141693f52c12c94cac3fd30918a0566b53a08",
+    "05_Temporal/outputs/timeline_visualizations/07_relative_day_tweet_volume.png": "f372e20f3c19becfdb8cef652a1adc44ed48713e7f4e0373b2274373372a14af"
+  },
+  "original_figures_verified": 17,
+  "main_figures": 10,
+  "appendix_figures": 7,
+  "source_figures_modified": false,
+  "new_png_generated": false,
+  "model_training_performed": false,
+  "provisional_figure_numbering": true,
+  "figure_selection_complete": true,
+  "visual_layout_manual_review_required": true,
+  "output_sha256": {
+    "result_figure_selection_17.csv": "faa96adeda8eac089196f37ac83d57ac95bdfa3d19cc6311869ddf1e058104c1",
+    "result_academic_figure_captions.md": "5e776db4b492ae0c2bc83050185254fa8899ef9dddef3028617cc39b7c0de519",
+    "result_bab4_figure_plan.md": "c3be32a6cd92fbed3d79ea2066e658f30b2727ad52a9be8ca5b08b4543976db0"
+  },
+  "status": "RESULT_PART3_FIGURE_SELECTION_PASS"
+}
