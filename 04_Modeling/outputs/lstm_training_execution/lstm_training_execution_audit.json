@@ -1,0 +1,67 @@
+{
+  "stage": "04_Modeling",
+  "part": "18 Leakage-Safe LSTM CV Execution",
+  "generated_at_utc": "2026-10-18T13:31:15.782820+00:00",
+  "source_commit": "f2193920076456a998fc813dc70541751f7658cf",
+  "architecture_id": "LSTM_SMALL_V1",
+  "cv_configuration": "SGKF_3fold_seed123",
+  "python_version": "3.12.15",
+  "tensorflow_version": "2.21.0",
+  "keras_version": "3.15.1",
+  "source_rows": 348,
+  "unique_leakage_groups": 337,
+  "folds_trained": 3,
+  "models_trained": 3,
+  "epochs_per_fold": 15,
+  "training_history_rows": 45,
+  "oof_rows": 348,
+  "unique_oof_ids": 348,
+  "expected_parameters_per_model": 168419,
+  "fresh_tokenizer_per_fold": true,
+  "fresh_model_per_fold": true,
+  "tokenizer_adapt_scope": "training_fold_only",
+  "validation_data_passed_to_fit": false,
+  "validation_split_used": false,
+  "early_stopping_used": false,
+  "validation_checkpoint_selection_used": false,
+  "class_weights_scope": "training_fold_only",
+  "group_leakage_count": 0,
+  "vocabulary_sizes_by_fold": {
+    "1": 2684,
+    "2": 3053,
+    "3": 2842
+  },
+  "vocabulary_sha256_by_fold": {
+    "1": "e8e0a4f620bc8a7a91f015dfef521d57b9c2b13507b7f979e1441b9a33f6a21d",
+    "2": "04bc24c16dde68b3495b9df6929c23cc71882b2caf2b4cebdb801c7ed1937124",
+    "3": "f7e2bedb9d6dc3845d7c74871857c5039a3bd27aa8eb2fc62ed41ae8b5dab8a9"
+  },
+  "weights_updated_by_training": {
+    "1": true,
+    "2": true,
+    "3": true
+  },
+  "source_sha256": {
+    "modeling_labeled_348_grouped.csv": "cfa7df27079ef47bdb1b0cb526bc017aa1c8fe18dc4d91fef870a3441e2e9fb7",
+    "cv_final_assignments_348.csv": "f385531e2e6adaf7c8da6f0ce3d4c37838a2206634838039c65fb3c1fa01ad14",
+    "cv_final_lock_manifest.json": "956b6498b94d61c6b683cb07403b84a975667f05ea5cbeea70ece25a383cb7e2",
+    "lstm_architecture_v1.json": "a73fefb599f9eb7cdf08dbbdc7a1b0e2e3a0c97062e4eeb19c0bf1c3e7d61521",
+    "part16_forward_preflight_audit.json": "1946829c7472f10d2cc77d917ed76026b3df3f98dde929b60a4fb0a70402a26b",
+    "lstm_training_protocol_v1.json": "87085a5f65e53f47739d46f9cee4a982304a3271a2fd0e6ce9fbe8287e9192ef",
+    "lstm_training_fold_plan.csv": "0b56f9b5e2cd0ab269486a86674c639b4890ded0216a98746b6985b52b406cd3",
+    "part17_training_readiness_audit.json": "26476c7979e2b25b2b28fa21fc05e4bafb19088ecfd3b459bb1eb4ea64651f6f",
+    "baseline_oof_predictions_348.csv": "916133d8a3b8698df6d1c9879cba1bbfbe38843fdb96453c3bff2392e74b4d67",
+    "baseline_evaluation_summary.json": "2a0e8b44ecd9555efa1d0a9bf043826b9d822bfd802dd33a7d60072074c8e3bb"
+  },
+  "source_dataset_modified": false,
+  "final_cv_split_modified": false,
+  "status": "LSTM_TRAINING_EXECUTION_PASS",
+  "output_sha256": {
+    "oof_predictions": "37e69ba1d914ba2ead64ee3cb71c99536e3bb145a548864c57ee567336ef57b8",
+    "fold_metrics": "22831d7fceada27878b8821fc661d8c92d6ebfadab90425d0adb2449c49449f9",
+    "class_metrics": "e1d9952ca3e9badfa73a6ff1aa522f5e479fafc7d71d7186baf3378b75f3d087",
+    "confusion_matrix": "0c718608384b9a8dabcfc1750470d61cb268904cc6bdc80e748b12d51690cf0f",
+    "training_history": "2a5be32e9a47f838c882a2d7b68012d8e4d9afd8ca3f5c1439ef3ed551aa1278",
+    "evaluation_summary": "c1eb464d9526baa442eb9aeccb1e6f4650abb33cea73ddd2ad4a8bae40895f8d"
+  }
+}

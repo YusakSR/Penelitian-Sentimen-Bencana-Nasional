@@ -1,0 +1,114 @@
+{
+  "stage": "04_Modeling",
+  "part": "18 LSTM 3-Fold CV Training and OOF Evaluation",
+  "model": "LSTM_SMALL_V1",
+  "cv_configuration": "SGKF_3fold_seed123",
+  "dataset_rows": 348,
+  "n_folds": 3,
+  "training_epochs_per_fold": 15,
+  "training_history_rows": 45,
+  "oof_predictions": 348,
+  "label_order": [
+    "NETRAL",
+    "POSITIF",
+    "NEGATIF"
+  ],
+  "overall_oof": {
+    "accuracy": 0.5862068965517241,
+    "macro_precision": 0.4759563075605055,
+    "macro_recall": 0.5596296296296296,
+    "macro_f1": 0.47512961484120647,
+    "weighted_f1": 0.6174523953009059,
+    "per_class": {
+      "NETRAL": {
+        "precision": 0.7942857142857143,
+        "recall": 0.6177777777777778,
+        "f1": 0.695,
+        "support": 225
+      },
+      "POSITIF": {
+        "precision": 0.4956521739130435,
+        "recall": 0.5277777777777778,
+        "f1": 0.5112107623318386,
+        "support": 108
+      },
+      "NEGATIF": {
+        "precision": 0.13793103448275862,
+        "recall": 0.5333333333333333,
+        "f1": 0.2191780821917808,
+        "support": 15
+      }
+    }
+  },
+  "fold_metrics": [
+    {
+      "fold": 1,
+      "model_seed": 124,
+      "train_rows": 232,
+      "validation_rows": 116,
+      "train_groups": 225,
+      "validation_groups": 112,
+      "vocabulary_size": 2684,
+      "epochs_completed": 15,
+      "final_training_loss": 0.04345066472887993,
+      "final_training_accuracy": 0.9956896305084229,
+      "accuracy": 0.5862068965517241,
+      "macro_precision": 0.501367240907848,
+      "macro_recall": 0.6474074074074074,
+      "macro_f1": 0.49984335839598987,
+      "weighted_f1": 0.6201589642208971,
+      "group_leakage_count": 0
+    },
+    {
+      "fold": 2,
+      "model_seed": 125,
+      "train_rows": 232,
+      "validation_rows": 116,
+      "train_groups": 225,
+      "validation_groups": 112,
+      "vocabulary_size": 3053,
+      "epochs_completed": 15,
+      "final_training_loss": 0.04383125156164169,
+      "final_training_accuracy": 0.9956896305084229,
+      "accuracy": 0.6206896551724138,
+      "macro_precision": 0.4962324393358877,
+      "macro_recall": 0.5503703703703704,
+      "macro_f1": 0.49155497439250295,
+      "weighted_f1": 0.6538535243656367,
+      "group_leakage_count": 0
+    },
+    {
+      "fold": 3,
+      "model_seed": 126,
+      "train_rows": 232,
+      "validation_rows": 116,
+      "train_groups": 224,
+      "validation_groups": 113,
+      "vocabulary_size": 2842,
+      "epochs_completed": 15,
+      "final_training_loss": 0.04373636469244957,
+      "final_training_accuracy": 1.0,
+      "accuracy": 0.5517241379310345,
+      "macro_precision": 0.42686449579831937,
+      "macro_recall": 0.4811111111111111,
+      "macro_f1": 0.426870795297181,
+      "weighted_f1": 0.5762050256478998,
+      "group_leakage_count": 0
+    }
+  ],
+  "mean_fold_macro_f1": 0.47275637602855797,
+  "std_fold_macro_f1": 0.039953588282394564,
+  "baseline_comparison": {
+    "baseline_model": "TFIDF_LogisticRegression",
+    "baseline_oof_accuracy": 0.7040229885057471,
+    "baseline_oof_macro_f1": 0.5235550389755573,
+    "lstm_oof_accuracy": 0.5862068965517241,
+    "lstm_oof_macro_f1": 0.47512961484120647,
+    "accuracy_delta": -0.11781609195402298,
+    "macro_f1_delta": -0.04842542413435086,
+    "same_final_cv_folds": true,
+    "comparison_is_descriptive": true
+  },
+  "independent_holdout_test_available": false,
+  "status": "LSTM_OOF_EVALUATION_COMPLETE"
+}
