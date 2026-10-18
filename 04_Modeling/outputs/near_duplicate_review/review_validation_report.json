@@ -1,0 +1,28 @@
+{
+  "stage": "04_Modeling",
+  "part": "03 Near-Duplicate Review Validation",
+  "generated_at_utc": "2026-10-18T09:49:49.533007+00:00",
+  "source_commit": "aca08c7abb47643b6c5e35fa82f5d51bc1d8a545",
+  "total_pairs": 12,
+  "original_label_disagreement_pairs": 3,
+  "decision_counts": {
+    "SAME_CONTENT": 11,
+    "DISTINCT_CONTENT": 1,
+    "UNRESOLVED": 0,
+    "LABEL_CONSISTENT": 10,
+    "LABEL_REVIEW": 2
+  },
+  "same_content_with_different_labels": 2,
+  "unresolved_pairs": 0,
+  "label_review_flags": 2,
+  "dataset_labels_modified": false,
+  "leakage_groups_created": false,
+  "split_created": false,
+  "training_started": false,
+  "status": "HOLD_LABEL_ADJUDICATION",
+  "source_hashes": {
+    "review": "7507b0c6ad47dc5560e145397f75cef2c94db1bf64bbed1b10e8358e3b9626e9",
+    "snapshot": "4608a95d0fcd5a57e1a27371fbe2cebadc7c105a1e9162375398a30972b6efda",
+    "manifest": "e3af2cb1bcd1229e5073b27de90ec6a3b08c648c71c3f7a7f3749cff93f19c3a"
+  }
+}
