@@ -1,0 +1,45 @@
+{
+  "status": "OPEN_SUPERVISOR_REVIEW_REQUIRED",
+  "inherited_from": "06_Result/outputs/discussion_alignment/methodological_alignment_issues.json",
+  "issues": [
+    {
+      "id": "METHOD_01",
+      "severity": "HIGH",
+      "topic": "Baseline comparison outside proposal boundary",
+      "proposal_position": "Section 1.3 states LSTM without comparison to another method.",
+      "implementation": "TF-IDF + Logistic Regression benchmark is evaluated alongside LSTM.",
+      "required_action": "Seek supervisor approval to revise the methodological boundary or explicitly document the benchmark as an added evaluation.",
+      "resolved": false
+    },
+    {
+      "id": "METHOD_02",
+      "severity": "HIGH",
+      "topic": "Temporal labels versus LSTM predictions",
+      "proposal_position": "Research objectives emphasize LSTM sentiment classification and temporal analysis.",
+      "implementation": "Temporal timeline currently aggregates locked human sentiment labels.",
+      "required_action": "Explicitly distinguish annotation-based temporal analysis from model-based classification; confirm intended scope with supervisor.",
+      "resolved": false
+    },
+    {
+      "id": "METHOD_03",
+      "severity": "MEDIUM",
+      "topic": "Policy terminology and causal interpretation",
+      "proposal_position": "Proposal alternates between national disaster designation and disaster management policy.",
+      "implementation": "Observed tweet labels do not establish effects of a particular policy decision.",
+      "required_action": "Standardize operational definitions and avoid causal/policy-impact claims.",
+      "resolved": false
+    },
+    {
+      "id": "METHOD_04",
+      "severity": "MEDIUM",
+      "topic": "Sample coverage and test design",
+      "proposal_position": "Objectives concern public sentiment over time.",
+      "implementation": "348 collected tweets, 15 NEGATIF, 3-fold OOF without independent holdout.",
+      "required_action": "Report class imbalance, sampling limits and OOF generalization uncertainty.",
+      "resolved": false
+    }
+  ],
+  "issue_count": 4,
+  "all_unresolved": true,
+  "report_final_approval": false
+}
