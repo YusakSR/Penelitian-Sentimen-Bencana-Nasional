@@ -1,0 +1,82 @@
+{
+  "stage": "04_Modeling",
+  "part": "01 Modeling Preflight",
+  "generated_at_utc": "2026-10-18T09:25:10.754565+00:00",
+  "source_commit": "905d35995be984a75dc38ec4687db61fe37c125f",
+  "source_hashes": {
+    "modeling_348": "f3ba0bbffe98140e38270b666e2d4fbe21342f57d40c0b2d4ad70335caf88bfd",
+    "final_381": "b3db3ed43664a876477354201f40e1f42bd23095766af3e9f5c6d2a901e06dc2",
+    "labeling_audit": "598214c742327f64b89f83980457e50076f3d4ee17d78f33928537b219a39f5b"
+  },
+  "total_rows": 348,
+  "unique_ids": 348,
+  "label_distribution": {
+    "NETRAL": 223,
+    "POSITIF": 110,
+    "NEGATIF": 15
+  },
+  "case_distribution": {
+    "sumatra_2025": 142,
+    "palu_2018": 105,
+    "lombok_2018": 101
+  },
+  "text_summary": {
+    "text_original": {
+      "min_words": 6,
+      "mean_words": 39.1,
+      "median_words": 27.0,
+      "p90_words": 49.3,
+      "p95_words": 107.65,
+      "max_words": 804
+    },
+    "text_semantic_verified": {
+      "min_words": 5,
+      "mean_words": 37.72,
+      "median_words": 26.0,
+      "p90_words": 46.3,
+      "p95_words": 107.0,
+      "max_words": 804
+    },
+    "text_linguistic": {
+      "min_words": 5,
+      "mean_words": 37.72,
+      "median_words": 26.0,
+      "p90_words": 46.3,
+      "p95_words": 107.0,
+      "max_words": 804
+    }
+  },
+  "exact_hash_duplicate_rows": 0,
+  "exact_group_duplicate_rows": 0,
+  "normalized_model_text_duplicate_rows": 0,
+  "near_duplicate_threshold": 0.8,
+  "near_duplicate_candidate_pairs": 12,
+  "near_duplicate_different_label_pairs": 3,
+  "majority_baseline_accuracy": 0.640805,
+  "split_feasibility": {
+    "total_rows": 348,
+    "minimum_class_count": 15,
+    "requested_folds": 5,
+    "stratified_5fold_possible": true,
+    "estimated_negative_test_per_fold": 3.0,
+    "holdout_70_15_15": {
+      "train_approx": 244,
+      "validation_approx": 52,
+      "test_approx": 52,
+      "warning": "NEGATIF approximately 2-3 samples per small holdout partition."
+    },
+    "leakage_groups_reviewed": false,
+    "split_created": false,
+    "training_allowed": false
+  },
+  "warnings": [
+    "12 near-duplicate candidate pairs require leakage review.",
+    "3 similar-text pairs have different sentiment labels.",
+    "NEGATIF has fewer than 20 examples. Per-class evaluation will be unstable."
+  ],
+  "dataset_integrity_pass": true,
+  "split_created": false,
+  "training_started": false,
+  "training_allowed": false,
+  "status": "READY_FOR_SPLIT_DESIGN"
+}
