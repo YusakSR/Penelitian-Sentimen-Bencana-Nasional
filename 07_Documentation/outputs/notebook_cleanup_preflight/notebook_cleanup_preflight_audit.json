@@ -1,0 +1,45 @@
+{
+  "stage": "07_Documentation",
+  "part": "Notebook Cleanup Preflight",
+  "generated_at_utc": "2026-10-18T18:17:08.598465+00:00",
+  "git_head": "f4b32eb36a1fa9ebd43c4a61e078ec0504535c3f",
+  "notebooks_scanned": 10,
+  "cells_scanned": 238,
+  "possible_dependencies": 1420,
+  "duplicate_candidate_cells": 36,
+  "classification_counts": {
+    "KEEP": 157,
+    "REVIEW": 80,
+    "OPTIONAL": 1
+  },
+  "notebook_sha256": {
+    "01_Raw Data/full_scraping_raw_data.ipynb": "2e9a03232e9d1ca768aeb6ded64997387a6fe77e4b699e8e62cb63c5cd606d30",
+    "01_Raw Data/raw_collection.ipynb": "11f66e07e4defe2b8d1c73212e2da8c886c5b4e2087f4b26213fcf8449147480",
+    "02_Cleaning/02_text_cleaning.ipynb": "a24f8c0af62d3bddfed63652f0f7f1168cb8f62928579ce3422c70f6269272af",
+    "03_Labeling/03_sentiment_labeling.ipynb": "96c8ca7447437f6ab5f36288e480594806b0ad686cdad160897ff68c9546408c",
+    "04_Modeling/04_modeling.ipynb": "35a64ecc5d3bc16a45a436363f365b1d5342b5fef3a601a614722526ca7955f8",
+    "05_Temporal/05_temporal.ipynb": "88fed1b5e4f3bb3cdf1d8a7bb971c7e6884e1fd0e13a80774114949d04cbc88b",
+    "06_Result/06_result.ipynb": "f0f0279051280c84fc4c6e2da432f481fc237f8e930805d1b612fb6bf9a0b5c0",
+    "07_Documentation/07_documentation.ipynb": "dce84408f48c5f915845e083b0c6a56aae5296e84ab56923b0f6480b7763827b",
+    "backup/full_scraping_raw_data_backup.ipynb": "a9742922009083b16d1269cf56bf4070d27bdd6ade943588c741e0adb686e8f7",
+    "backup/raw_collection.ipynb": "0e22c74429c543c35d6d22427dd7a80e23aba0c2dae5f6fd5b875b61ae1cd11d"
+  },
+  "research_cells_executed": false,
+  "research_notebooks_modified": false,
+  "cells_deleted": 0,
+  "automatic_removal_permitted": false,
+  "manual_review_required": true,
+  "analysis_limitations": [
+    "AST does not prove runtime dependencies",
+    "IPython magics require manual inspection",
+    "Dynamic imports and notebook state may be missed",
+    "Identical code may have distinct research roles",
+    "Classification is conservative and heuristic"
+  ],
+  "output_sha256": {
+    "notebook_cell_inventory.csv": "dc15f054a540923890b9e12dc56d59b5da6f32a879346b3fed049785cb127fbd",
+    "notebook_cell_dependencies.csv": "42ef21df8fa35f3dcf415293a8e0011e5dd26efed59d94af066fd454a1aa6cf1",
+    "notebook_cleanup_review.md": "bc5f656348e409cecf55bcbb8a0f9a62a23c5969c9dc8d0718933c254518b9cb"
+  },
+  "status": "DOC_NOTEBOOK_CLEANUP_PREFLIGHT_PASS"
+}
