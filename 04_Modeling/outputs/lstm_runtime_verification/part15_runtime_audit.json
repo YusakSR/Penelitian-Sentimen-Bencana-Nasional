@@ -1,0 +1,37 @@
+{
+  "stage": "04_Modeling",
+  "part": "15 TensorFlow Runtime and Tokenizer Isolation",
+  "generated_at_utc": "2026-10-18T12:37:18.028794+00:00",
+  "source_commit": "90111f8eb2495dcbeff0a00edec648ae65c7a04f",
+  "dataset_rows": 348,
+  "unique_groups": 337,
+  "folds_checked": 3,
+  "cv_configuration": "SGKF_3fold_seed123",
+  "architecture_id": "LSTM_SMALL_V1",
+  "tensor_math_test_pass": true,
+  "keras_layers_available": true,
+  "train_only_adaptation_verified": true,
+  "validation_only_tokens_learned": 0,
+  "oov_index_verified": true,
+  "padding_index_verified": true,
+  "group_leakage_count": 0,
+  "source_sha256": {
+    "modeling_labeled_348_grouped.csv": "cfa7df27079ef47bdb1b0cb526bc017aa1c8fe18dc4d91fef870a3441e2e9fb7",
+    "cv_final_assignments_348.csv": "f385531e2e6adaf7c8da6f0ce3d4c37838a2206634838039c65fb3c1fa01ad14",
+    "cv_final_lock_manifest.json": "956b6498b94d61c6b683cb07403b84a975667f05ea5cbeea70ece25a383cb7e2",
+    "lstm_architecture_v1.json": "a73fefb599f9eb7cdf08dbbdc7a1b0e2e3a0c97062e4eeb19c0bf1c3e7d61521",
+    "lstm_fold_readiness.csv": "ad3e39e9e3d32bfe4c284c12cd01e75bc15d3a03e08d692def45baed6c5800a3",
+    "lstm_preflight_audit.json": "76c6ce81b7c33079eaec21106374677e98218f8337b538c669a5576f0a7be43a"
+  },
+  "source_files_modified": false,
+  "final_split_modified": false,
+  "tokenizer_artifact_saved": false,
+  "lstm_model_instantiated": false,
+  "lstm_model_trained": false,
+  "lstm_training_allowed": false,
+  "status": "PART15_RUNTIME_AND_TOKENIZER_ISOLATION_PASS",
+  "output_sha256": {
+    "runtime_report": "89b0a991b0acef6ecec1b89d4e94f5d26a6f3c79c7aff1d8be19f99bcff7ba0e",
+    "fold_isolation": "3e2e5068e273eaaffcde230e82e3bc89dc38534c4c19da0edffc3406c24aa6ef"
+  }
+}

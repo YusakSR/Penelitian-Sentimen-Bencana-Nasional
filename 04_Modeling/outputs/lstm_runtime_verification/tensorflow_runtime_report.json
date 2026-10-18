@@ -1,0 +1,26 @@
+{
+  "python_version": "3.12.15",
+  "python_executable": "c:\\venvs\\sentimen-lstm-py312\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "tensorflow_version": "2.21.0",
+  "keras_version": "3.15.1",
+  "numpy_version": "2.5.4",
+  "pandas_version": "3.0.6",
+  "physical_devices": [
+    {
+      "name": "/physical_device:CPU:0",
+      "type": "CPU"
+    }
+  ],
+  "tensor_math_smoke_test_pass": true,
+  "keras_required_layers_available": true,
+  "lstm_model_instantiated": false,
+  "lstm_model_trained": false,
+  "status": "TENSORFLOW_RUNTIME_PASS",
+  "cv_configuration": "SGKF_3fold_seed123",
+  "architecture_id": "LSTM_SMALL_V1",
+  "three_fold_tokenizer_isolation_verified": true,
+  "tokenizer_adapted_on_training_only": true,
+  "tokenizer_state_saved": false,
+  "lstm_training_started": false
+}

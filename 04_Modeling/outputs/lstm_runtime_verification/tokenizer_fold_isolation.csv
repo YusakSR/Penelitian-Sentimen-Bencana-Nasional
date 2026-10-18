@@ -1,0 +1,4 @@
+﻿fold,train_rows,validation_rows,train_groups,validation_groups,vocabulary_size,vocabulary_sha256,validation_only_unique_tokens,validation_only_tokens_learned,encoded_train_rows,encoded_val_rows,sequence_length,oov_index_verified,padding_index_verified,vocabulary_unchanged_after_transform,weight_NETRAL,weight_POSITIF,weight_NEGATIF,group_leakage_count,lstm_training_started
+1,232,116,225,112,2684,e8e0a4f620bc8a7a91f015dfef521d57b9c2b13507b7f979e1441b9a33f6a21d,1097,0,232,116,128,True,True,True,0.5155555555555555,1.0740740740740742,7.733333333333333,0,False
+2,232,116,225,112,3053,04bc24c16dde68b3495b9df6929c23cc71882b2caf2b4cebdb801c7ed1937124,728,0,232,116,128,True,True,True,0.5155555555555555,1.0740740740740742,7.733333333333333,0,False
+3,232,116,224,113,2842,f7e2bedb9d6dc3845d7c74871857c5039a3bd27aa8eb2fc62ed41ae8b5dab8a9,939,0,232,116,128,True,True,True,0.5155555555555555,1.0740740740740742,7.733333333333333,0,False
