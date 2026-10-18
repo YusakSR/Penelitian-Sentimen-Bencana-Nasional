@@ -1,0 +1,40 @@
+{
+  "stage": "06_Result",
+  "part": "2 Consolidated Research Results",
+  "generated_at_utc": "2026-10-18T16:26:47.124703+00:00",
+  "source_commit": "5f591e0456d380758ef4ac3f06253ca2eabe4be3",
+  "source_sha256": {
+    "06_Result/outputs/cross_phase_integrity/cross_phase_dataset_reconciliation_348.csv": "57d7df77e75800816cc2c23974f412495b3386f3b92be42bb7f482b559cec1c7",
+    "06_Result/outputs/cross_phase_integrity/locked_model_metrics.csv": "089b8fa5b7e129b8c9582489f837615cb00e52b1edacf18ac779f2c49f69a70e",
+    "06_Result/outputs/cross_phase_integrity/part1_cross_phase_integrity_audit.json": "ce107cb16423c47753aa5b28e06ab76c309ec449aa9130a50fe2d4ee005ead80",
+    "04_Modeling/outputs/comparative_evaluation/paired_oof_comparison_348.csv": "670a444614a124c1b80106aa9c733c0d6b1cb690fd0ab0f20c9841d431323b1a",
+    "04_Modeling/outputs/final_evaluation_report/final_research_findings.json": "e3d5a7aff4c47872dbf95a1eb46f44a397266356329a3428d805bdf0526daeed",
+    "05_Temporal/outputs/comparative_temporal_report/temporal_research_findings.json": "2fe90176beec1f3f91d4b9093c612f4a08cf82b51e5cb0d1b1b4e0cd870b1394",
+    "05_Temporal/outputs/daily_aggregation/daily_sentiment_counts_20_days.csv": "4e4e1fd9e8b4e25b1aef729905b81306dd55a0d8053a2b509cee5d8acf89df21"
+  },
+  "dataset_rows": 348,
+  "unique_leakage_groups": 337,
+  "model_count": 2,
+  "per_class_rows": 6,
+  "case_count": 3,
+  "daily_calendar_rows": 20,
+  "paired_correctness": {
+    "both_correct": 165,
+    "baseline_only_correct": 80,
+    "lstm_only_correct": 39,
+    "both_wrong": 64
+  },
+  "oof_metrics_recomputed": true,
+  "oof_metrics_match_locked": true,
+  "temporal_findings_recomputed": true,
+  "source_modified": false,
+  "model_training_performed": false,
+  "output_sha256": {
+    "dataset_characteristics.csv": "468dd6d3bb312ca896f9b6cc9e10a6435cf410de4d61d83205ee79fa8b98ed36",
+    "consolidated_model_evaluation.csv": "494fc1b114c1a01ad16d5e2f361878ad7a0cd777e1c1da41b0af4d53c5d8d539",
+    "model_error_analysis_by_class.csv": "b48c2e4718ab37a7f2d6583a90afd190b28b183f40480c77575053d06f0786ac",
+    "consolidated_temporal_findings.csv": "bababb1ffe0c7f8c316307f276b4beeccc2e995f8672b6d666fef5a8c3bff1bb",
+    "consolidated_research_results.md": "0b57724f5753bfb0938fe608e2c08ac0c91c2a595e9cb4c56a110eb59a4e19d3"
+  },
+  "status": "RESULT_PART2_CONSOLIDATED_RESULTS_PASS"
+}
