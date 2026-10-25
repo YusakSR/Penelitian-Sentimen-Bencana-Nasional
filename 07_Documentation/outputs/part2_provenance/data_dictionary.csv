@@ -1,0 +1,24 @@
+field,type,source,meaning,verification
+id,string,All CSV handoffs and raw tweet id,Original tweet ID; never float or spreadsheet number.,Unique per selected/master dataset; joins are by exact string ID.
+case,enum,Phase 01 configuration and all handoffs,"lombok_2018, palu_2018 or sumatra_2025.",All 348 match across handoffs and raw master.
+type,enum,Raw JSONL,tweet or mock_tweet; only real tweet IDs enter the master.,989 tweet occurrences and 519 mock records across 65 files.
+text_original,string,Eligible text -> cleaning master -> modeling,Original retained text prior to cleaning.,All 381 eligible texts match raw master; all 348 observation pointers traced to raw.
+text_semantic_verified,string,Cleaning semantic reconciliation,"Reviewed social-cleaning text, retaining semantic content.",Persisted source is preserved; no new semantic judgment is made.
+text_linguistic,string,"Cleaning cell 7, final handoffs",Conservative linguistic normalization used for modeling.,"All 348 agree across cleaning, labeling and grouped modeling."
+final_text_hash,SHA-256 hex string,"Cleaning cell 11, labeling/modeling CSV",SHA-256 of exact UTF-8 text_linguistic string.,Recomputed for every selected observation.
+duplicate_group_id,16 hex characters,Cleaning cell 8,First 16 SHA-256 hex characters of UTF-8 case + NUL + text_linguistic.,Grouping rule comes from preserved source cell; one selected representative per group.
+duplicate_group_size,integer serialized as text,Cleaning duplicate audit,Number of master observations in the same within-case exact-text group.,"21 duplicate groups, 54 members; remaining 327 unique."
+model_selection_status,enum,Cleaning manual content reconciliation,"SELECTED_UNIQUE, SELECTED_REPRESENTATIVE or GROUP_MEMBER_NOT_SELECTED.","Counts 327, 21, 33 in the 381 master."
+eligible_for_model_candidate,boolean serialized as text,Cleaning cell 10,True for unique tweets and selected duplicate representatives.,True ID set equals the 348 candidate IDs.
+long_text_review_status,enum,Cleaning manual content review,NOT_LONG_TEXT or KEEP_FULL.,12 KEEP_FULL records retained according to part8 summary.
+sentiment_label,enum,Final labeled CSV and subsequent adjudication,"NETRAL, POSITIF or NEGATIF according to the recorded codebook/decision version.",Phase03 223/110/15; phase04 225/108/15; exact two changed IDs documented.
+sentiment_label_original,enum,Phase03 duplicate reconciliation,Label before phase03 duplicate adjudication.,Keep original and final decisions distinct; source file unchanged.
+annotation_source,string category,Final phase03 CSV,Recorded FULL_MANUAL or PILOT_ADJUDICATED; not independent proof of the complete annotation process.,348 handoff: 318 FULL_MANUAL and 30 PILOT_ADJUDICATED; AI acceptance provenance remains incomplete.
+label_notes / annotator / labeled_at,strings,Final labeling source,"Recorded annotation rationale, annotator and date.",Retained as evidence; no inter-rater reliability claim inferred.
+task_id / run_id,strings,Raw inventory/master and selected raw record lineage,Saved collection task identity and remote run identity.,Cross-reference master to inventory and raw path; no remote API called.
+raw_path / raw_line_number,repository-relative path / one-based integer,Final collection master,Original raw JSONL file and physical line containing the selected record.,Raw record id/type/text/timestamp and file SHA are verified.
+createdAt,source timestamp string,Raw JSONL / master,"Tweet timestamp as collected, distinct from collection or annotation date.",Selected raw timestamp is copied to observation lineage; timezone transformation belongs to temporal phase.
+leakage_group_id,string,Phase04 leakage grouping,Group used to keep related observations together in evaluation.,337 groups for 348 observations; does not reduce the row count.
+label_phase03 / label_phase04,enum,New observation lineage report,Side-by-side labels from the original phase03 handoff and phase04 grouped source.,Both versions preserved; two POSITIF to NETRAL changes agree with phase04 changelog.
+*_record,one-based integer,New observation lineage report,CSV data-record position excluding the header.,Record ordinal is verified by string ID; embedded newlines do not create extra record ordinals.
+raw_git_sha256,SHA-256 hex string,New observation lineage report,Digest of exact baseline Git raw-file bytes.,Kept separate from historical Windows working-tree representation hashes.

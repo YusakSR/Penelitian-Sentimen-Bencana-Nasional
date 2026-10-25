@@ -1,0 +1,47 @@
+{
+  "baseline_commit": "09391e6c5777a8c34edd8482a8bf3e2859f64408",
+  "raw_files": 65,
+  "raw_records": 1508,
+  "tweet_occurrences": 989,
+  "mock_records": 519,
+  "raw_unique_ids": 411,
+  "eligible_ids": 381,
+  "excluded_ids": 30,
+  "clean_master_ids": 381,
+  "unique_nonduplicate_tweets": 327,
+  "duplicate_groups": 21,
+  "duplicate_members_not_selected": 33,
+  "modeling_observations": 348,
+  "phase03_labels": {
+    "NEGATIF": 15,
+    "POSITIF": 110,
+    "NETRAL": 223
+  },
+  "phase04_labels": {
+    "NEGATIF": 15,
+    "POSITIF": 108,
+    "NETRAL": 225
+  },
+  "phase04_label_changes": [
+    "1046787140594618373",
+    "1027914286184550402"
+  ],
+  "case_distribution": {
+    "palu_2018": 105,
+    "lombok_2018": 101,
+    "sumatra_2025": 142
+  },
+  "hybrid_manual_locked": 130,
+  "hybrid_ai_pending": 251,
+  "ai_prediction_rows_actually_present": 10,
+  "all_observations_raw_record_verified": true,
+  "research_notebook_cells_executed": 0,
+  "model_training_performed": false,
+  "scraping_performed": false,
+  "academic_status": "PROVISIONAL",
+  "existing_methodological_issues_open": 4,
+  "provenance_gaps": [
+    "No complete AI prediction or acceptance/review log for all 251 pending rows is present; final annotation_source values alone do not prove manual-only or AI-assisted origin."
+  ],
+  "row_reference_convention": "CSV record number excluding header; quoted embedded newlines are not physical line numbers. Raw JSONL references are one-based physical line numbers."
+}

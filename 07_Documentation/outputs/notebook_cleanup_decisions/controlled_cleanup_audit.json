@@ -1,0 +1,52 @@
+{
+  "status": "SAFE_ADDITIVE_CLEANUP_VERIFIED",
+  "review_date_local": "2026-10-25",
+  "timezone": "Asia/Jakarta",
+  "baseline_commit": "09391e6c5777a8c34edd8482a8bf3e2859f64408",
+  "backup_branch": "backup/pre-cleanup-20261025-09391e6",
+  "work_branch": "docs/cleanup-lineage-phase01-03",
+  "candidate_review_counts": {
+    "REVIEW": 80,
+    "OPTIONAL": 1
+  },
+  "disposition_counts": {
+    "KEEP_PIPELINE": 18,
+    "KEEP_CONTEXT": 9,
+    "DIAGNOSTIC_EXPLAINED": 4,
+    "OPTIONAL_EXPLAINED": 2,
+    "KEEP_HISTORICAL": 48
+  },
+  "human_pr_review_pending": true,
+  "baseline_files": 464,
+  "byte_identical_protected_files": 463,
+  "research_backup_notebooks_byte_identical": 9,
+  "original_cell_sources_verified": 238,
+  "appended_documentation_markdown_cells": 3,
+  "original_documentation_cells_outputs_metadata_preserved": true,
+  "cells_deleted": 0,
+  "cells_moved": 0,
+  "cells_merged": 0,
+  "research_cells_executed": 0,
+  "training_performed": false,
+  "scraping_performed": false,
+  "locked_sources_overwritten": false,
+  "main_updated": false,
+  "historical_sha_status_counts": {
+    "CRLF_RECONSTRUCTION_ONLY": 327,
+    "EXACT_BYTES": 114,
+    "CSV_RECORD_CRLF_RECONSTRUCTION_ONLY": 139,
+    "SELF_SNAPSHOT_FULL_HASH_DIFF_SOURCE_CELLS_MATCH": 1
+  },
+  "historical_hash_caveat": "Reconstructed newline representations are reported separately from exact-byte matches; no source files were normalized.",
+  "preflight_self_snapshot_exception": "Original full documentation hash predates stored preflight results; all 238 original cell sources match.",
+  "output_sha256": {
+    "cleanup_decision_matrix.csv": "3986d019fb25218e8a66128486afdc29fb6248a4b092099e92c9a678a26cbbf2",
+    "cleanup_decision_matrix.md": "e1fc3b1167e384b2c2bac3c8106152f0acf082a592745cad0a332e56db85b1d9",
+    "historical_sha_checks.csv": "7d0dd98116c80cdf30047f7acf8cf0dce312b95e89723c5d9f1002db8c2c9813",
+    "preflight_cell_reconciliation.csv": "914f4990feffe02a383cbe8b7d213c2050527269f9e06b1141a1051bf9bbec72",
+    "refreshed_cell_dependencies.csv": "d47e57ee61f17b0e8d2aa59dd188e2eb7357a44ca0933b79977a790285d8dd14",
+    "safe_cleanup_plan.md": "235ce642dbe9f3dba0a46310feac9769c1a6ab109dd47e74d92d456f21301070",
+    "source_integrity.csv": "0309d1d0d12b50d244a7a45c859823602094d410e9f95103cbd0c3180bb4e539"
+  },
+  "preflight_documentation_self_snapshot_sha_recovered": true
+}
