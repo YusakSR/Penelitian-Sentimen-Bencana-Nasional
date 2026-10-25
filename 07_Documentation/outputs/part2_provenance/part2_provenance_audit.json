@@ -1,0 +1,66 @@
+{
+  "status": "PASS_WITH_DOCUMENTED_PROVENANCE_GAP",
+  "review_date_local": "2026-10-25",
+  "baseline_commit": "09391e6c5777a8c34edd8482a8bf3e2859f64408",
+  "summary": {
+    "baseline_commit": "09391e6c5777a8c34edd8482a8bf3e2859f64408",
+    "raw_files": 65,
+    "raw_records": 1508,
+    "tweet_occurrences": 989,
+    "mock_records": 519,
+    "raw_unique_ids": 411,
+    "eligible_ids": 381,
+    "excluded_ids": 30,
+    "clean_master_ids": 381,
+    "unique_nonduplicate_tweets": 327,
+    "duplicate_groups": 21,
+    "duplicate_members_not_selected": 33,
+    "modeling_observations": 348,
+    "phase03_labels": {
+      "NEGATIF": 15,
+      "POSITIF": 110,
+      "NETRAL": 223
+    },
+    "phase04_labels": {
+      "NEGATIF": 15,
+      "POSITIF": 108,
+      "NETRAL": 225
+    },
+    "phase04_label_changes": [
+      "1046787140594618373",
+      "1027914286184550402"
+    ],
+    "case_distribution": {
+      "palu_2018": 105,
+      "lombok_2018": 101,
+      "sumatra_2025": 142
+    },
+    "hybrid_manual_locked": 130,
+    "hybrid_ai_pending": 251,
+    "ai_prediction_rows_actually_present": 10,
+    "all_observations_raw_record_verified": true,
+    "research_notebook_cells_executed": 0,
+    "model_training_performed": false,
+    "scraping_performed": false,
+    "academic_status": "PROVISIONAL",
+    "existing_methodological_issues_open": 4,
+    "provenance_gaps": [
+      "No complete AI prediction or acceptance/review log for all 251 pending rows is present; final annotation_source values alone do not prove manual-only or AI-assisted origin."
+    ],
+    "row_reference_convention": "CSV record number excluding header; quoted embedded newlines are not physical line numbers. Raw JSONL references are one-based physical line numbers."
+  },
+  "research_cells_executed": 0,
+  "locked_sources_modified": false,
+  "model_training_performed": false,
+  "scraping_performed": false,
+  "human_pr_review_pending": true,
+  "output_sha256": {
+    "data_dictionary.csv": "8a51f70f46d8db63e25804ef630d3f78e4718c42d44e0d7358e26c2b9ad8d10c",
+    "data_lineage.md": "bbe0a5e215d5f9d1a2d2a04f6ed5d590585f5d6071a7a62f5d861edf10b3736e",
+    "lineage_edges.csv": "fef4d616e8fa7ba034deeac46a0a0329cfca4008870915f71965be124644b0a0",
+    "lineage_summary.json": "69fffb22ed5ead180fde7b3af6f5f80b43c805928b913be53e7de66ce8a8fb5f",
+    "observation_lineage_348.csv": "11215f39dfd43aef43714335b855b83b66da3dc962c49b41f81a08affb7184fa",
+    "sampling_and_labeling.md": "33f7b15301b5008aaa598879a64897f83fd0a49dca43f5a4d58e6b97f849db29",
+    "source_manifest.csv": "dfc006d2603bdbbf98831606a76b06ed2222f09e4304b5d3f9a934c338501bd2"
+  }
+}

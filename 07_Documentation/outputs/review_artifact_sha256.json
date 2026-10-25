@@ -1,0 +1,23 @@
+{
+  "baseline_commit": "09391e6c5777a8c34edd8482a8bf3e2859f64408",
+  "algorithm": "SHA-256 of exact Git/workspace bytes; manifest excludes itself",
+  "sha256": {
+    "07_Documentation/outputs/notebook_cleanup_decisions/cleanup_decision_matrix.csv": "3986d019fb25218e8a66128486afdc29fb6248a4b092099e92c9a678a26cbbf2",
+    "07_Documentation/outputs/notebook_cleanup_decisions/cleanup_decision_matrix.md": "e1fc3b1167e384b2c2bac3c8106152f0acf082a592745cad0a332e56db85b1d9",
+    "07_Documentation/outputs/notebook_cleanup_decisions/controlled_cleanup_audit.json": "a7fe4b70e215def149a491a345b4f673c54d57443dace0ca3c05a3341fc7696b",
+    "07_Documentation/outputs/notebook_cleanup_decisions/historical_sha_checks.csv": "7d0dd98116c80cdf30047f7acf8cf0dce312b95e89723c5d9f1002db8c2c9813",
+    "07_Documentation/outputs/notebook_cleanup_decisions/preflight_cell_reconciliation.csv": "914f4990feffe02a383cbe8b7d213c2050527269f9e06b1141a1051bf9bbec72",
+    "07_Documentation/outputs/notebook_cleanup_decisions/refreshed_cell_dependencies.csv": "d47e57ee61f17b0e8d2aa59dd188e2eb7357a44ca0933b79977a790285d8dd14",
+    "07_Documentation/outputs/notebook_cleanup_decisions/safe_cleanup_plan.md": "235ce642dbe9f3dba0a46310feac9769c1a6ab109dd47e74d92d456f21301070",
+    "07_Documentation/outputs/notebook_cleanup_decisions/source_integrity.csv": "0309d1d0d12b50d244a7a45c859823602094d410e9f95103cbd0c3180bb4e539",
+    "07_Documentation/outputs/part2_provenance/data_dictionary.csv": "8a51f70f46d8db63e25804ef630d3f78e4718c42d44e0d7358e26c2b9ad8d10c",
+    "07_Documentation/outputs/part2_provenance/data_lineage.md": "bbe0a5e215d5f9d1a2d2a04f6ed5d590585f5d6071a7a62f5d861edf10b3736e",
+    "07_Documentation/outputs/part2_provenance/lineage_edges.csv": "fef4d616e8fa7ba034deeac46a0a0329cfca4008870915f71965be124644b0a0",
+    "07_Documentation/outputs/part2_provenance/lineage_summary.json": "69fffb22ed5ead180fde7b3af6f5f80b43c805928b913be53e7de66ce8a8fb5f",
+    "07_Documentation/outputs/part2_provenance/observation_lineage_348.csv": "11215f39dfd43aef43714335b855b83b66da3dc962c49b41f81a08affb7184fa",
+    "07_Documentation/outputs/part2_provenance/part2_provenance_audit.json": "c05817eec0a59f4444977dc28296db3f0bca5a80f2b140ae80a9d30dc9866f39",
+    "07_Documentation/outputs/part2_provenance/sampling_and_labeling.md": "33f7b15301b5008aaa598879a64897f83fd0a49dca43f5a4d58e6b97f849db29",
+    "07_Documentation/outputs/part2_provenance/source_manifest.csv": "dfc006d2603bdbbf98831606a76b06ed2222f09e4304b5d3f9a934c338501bd2",
+    "07_Documentation/scripts/verify_cleanup_lineage.py": "63355bbbedece5095c0aa5070f9145d6dde8d1d510f96bf30024f4ea55d2e8cc"
+  }
+}
