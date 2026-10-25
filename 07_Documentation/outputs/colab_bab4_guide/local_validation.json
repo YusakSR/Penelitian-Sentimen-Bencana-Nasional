@@ -1,0 +1,18 @@
+{
+  "status": "LOCAL_READONLY_VIEWER_AND_MAPS_PASS",
+  "source_commit": "d344822ab6d6aaca76b3c658c101c54e4b25bac1",
+  "notebook_schema": "STANDARD_JSON_AND_CELL_SCHEMA_CHECKED_NBFORMAT_NOT_INSTALLED",
+  "viewer_code_cells_executed_locally": 19,
+  "source_notebook_cells_executed": 0,
+  "images_displayed": 17,
+  "original_cells_mapped": 150,
+  "original_source_files_unchanged": 482,
+  "training_performed": false,
+  "scraping_performed": false,
+  "google_colab_service_execution_tested": false,
+  "network_clone_tested_in_this_validation": false,
+  "limitations": [
+    "Local validation used the existing checkout pinned to the source commit; fresh GitHub download and Google Colab runtime were not exercised.",
+    "Full pipeline rerun is not Colab-ready; original Windows paths, newline hashes, existing-output guards and session recovery cells require a separate migration."
+  ]
+}

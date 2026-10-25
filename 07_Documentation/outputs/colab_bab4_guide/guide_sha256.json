@@ -1,0 +1,10 @@
+{
+  "source_commit": "d344822ab6d6aaca76b3c658c101c54e4b25bac1",
+  "sha256": {
+    "bab4_figure_cell_map.csv": "706b121d07187507449fe6de766e8aa8629b34aa2170a595de48ff068e0d0c4d",
+    "Colab_BAB_IV_Read_Only.ipynb": "33de2698178f19fd3fe1b011b0b2402d1d252268f98a042a3c2b5b72b249ab81",
+    "local_validation.json": "57cc73693325326b7d1acac7fe6a9c4ab0388afe4f4c7fbffb63ee837305c054",
+    "original_cell_run_map.csv": "a66d43440502235be4d2c899fe5fd292d14bfeca14b8f131454017faddc48567",
+    "PANDUAN_COLAB_DAN_BUKTI_BAB_IV.md": "8831fdd7a2360714a9c75a2c392cb42480cbe9db2db74f08b0deccc6be729279"
+  }
+}
